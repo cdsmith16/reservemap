@@ -19,7 +19,7 @@ export default function App() {
             </svg>
           </div>
           <h1 className="text-4xl font-bold text-white mb-2 tracking-tight">
-            MyMap
+            ReserveMap
           </h1>
           <p className="text-emerald-400 font-medium text-lg">
             Dining benefits, visualized.
