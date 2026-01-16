@@ -70,7 +70,7 @@ export default function App() {
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            title="MyMap - Dining Benefits Map"
+            title="ReserveMap - Dining Benefits Map"
           />
         </div>
       </div>
