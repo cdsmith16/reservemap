@@ -27,14 +27,12 @@ export default function App() {
         </div>
         
         <blockquote className="relative">
-          <div className="absolute -top-4 -left-2 text-6xl text-emerald-500/20 font-serif">"</div>
           <p className="text-xl md:text-2xl text-slate-200 leading-relaxed font-light relative z-10">
             Some reservations websites have no map view, making it hard to plan and take advantage of credit card dining benefits.
           </p>
           <p className="text-xl md:text-2xl text-white font-medium mt-4">
             So I made one.
           </p>
-          <div className="absolute -bottom-8 -right-2 text-6xl text-emerald-500/20 font-serif rotate-180">"</div>
         </blockquote>
         
         <div className="mt-8 flex items-center justify-center gap-8 text-slate-400 text-sm">
@@ -58,8 +56,62 @@ export default function App() {
             <span>Easy Planning</span>
           </div>
         </div>
+
+        {/* Credit Card Programs Table */}
+        <div className="mt-12 w-full max-w-2xl">
+          <h2 className="text-2xl font-bold text-white mb-4 text-center">Credit Card Dining Programs</h2>
+          <div className="overflow-hidden rounded-lg border border-slate-700">
+            <table className="w-full">
+              <thead className="bg-slate-800">
+                <tr>
+                  <th className="px-6 py-3 text-left text-sm font-semibold text-slate-200">Program</th>
+                  <th className="px-6 py-3 text-left text-sm font-semibold text-slate-200">Credit</th>
+                  <th className="px-6 py-3 text-left text-sm font-semibold text-slate-200">Status</th>
+                </tr>
+              </thead>
+              <tbody className="bg-slate-800/50 divide-y divide-slate-700">
+                <tr className="bg-emerald-500/10 hover:bg-emerald-500/20 transition-colors">
+                  <td className="px-6 py-4">
+                    <a
+                      href="https://www.opentable.com/chase-sapphire-reserve"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-400 hover:text-emerald-300 font-medium underline"
+                    >
+                      OpenTable Chase Reserve
+                    </a>
+                  </td>
+                  <td className="px-6 py-4 text-slate-200">$300/year</td>
+                  <td className="px-6 py-4">
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/20 text-emerald-300">
+                      Available
+                    </span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-slate-700/30 transition-colors">
+                  <td className="px-6 py-4">
+                    <a
+                      href="https://resy.com/amex-access"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-400 hover:text-slate-300"
+                    >
+                      Resy Amex Program
+                    </a>
+                  </td>
+                  <td className="px-6 py-4 text-slate-200">$400/year</td>
+                  <td className="px-6 py-4">
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-700 text-slate-400">
+                      Coming Soon
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-      
+
       {/* Map Section */}
       <div className="w-full max-w-6xl mt-12 mb-8">
         <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-slate-700/50">
@@ -74,6 +126,21 @@ export default function App() {
           />
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="w-full max-w-6xl mt-8 mb-4 text-center">
+        <p className="text-slate-400 text-sm">
+          built with{' '}
+          <a
+            href="https://claude.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+          >
+            Claude
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
