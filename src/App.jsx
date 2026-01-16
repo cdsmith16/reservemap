@@ -84,7 +84,7 @@ export default function App() {
                   <td className="px-6 py-4 text-slate-200">$300/year</td>
                   <td className="px-6 py-4">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/20 text-emerald-300">
-                      Available
+                      Live on Map
                     </span>
                   </td>
                 </tr>
