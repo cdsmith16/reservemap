@@ -135,7 +135,7 @@ export default function App() {
             href="https://claude.ai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-orange-500 hover:text-orange-400 font-medium transition-colors"
+            className="text-orange-400 hover:text-orange-300 font-medium transition-colors"
           >
             Claude
           </a>
