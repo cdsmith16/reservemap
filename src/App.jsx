@@ -27,14 +27,12 @@ export default function App() {
         </div>
         
         <blockquote className="relative">
-          <div className="absolute -top-4 -left-2 text-6xl text-emerald-500/20 font-serif">"</div>
           <p className="text-xl md:text-2xl text-slate-200 leading-relaxed font-light relative z-10">
             Some reservations websites have no map view, making it hard to plan and take advantage of credit card dining benefits.
           </p>
           <p className="text-xl md:text-2xl text-white font-medium mt-4">
             So I made one.
           </p>
-          <div className="absolute -bottom-8 -right-2 text-6xl text-emerald-500/20 font-serif rotate-180">"</div>
         </blockquote>
         
         <div className="mt-8 flex items-center justify-center gap-8 text-slate-400 text-sm">
