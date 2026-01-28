@@ -55,15 +55,7 @@ export default function About() {
 
         <div className="border-t border-slate-700/50 pt-8 mt-8">
           <p className="text-slate-500 text-sm">
-            Built by{' '}
-            <a
-              href="https://github.com/cdsmith16"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 transition-colors"
-            >
-              Christian Smith
-            </a>
+            Built
             {' '}with{' '}
             <a
               href="https://claude.ai"
