@@ -32,9 +32,9 @@ export default function About() {
                   rel="noopener noreferrer"
                   className="text-orange-400 hover:text-orange-300 transition-colors"
                 >
-                  {' '}across the USA via Resy.
+                across the USA via Resy.
                 </a> 
-                  Available to eligible American Express cardmembers.
+                  {' '}Available to eligible American Express cardmembers.
                 </p>
               </div>
             </div>
@@ -51,9 +51,9 @@ export default function About() {
                     rel="noopener noreferrer"
                     className="text-orange-400 hover:text-orange-300 transition-colors"
                   >
-                  {' '}restaurants on OpenTable 
+                  restaurants on OpenTable 
                   </a>
-                   across 51 cities.
+                   {' '}across 51 cities.
                   Available to Chase Sapphire Reserve cardmembers.
                 </p>
               </div>
