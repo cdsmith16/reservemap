@@ -33,8 +33,8 @@ const createIcon = (color) => {
 }
 
 const ICONS = {
-  amex: createIcon('#f59e0b'), // amber-500
-  chase: createIcon('#3b82f6'), // blue-500
+  amex: createIcon('#f59e0b'), // amber-500 (matches filter)
+  chase: createIcon('#60a5fa'), // blue-400 (matches filter)
 }
 
 export default function Map({ restaurants, filters, flyToLocation, onFlyComplete }) {

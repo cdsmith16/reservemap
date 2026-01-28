@@ -54,13 +54,26 @@ export default function Home() {
     return Object.values(cityMap).sort((a, b) => b.count - a.count)
   }, [restaurants])
 
-  // Filter cities based on search
+  // Filter cities based on search - show all matching cities, prioritize exact/starts-with matches
   const filteredCities = useMemo(() => {
-    if (!searchQuery.trim()) return cities.slice(0, 10)
+    if (!searchQuery.trim()) return cities.slice(0, 15)
     const query = searchQuery.toLowerCase()
-    return cities
-      .filter(c => c.name.toLowerCase().includes(query))
-      .slice(0, 10)
+    const matches = cities.filter(c => c.name.toLowerCase().includes(query))
+    // Sort: exact match first, then starts-with, then contains
+    matches.sort((a, b) => {
+      const aName = a.name.toLowerCase()
+      const bName = b.name.toLowerCase()
+      const aExact = aName === query
+      const bExact = bName === query
+      const aStarts = aName.startsWith(query)
+      const bStarts = bName.startsWith(query)
+      if (aExact && !bExact) return -1
+      if (bExact && !aExact) return 1
+      if (aStarts && !bStarts) return -1
+      if (bStarts && !aStarts) return 1
+      return b.count - a.count
+    })
+    return matches.slice(0, 20)
   }, [cities, searchQuery])
 
   const handleCitySelect = (city) => {
@@ -130,7 +143,7 @@ export default function Home() {
 
             {/* Search Results Dropdown */}
             {showSearchResults && filteredCities.length > 0 && (
-              <div className="absolute top-full left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl z-50 max-h-64 overflow-y-auto">
+              <div className="absolute top-full left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl z-[1001] max-h-64 overflow-y-auto">
                 {filteredCities.map((city, i) => (
                   <button
                     key={i}
