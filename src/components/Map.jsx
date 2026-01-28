@@ -37,6 +37,13 @@ const ICONS = {
   chase: createIcon('#60a5fa'), // blue-400 (matches filter)
 }
 
+// Cluster colors based on filter state
+const CLUSTER_COLORS = {
+  both: 'linear-gradient(135deg, #22c55e, #16a34a)', // green for mixed
+  amex: 'linear-gradient(135deg, #f59e0b, #ea580c)', // amber/orange
+  chase: 'linear-gradient(135deg, #60a5fa, #3b82f6)', // blue
+}
+
 export default function Map({ restaurants, filters, flyToLocation, onFlyComplete }) {
   const mapRef = useRef(null)
   const mapInstanceRef = useRef(null)
@@ -82,7 +89,33 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
       maxZoom: 19,
     }).addTo(map)
 
-    // Create marker cluster group with custom styling
+    mapInstanceRef.current = map
+
+    return () => {
+      map.remove()
+      mapInstanceRef.current = null
+    }
+  }, [])
+
+  // Update markers and cluster group when restaurants or filters change
+  useEffect(() => {
+    const map = mapInstanceRef.current
+    if (!map) return
+
+    // Remove existing cluster group
+    if (clusterGroupRef.current) {
+      map.removeLayer(clusterGroupRef.current)
+    }
+
+    // Determine cluster color based on active filters
+    let clusterColor = CLUSTER_COLORS.both
+    if (filters.amex && !filters.chase) {
+      clusterColor = CLUSTER_COLORS.amex
+    } else if (filters.chase && !filters.amex) {
+      clusterColor = CLUSTER_COLORS.chase
+    }
+
+    // Create new cluster group with appropriate color
     const clusterGroup = L.markerClusterGroup({
       chunkedLoading: true,
       maxClusterRadius: 50,
@@ -103,7 +136,7 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
         const s = sizes[size]
         return L.divIcon({
           html: `<div style="
-            background: linear-gradient(135deg, #f59e0b, #ea580c);
+            background: ${clusterColor};
             width: ${s.width}px;
             height: ${s.height}px;
             border-radius: 50%;
@@ -121,26 +154,6 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
         })
       },
     })
-
-    map.addLayer(clusterGroup)
-    clusterGroupRef.current = clusterGroup
-    mapInstanceRef.current = map
-
-    return () => {
-      map.remove()
-      mapInstanceRef.current = null
-      clusterGroupRef.current = null
-    }
-  }, [])
-
-  // Update markers when restaurants or filters change
-  useEffect(() => {
-    const map = mapInstanceRef.current
-    const clusterGroup = clusterGroupRef.current
-    if (!map || !clusterGroup) return
-
-    // Clear existing markers
-    clusterGroup.clearLayers()
 
     // Filter restaurants
     const filtered = restaurants.filter(r => {
@@ -160,6 +173,8 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
     })
 
     clusterGroup.addLayers(markers)
+    map.addLayer(clusterGroup)
+    clusterGroupRef.current = clusterGroup
   }, [restaurants, filters])
 
   // Handle locate user
