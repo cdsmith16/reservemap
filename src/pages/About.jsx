@@ -25,8 +25,16 @@ export default function About() {
               <div>
                 <h3 className="font-medium text-white">Amex Global Dining Access</h3>
                 <p className="text-slate-400 text-sm mt-1">
-                  Access to 8,000+ restaurants across the USA via Resy.
-                  Available to eligible American Express cardmembers.
+                  Access to 10,000+ restaurants{' '}
+                <a
+                  href="https://resy.com/global-dining-access/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-400 hover:text-orange-300 transition-colors"
+                >
+                across the USA via Resy.
+                </a> 
+                  {' '} Available to eligible American Express cardmembers.
                 </p>
               </div>
             </div>
@@ -36,7 +44,16 @@ export default function About() {
               <div>
                 <h3 className="font-medium text-white">Chase Sapphire Reserve</h3>
                 <p className="text-slate-400 text-sm mt-1">
-                  Nearly 400 partner restaurants on OpenTable across 51 cities.
+                  Nearly 400 partner{' '}
+                  <a 
+                    href="https://www.opentable.com/sapphire-reserve/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-400 hover:text-orange-300 transition-colors"
+                  >
+                  restaurants on OpenTable 
+                  </a>
+                   {' '} across 51 cities.
                   Available to Chase Sapphire Reserve cardmembers.
                 </p>
               </div>
@@ -55,15 +72,7 @@ export default function About() {
 
         <div className="border-t border-slate-700/50 pt-8 mt-8">
           <p className="text-slate-500 text-sm">
-            Built by{' '}
-            <a
-              href="https://github.com/cdsmith16"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 transition-colors"
-            >
-              Christian Smith
-            </a>
+            Built
             {' '}with{' '}
             <a
               href="https://claude.ai"
