@@ -107,15 +107,7 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
       map.removeLayer(clusterGroupRef.current)
     }
 
-    // Determine cluster color based on active filters
-    let clusterColor = CLUSTER_COLORS.both
-    if (filters.amex && !filters.chase) {
-      clusterColor = CLUSTER_COLORS.amex
-    } else if (filters.chase && !filters.amex) {
-      clusterColor = CLUSTER_COLORS.chase
-    }
-
-    // Create new cluster group with appropriate color
+    // Create new cluster group with dynamic colors based on actual cluster contents
     const clusterGroup = L.markerClusterGroup({
       chunkedLoading: true,
       maxClusterRadius: 50,
@@ -126,6 +118,25 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
         let size = 'small'
         if (count > 100) size = 'large'
         else if (count > 10) size = 'medium'
+
+        // Examine actual markers in this cluster to determine color
+        const childMarkers = cluster.getAllChildMarkers()
+        let hasAmex = false
+        let hasChase = false
+        for (const marker of childMarkers) {
+          if (marker.options.program === 'amex') hasAmex = true
+          if (marker.options.program === 'chase') hasChase = true
+          if (hasAmex && hasChase) break // No need to continue if we found both
+        }
+
+        let clusterColor
+        if (hasAmex && hasChase) {
+          clusterColor = CLUSTER_COLORS.both
+        } else if (hasChase) {
+          clusterColor = CLUSTER_COLORS.chase
+        } else {
+          clusterColor = CLUSTER_COLORS.amex
+        }
 
         const sizes = {
           small: { width: 30, height: 30, fontSize: 12 },
@@ -165,7 +176,7 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
     // Add markers to cluster group
     const markers = filtered.map(restaurant => {
       const icon = ICONS[restaurant.program] || ICONS.amex
-      return L.marker([restaurant.lat, restaurant.lon], { icon })
+      return L.marker([restaurant.lat, restaurant.lon], { icon, program: restaurant.program })
         .bindPopup(createPopupContent(restaurant), {
           maxWidth: 280,
           className: 'custom-popup',
