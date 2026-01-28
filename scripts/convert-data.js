@@ -48,10 +48,21 @@ function parseCSVLine(line) {
 }
 
 // Process Chase Sapphire data
-// Note: The enriched file is currently corrupted, using empty array
-// TODO: Re-enrich chase_sapphire_restaurants_complete.csv with coordinates
-const chaseData = [];
-console.log('⚠️  Chase data needs re-enrichment (file corrupted)');
+const chaseContent = fs.readFileSync(
+  path.join(__dirname, '../scraper/chase_sapphire_restaurants_enriched.csv'),
+  'utf-8'
+);
+const chaseData = parseCSV(chaseContent).map(row => ({
+  name: row.name || row.google_name,
+  address: row.address,
+  city: row.city,
+  cuisine: row.cuisine || null,
+  neighborhood: row.neighborhood || null,
+  website: row.website,
+  lat: parseFloat(row.lat),
+  lon: parseFloat(row.lon),
+  program: 'chase'
+})).filter(r => r.lat && r.lon && !isNaN(r.lat) && !isNaN(r.lon) && r.name);
 
 // Process Amex GDA data
 const gdaContent = fs.readFileSync(

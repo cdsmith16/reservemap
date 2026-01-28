@@ -36,8 +36,8 @@ export default function About() {
               <div>
                 <h3 className="font-medium text-white">Chase Sapphire Reserve</h3>
                 <p className="text-slate-400 text-sm mt-1">
-                  Partner restaurants on OpenTable offering special experiences.
-                  Coming soon to the map.
+                  Nearly 400 partner restaurants on OpenTable across 51 cities.
+                  Available to Chase Sapphire Reserve cardmembers.
                 </p>
               </div>
             </div>

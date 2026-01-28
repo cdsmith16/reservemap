@@ -37,13 +37,22 @@ const ICONS = {
   chase: createIcon('#3b82f6'), // blue-500
 }
 
-export default function Map({ restaurants, filters }) {
+export default function Map({ restaurants, filters, flyToLocation, onFlyComplete }) {
   const mapRef = useRef(null)
   const mapInstanceRef = useRef(null)
   const clusterGroupRef = useRef(null)
   const userMarkerRef = useRef(null)
   const [isLocating, setIsLocating] = useState(false)
   const [locationError, setLocationError] = useState(null)
+
+  // Handle fly to location from search
+  useEffect(() => {
+    if (!flyToLocation || !mapInstanceRef.current) return
+    mapInstanceRef.current.flyTo([flyToLocation.lat, flyToLocation.lon], flyToLocation.zoom || 12, {
+      duration: 1.5,
+    })
+    if (onFlyComplete) onFlyComplete()
+  }, [flyToLocation, onFlyComplete])
 
   // Initialize map
   useEffect(() => {

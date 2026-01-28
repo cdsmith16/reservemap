@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import Map from '../components/Map'
 
 export default function Home() {
@@ -9,6 +9,10 @@ export default function Home() {
     chase: true,
   })
   const [showHero, setShowHero] = useState(true)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [showSearchResults, setShowSearchResults] = useState(false)
+  const [flyToLocation, setFlyToLocation] = useState(null)
+  const searchRef = useRef(null)
 
   // Load restaurant data
   useEffect(() => {
@@ -23,6 +27,47 @@ export default function Home() {
         setLoading(false)
       })
   }, [])
+
+  // Close search results when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (searchRef.current && !searchRef.current.contains(e.target)) {
+        setShowSearchResults(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
+  // Get unique cities with counts
+  const cities = useMemo(() => {
+    const cityMap = {}
+    restaurants.forEach(r => {
+      const city = r.city
+      if (city) {
+        if (!cityMap[city]) {
+          cityMap[city] = { name: city, count: 0, lat: r.lat, lon: r.lon, state: r.state }
+        }
+        cityMap[city].count++
+      }
+    })
+    return Object.values(cityMap).sort((a, b) => b.count - a.count)
+  }, [restaurants])
+
+  // Filter cities based on search
+  const filteredCities = useMemo(() => {
+    if (!searchQuery.trim()) return cities.slice(0, 10)
+    const query = searchQuery.toLowerCase()
+    return cities
+      .filter(c => c.name.toLowerCase().includes(query))
+      .slice(0, 10)
+  }, [cities, searchQuery])
+
+  const handleCitySelect = (city) => {
+    setSearchQuery(city.name)
+    setShowSearchResults(false)
+    setFlyToLocation({ lat: city.lat, lon: city.lon, zoom: 12 })
+  }
 
   const amexCount = restaurants.filter(r => r.program === 'amex').length
   const chaseCount = restaurants.filter(r => r.program === 'chase').length
@@ -53,10 +98,50 @@ export default function Home() {
 
       {/* Filters */}
       <div className="bg-slate-900/80 border-b border-slate-700/50 px-4 py-3">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="text-slate-400 text-sm font-medium">Filter by program:</span>
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center gap-4">
+          {/* Search */}
+          <div ref={searchRef} className="relative flex-shrink-0">
+            <div className="relative">
+              <svg
+                className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value)
+                  setShowSearchResults(true)
+                }}
+                onFocus={() => setShowSearchResults(true)}
+                placeholder="Search city..."
+                className="w-40 sm:w-48 pl-9 pr-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/50"
+              />
+            </div>
 
+            {/* Search Results Dropdown */}
+            {showSearchResults && filteredCities.length > 0 && (
+              <div className="absolute top-full left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl z-50 max-h-64 overflow-y-auto">
+                {filteredCities.map((city, i) => (
+                  <button
+                    key={i}
+                    onClick={() => handleCitySelect(city)}
+                    className="w-full px-3 py-2 text-left hover:bg-slate-700/50 transition-colors flex items-center justify-between"
+                  >
+                    <span className="text-white text-sm">{city.name}{city.state ? `, ${city.state}` : ''}</span>
+                    <span className="text-slate-500 text-xs">{city.count} places</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Program Filters */}
+          <div className="flex flex-wrap items-center gap-3">
             <button
               onClick={() => setFilters(f => ({ ...f, amex: !f.amex }))}
               className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
@@ -66,7 +151,8 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.amex ? 'bg-amber-400' : 'bg-slate-600'}`} />
-              Amex Global Dining
+              <span className="hidden sm:inline">Amex Global Dining</span>
+              <span className="sm:hidden">Amex</span>
               <span className="text-xs opacity-70">({amexCount.toLocaleString()})</span>
             </button>
 
@@ -79,25 +165,29 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.chase ? 'bg-blue-400' : 'bg-slate-600'}`} />
-              Chase Sapphire Reserve
+              <span className="hidden sm:inline">Chase Sapphire Reserve</span>
+              <span className="sm:hidden">Chase</span>
               <span className="text-xs opacity-70">({chaseCount.toLocaleString()})</span>
             </button>
           </div>
 
-          {!showHero && (
-            <button
-              onClick={() => setShowHero(true)}
-              className="text-slate-500 hover:text-slate-300 text-sm transition-colors"
-            >
-              Show intro ↓
-            </button>
-          )}
+          {/* Show/Hide Hero + Count */}
+          <div className="flex items-center gap-4 ml-auto">
+            {!showHero && (
+              <button
+                onClick={() => setShowHero(true)}
+                className="text-slate-500 hover:text-slate-300 text-sm transition-colors hidden sm:block"
+              >
+                Show intro ↓
+              </button>
+            )}
 
-          <div className="text-slate-500 text-sm">
-            {restaurants.filter(r =>
-              (r.program === 'amex' && filters.amex) ||
-              (r.program === 'chase' && filters.chase)
-            ).length.toLocaleString()} restaurants
+            <div className="text-slate-500 text-sm">
+              {restaurants.filter(r =>
+                (r.program === 'amex' && filters.amex) ||
+                (r.program === 'chase' && filters.chase)
+              ).length.toLocaleString()} restaurants
+            </div>
           </div>
         </div>
       </div>
@@ -112,7 +202,12 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          <Map restaurants={restaurants} filters={filters} />
+          <Map
+            restaurants={restaurants}
+            filters={filters}
+            flyToLocation={flyToLocation}
+            onFlyComplete={() => setFlyToLocation(null)}
+          />
         )}
       </div>
     </div>
