@@ -34,7 +34,7 @@ export default function About() {
                 >
                 across the USA via Resy.
                 </a> 
-                  {' '}Available to eligible American Express cardmembers.
+                  {' '} Available to eligible American Express cardmembers.
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function About() {
                   >
                   restaurants on OpenTable 
                   </a>
-                   {' '}across 51 cities.
+                   {' '} across 51 cities.
                   Available to Chase Sapphire Reserve cardmembers.
                 </p>
               </div>
