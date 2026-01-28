@@ -8,11 +8,11 @@ export default function Home() {
     amex: true,
     chase: true,
   })
-  const [showHero, setShowHero] = useState(true)
   const [searchQuery, setSearchQuery] = useState('')
   const [showSearchResults, setShowSearchResults] = useState(false)
   const [flyToLocation, setFlyToLocation] = useState(null)
   const searchRef = useRef(null)
+  const mapSectionRef = useRef(null)
 
   // Load restaurant data
   useEffect(() => {
@@ -69,35 +69,40 @@ export default function Home() {
     setFlyToLocation({ lat: city.lat, lon: city.lon, zoom: 12 })
   }
 
+  const scrollToMap = () => {
+    mapSectionRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   const amexCount = restaurants.filter(r => r.program === 'amex').length
   const chaseCount = restaurants.filter(r => r.program === 'chase').length
 
   return (
     <div className="flex flex-col h-[calc(100vh-64px-73px)]">
-      {/* Hero Section - Collapsible */}
-      {showHero && (
-        <div className="bg-slate-800/50 border-b border-slate-700/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="text-center max-w-2xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 tracking-tight">
-                All your dining benefits. One map.
-              </h1>
-              <p className="text-slate-400 text-lg mb-6">
-                The spreadsheet behind the velvet rope.
-              </p>
-              <button
-                onClick={() => setShowHero(false)}
-                className="text-slate-500 hover:text-slate-300 text-sm transition-colors"
-              >
-                Hide intro ↑
-              </button>
-            </div>
+      {/* Hero Section */}
+      <div className="bg-slate-800/50 border-b border-slate-700/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center max-w-2xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 tracking-tight">
+              All your dining benefits. One map.
+            </h1>
+            <p className="text-slate-400 text-lg mb-6">
+              The spreadsheet behind the velvet rope.
+            </p>
+            <button
+              onClick={scrollToMap}
+              className="text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center gap-1"
+              aria-label="Scroll to map"
+            >
+              <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </button>
           </div>
         </div>
-      )}
+      </div>
 
       {/* Filters */}
-      <div className="bg-slate-900/80 border-b border-slate-700/50 px-4 py-3">
+      <div ref={mapSectionRef} className="bg-slate-900/80 border-b border-slate-700/50 px-4 py-3">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center gap-4">
           {/* Search */}
           <div ref={searchRef} className="relative flex-shrink-0">
@@ -171,23 +176,12 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Show/Hide Hero + Count */}
-          <div className="flex items-center gap-4 ml-auto">
-            {!showHero && (
-              <button
-                onClick={() => setShowHero(true)}
-                className="text-slate-500 hover:text-slate-300 text-sm transition-colors hidden sm:block"
-              >
-                Show intro ↓
-              </button>
-            )}
-
-            <div className="text-slate-500 text-sm">
-              {restaurants.filter(r =>
-                (r.program === 'amex' && filters.amex) ||
-                (r.program === 'chase' && filters.chase)
-              ).length.toLocaleString()} restaurants
-            </div>
+          {/* Count */}
+          <div className="ml-auto text-slate-500 text-sm">
+            {restaurants.filter(r =>
+              (r.program === 'amex' && filters.amex) ||
+              (r.program === 'chase' && filters.chase)
+            ).length.toLocaleString()} restaurants
           </div>
         </div>
       </div>

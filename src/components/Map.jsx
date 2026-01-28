@@ -54,6 +54,13 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
     if (onFlyComplete) onFlyComplete()
   }, [flyToLocation, onFlyComplete])
 
+  // Auto-dismiss location error after 5 seconds
+  useEffect(() => {
+    if (!locationError) return
+    const timer = setTimeout(() => setLocationError(null), 5000)
+    return () => clearTimeout(timer)
+  }, [locationError])
+
   // Initialize map
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return
@@ -228,9 +235,12 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
       </button>
 
       {locationError && (
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-red-900/90 text-red-200 px-4 py-2 rounded-lg text-sm">
-          {locationError}
-        </div>
+        <button
+          onClick={() => setLocationError(null)}
+          className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-red-900/90 text-red-200 px-4 py-2 rounded-lg text-sm cursor-pointer hover:bg-red-800/90 transition-colors"
+        >
+          {locationError} <span className="opacity-60 ml-1">tap to dismiss</span>
+        </button>
       )}
     </div>
   )
