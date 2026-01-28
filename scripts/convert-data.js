@@ -66,7 +66,7 @@ const chaseData = parseCSV(chaseContent).map(row => ({
 
 // Process Amex GDA data
 const gdaContent = fs.readFileSync(
-  path.join(__dirname, '../scraper/GDA_USA_Enriched.csv'),
+  path.join(__dirname, '../scraper/ResyAmexDining - AmEx_Resy_USA_Enriched.csv'),
   'utf-8'
 );
 const gdaData = parseCSV(gdaContent).map(row => ({
