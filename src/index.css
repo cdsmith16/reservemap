@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Leaflet Popup Styles */
+.leaflet-popup-content-wrapper {
+  @apply bg-white rounded-lg shadow-xl border-0;
+}
+
+.leaflet-popup-content {
+  @apply m-0 p-3;
+  min-width: 200px;
+}
+
+.leaflet-popup-tip {
+  @apply bg-white;
+}
+
+.leaflet-popup-close-button {
+  @apply text-slate-400 hover:text-slate-600;
+  top: 8px !important;
+  right: 8px !important;
+}
+
+/* Custom marker styles */
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.user-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Leaflet controls dark theme */
+.leaflet-control-zoom {
+  @apply border-slate-700 !important;
+}
+
+.leaflet-control-zoom a {
+  @apply bg-slate-800 text-white border-slate-700 hover:bg-slate-700 !important;
+}
+
+.leaflet-control-zoom a:first-child {
+  @apply rounded-t-lg;
+}
+
+.leaflet-control-zoom a:last-child {
+  @apply rounded-b-lg;
+}
+
+.leaflet-control-attribution {
+  @apply bg-slate-900/80 text-slate-500 text-xs;
+}
+
+.leaflet-control-attribution a {
+  @apply text-slate-400 hover:text-slate-300;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-600 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-500;
+}
+
+/* Marker cluster custom styles */
+.marker-cluster-custom {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Override default cluster styles */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background: transparent !important;
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background: linear-gradient(135deg, #f59e0b, #ea580c) !important;
+}
