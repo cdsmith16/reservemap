@@ -25,7 +25,7 @@ export default function About() {
               <div>
                 <h3 className="font-medium text-white">Amex Global Dining Access</h3>
                 <p className="text-slate-400 text-sm mt-1">
-                  Access to 10,000+ restaurants 
+                  Access to 10,000+ restaurants  
                 <a
                   href="https://resy.com/global-dining-access/"
                   target="_blank"
@@ -33,7 +33,7 @@ export default function About() {
                   className="text-orange-400 hover:text-orange-300 transition-colors"
                 >
                   across the USA via Resy.
-                </a>
+                </a> 
                   Available to eligible American Express cardmembers.
                 </p>
               </div>
@@ -46,14 +46,14 @@ export default function About() {
                 <p className="text-slate-400 text-sm mt-1">
                   Nearly 400 partner 
                   <a 
-                    href="https://www.opentable.com/sapphire-reserve/atlanta"
+                    href="https://www.opentable.com/sapphire-reserve/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-orange-400 hover:text-orange-300 transition-colors"
                   >
                     restaurants on OpenTable 
                   </a>
-                  across 51 cities.
+                   across 51 cities.
                   Available to Chase Sapphire Reserve cardmembers.
                 </p>
               </div>
