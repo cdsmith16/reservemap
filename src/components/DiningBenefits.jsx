@@ -3,7 +3,7 @@ export default function DiningBenefits() {
     <div id="dining-benefits" className="bg-slate-800/50 border-t border-slate-700/50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <a href="#dining-benefits" className="group inline-block mb-6">
-          <h2 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-amber-400 via-amber-300 to-blue-400 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:via-amber-200 group-hover:to-blue-300 transition-all">
+          <h2 className="text-2xl sm:text-3xl font-bold text-amber-400 group-hover:text-amber-300 transition-colors">
             Dining Benefits
             <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-slate-500 text-lg">#</span>
           </h2>
