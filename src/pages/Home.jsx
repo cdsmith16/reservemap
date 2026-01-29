@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import Map from '../components/Map'
+import DiningBenefits from '../components/DiningBenefits'
 
 export default function Home() {
   const [restaurants, setRestaurants] = useState([])
@@ -76,10 +77,33 @@ export default function Home() {
     return matches.slice(0, 20)
   }, [cities, searchQuery])
 
+  // Filter restaurants based on search query
+  const filteredRestaurants = useMemo(() => {
+    if (!searchQuery.trim() || searchQuery.length < 2) return []
+    const query = searchQuery.toLowerCase()
+    const matches = restaurants.filter(r => r.name.toLowerCase().includes(query))
+    matches.sort((a, b) => {
+      const aName = a.name.toLowerCase()
+      const bName = b.name.toLowerCase()
+      const aStarts = aName.startsWith(query)
+      const bStarts = bName.startsWith(query)
+      if (aStarts && !bStarts) return -1
+      if (bStarts && !aStarts) return 1
+      return aName.localeCompare(bName)
+    })
+    return matches.slice(0, 10)
+  }, [restaurants, searchQuery])
+
   const handleCitySelect = (city) => {
     setSearchQuery(city.name)
     setShowSearchResults(false)
     setFlyToLocation({ lat: city.lat, lon: city.lon, zoom: 12 })
+  }
+
+  const handleRestaurantSelect = (restaurant) => {
+    setSearchQuery(restaurant.name)
+    setShowSearchResults(false)
+    setFlyToLocation({ lat: restaurant.lat, lon: restaurant.lon, zoom: 16 })
   }
 
   const scrollToMap = () => {
@@ -90,7 +114,7 @@ export default function Home() {
   const chaseCount = restaurants.filter(r => r.program === 'chase').length
 
   return (
-    <div className="flex flex-col h-[calc(100vh-64px-73px)]">
+    <div className="flex flex-col">
       {/* Hero Section */}
       <div className="bg-slate-800/50 border-b border-slate-700/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -136,24 +160,47 @@ export default function Home() {
                   setShowSearchResults(true)
                 }}
                 onFocus={() => setShowSearchResults(true)}
-                placeholder="Search city..."
-                className="w-40 sm:w-48 pl-9 pr-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/50"
+                placeholder="Search city or restaurant..."
+                className="w-48 sm:w-56 pl-9 pr-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/50"
               />
             </div>
 
             {/* Search Results Dropdown */}
-            {showSearchResults && filteredCities.length > 0 && (
-              <div className="absolute top-full left-0 mt-1 w-64 bg-slate-800 border border-slate-700 rounded-lg shadow-xl z-[1001] max-h-64 overflow-y-auto">
-                {filteredCities.map((city, i) => (
-                  <button
-                    key={i}
-                    onClick={() => handleCitySelect(city)}
-                    className="w-full px-3 py-2 text-left hover:bg-slate-700/50 transition-colors flex items-center justify-between"
-                  >
-                    <span className="text-white text-sm">{city.name}{city.state ? `, ${city.state}` : ''}</span>
-                    <span className="text-slate-500 text-xs">{city.count} places</span>
-                  </button>
-                ))}
+            {showSearchResults && (filteredCities.length > 0 || filteredRestaurants.length > 0) && (
+              <div className="absolute top-full left-0 mt-1 w-72 bg-slate-800 border border-slate-700 rounded-lg shadow-xl z-[1001] max-h-80 overflow-y-auto">
+                {filteredCities.length > 0 && (
+                  <>
+                    <div className="px-3 py-1.5 text-xs font-medium text-slate-500 uppercase tracking-wider border-b border-slate-700/50">Cities</div>
+                    {filteredCities.map((city, i) => (
+                      <button
+                        key={`city-${i}`}
+                        onClick={() => handleCitySelect(city)}
+                        className="w-full px-3 py-2 text-left hover:bg-slate-700/50 transition-colors flex items-center justify-between"
+                      >
+                        <span className="text-white text-sm">{city.name}{city.state ? `, ${city.state}` : ''}</span>
+                        <span className="text-slate-500 text-xs">{city.count} places</span>
+                      </button>
+                    ))}
+                  </>
+                )}
+                {filteredRestaurants.length > 0 && (
+                  <>
+                    <div className="px-3 py-1.5 text-xs font-medium text-slate-500 uppercase tracking-wider border-b border-slate-700/50 border-t">Restaurants</div>
+                    {filteredRestaurants.map((r, i) => (
+                      <button
+                        key={`rest-${i}`}
+                        onClick={() => handleRestaurantSelect(r)}
+                        className="w-full px-3 py-2 text-left hover:bg-slate-700/50 transition-colors flex items-center justify-between"
+                      >
+                        <div className="min-w-0">
+                          <span className="text-white text-sm block truncate">{r.name}</span>
+                          <span className="text-slate-500 text-xs">{r.city}{r.state ? `, ${r.state}` : ''}</span>
+                        </div>
+                        <span className={`flex-shrink-0 ml-2 w-2 h-2 rounded-full ${r.program === 'amex' ? 'bg-amber-400' : 'bg-blue-400'}`} />
+                      </button>
+                    ))}
+                  </>
+                )}
               </div>
             )}
           </div>
@@ -169,8 +216,8 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.amex ? 'bg-amber-400' : 'bg-slate-600'}`} />
-              <span className="hidden sm:inline">Amex Global Dining</span>
-              <span className="sm:hidden">Amex</span>
+              <span className="hidden sm:inline">Amex Resy</span>
+              <span className="sm:hidden">Amex Resy</span>
               <span className="text-xs opacity-70">({amexCount.toLocaleString()})</span>
             </button>
 
@@ -183,8 +230,8 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.chase ? 'bg-blue-400' : 'bg-slate-600'}`} />
-              <span className="hidden sm:inline">Chase Sapphire Reserve</span>
-              <span className="sm:hidden">Chase</span>
+              <span className="hidden sm:inline">Chase OpenTable</span>
+              <span className="sm:hidden">Chase OpenTable</span>
               <span className="text-xs opacity-70">({chaseCount.toLocaleString()})</span>
             </button>
           </div>
@@ -200,7 +247,7 @@ export default function Home() {
       </div>
 
       {/* Map */}
-      <div className="flex-1 relative">
+      <div className="relative" style={{ height: 'calc(100vh - 200px)', minHeight: '500px' }}>
         {loading ? (
           <div className="absolute inset-0 flex items-center justify-center bg-slate-900">
             <div className="text-center">
@@ -217,6 +264,8 @@ export default function Home() {
           />
         )}
       </div>
+
+      <DiningBenefits />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
+import personPinUrl from './icons/person_pin_blue_cyan.svg'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
@@ -205,19 +206,12 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
           userMarkerRef.current.remove()
         }
 
-        // Add user location marker
-        const userIcon = L.divIcon({
-          className: 'user-marker',
-          html: `<div style="
-            background: #22c55e;
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            border: 3px solid white;
-            box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3), 0 2px 5px rgba(0,0,0,0.3);
-          "></div>`,
-          iconSize: [16, 16],
-          iconAnchor: [8, 8],
+        // Add user location marker with custom blue-cyan person-pin icon
+        const userIcon = L.icon({
+          iconUrl: personPinUrl,
+          iconSize: [40, 40],
+          iconAnchor: [20, 40],
+          popupAnchor: [0, -40],
         })
 
         const userMarker = L.marker([latitude, longitude], { icon: userIcon })
@@ -274,15 +268,16 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
 
 function createPopupContent(restaurant) {
   const programLabel = restaurant.program === 'amex'
-    ? 'Amex Global Dining'
-    : 'Chase Sapphire Reserve'
+    ? 'Amex Resy'
+    : 'Chase OpenTable'
 
   const programBg = restaurant.program === 'amex'
     ? 'background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3);'
     : 'background: rgba(59, 130, 246, 0.15); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.3);'
 
   const bookingUrl = restaurant.website || ''
-  const bookingPlatform = restaurant.program === 'amex' ? 'Resy' : 'OpenTable'
+  const bookingBg = restaurant.program === 'amex' ? '#f59e0b' : '#3b82f6'
+  const bookingHoverBg = restaurant.program === 'amex' ? '#d97706' : '#2563eb'
 
   const addressLine = restaurant.address || `${restaurant.city}${restaurant.state ? ', ' + restaurant.state : ''}`
 
@@ -298,11 +293,11 @@ function createPopupContent(restaurant) {
           href="${bookingUrl}"
           target="_blank"
           rel="noopener noreferrer"
-          style="display: block; width: 100%; text-align: center; background: #f59e0b; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
-          onmouseover="this.style.background='#d97706'"
-          onmouseout="this.style.background='#f59e0b'"
+          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
+          onmouseover="this.style.background='${bookingHoverBg}'"
+          onmouseout="this.style.background='${bookingBg}'"
         >
-          Book on ${bookingPlatform}
+          Spend your dining benefit here ⬇️
         </a>
       ` : ''}
     </div>
