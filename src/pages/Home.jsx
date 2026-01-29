@@ -215,7 +215,7 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.amex ? 'bg-amber-400' : 'bg-slate-600'}`} />
-              <span className="hidden sm:inline">Amex Global Dining</span>
+              <span className="hidden sm:inline">Amex Resy</span>
               <span className="sm:hidden">Amex</span>
               <span className="text-xs opacity-70">({amexCount.toLocaleString()})</span>
             </button>
@@ -229,7 +229,7 @@ export default function Home() {
               }`}
             >
               <span className={`w-2.5 h-2.5 rounded-full ${filters.chase ? 'bg-blue-400' : 'bg-slate-600'}`} />
-              <span className="hidden sm:inline">Chase Sapphire Reserve</span>
+              <span className="hidden sm:inline">Chase OpenTable</span>
               <span className="sm:hidden">Chase</span>
               <span className="text-xs opacity-70">({chaseCount.toLocaleString()})</span>
             </button>

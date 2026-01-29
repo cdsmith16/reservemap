@@ -208,7 +208,7 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
         // Add user location marker with person-pin icon in blue
         const userIcon = L.divIcon({
           className: 'user-marker',
-          html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#3b82f6" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));">
+          html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#06b6d4" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));">
             <path d="M12 2a4 4 0 1 1 0 8a4 4 0 0 1 0-8ZM6.5 11.5c1.5-1.2 3.4-1.8 5.5-1.8s4 .6 5.5 1.8c.8.6.7 1.5.2 2.5L12 22L6.3 14c-.5-1-.6-1.9.2-2.5Z"/>
           </svg>`,
           iconSize: [32, 32],
@@ -269,26 +269,14 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
 
 function createPopupContent(restaurant) {
   const programLabel = restaurant.program === 'amex'
-    ? 'Amex Global Dining'
-    : 'Chase Sapphire Reserve'
+    ? 'Amex Resy'
+    : 'Chase OpenTable'
 
   const programBg = restaurant.program === 'amex'
     ? 'background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3);'
     : 'background: rgba(59, 130, 246, 0.15); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.3);'
 
-  const bookingPlatform = restaurant.program === 'amex' ? 'Resy' : 'OpenTable'
-
-  // Generate booking URL: use Resy search URL for amex restaurants, otherwise use stored website
-  let bookingUrl = ''
-  if (restaurant.program === 'amex') {
-    const resyName = restaurant.resy_name || restaurant.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-    const resyCity = restaurant.city ? restaurant.city.toLowerCase().replace(/[^a-z0-9]+/g, '-') : ''
-    const resyState = restaurant.state ? restaurant.state.toLowerCase() : ''
-    bookingUrl = `https://resy.com/cities/${resyCity}-${resyState}/${resyName}`
-  } else {
-    bookingUrl = restaurant.website || ''
-  }
-
+  const bookingUrl = restaurant.website || ''
   const bookingBg = restaurant.program === 'amex' ? '#f59e0b' : '#3b82f6'
   const bookingHoverBg = restaurant.program === 'amex' ? '#d97706' : '#2563eb'
 
@@ -310,7 +298,7 @@ function createPopupContent(restaurant) {
           onmouseover="this.style.background='${bookingHoverBg}'"
           onmouseout="this.style.background='${bookingBg}'"
         >
-          Book on ${bookingPlatform}
+          Spend your dining benefit here ⬇️
         </a>
       ` : ''}
     </div>
