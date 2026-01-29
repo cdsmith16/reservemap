@@ -205,14 +205,20 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
           userMarkerRef.current.remove()
         }
 
-        // Add user location marker with person-pin icon in blue
+        // Add user location marker with person-pin icon in blue-cyan gradient
         const userIcon = L.divIcon({
           className: 'user-marker',
-          html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#06b6d4" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));">
-            <path d="M12 2a4 4 0 1 1 0 8a4 4 0 0 1 0-8ZM6.5 11.5c1.5-1.2 3.4-1.8 5.5-1.8s4 .6 5.5 1.8c.8.6.7 1.5.2 2.5L12 22L6.3 14c-.5-1-.6-1.9.2-2.5Z"/>
+          html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));">
+            <defs>
+              <linearGradient id="blue-cyan" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3b82f6"/>
+                <stop offset="100%" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#blue-cyan)" d="M12 2a4 4 0 1 1 0 8a4 4 0 0 1 0-8ZM6.5 11.5c1.5-1.2 3.4-1.8 5.5-1.8s4 .6 5.5 1.8c.8.6.7 1.5.2 2.5L12 22L6.3 14c-.5-1-.6-1.9.2-2.5Z"/>
           </svg>`,
-          iconSize: [32, 32],
-          iconAnchor: [16, 32],
+          iconSize: [36, 36],
+          iconAnchor: [18, 36],
         })
 
         const userMarker = L.marker([latitude, longitude], { icon: userIcon })
