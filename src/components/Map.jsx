@@ -205,19 +205,14 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
           userMarkerRef.current.remove()
         }
 
-        // Add user location marker
+        // Add user location marker with person-pin icon in blue
         const userIcon = L.divIcon({
           className: 'user-marker',
-          html: `<div style="
-            background: #22c55e;
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            border: 3px solid white;
-            box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3), 0 2px 5px rgba(0,0,0,0.3);
-          "></div>`,
-          iconSize: [16, 16],
-          iconAnchor: [8, 8],
+          html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#3b82f6" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));">
+            <path d="M12 2a4 4 0 1 1 0 8a4 4 0 0 1 0-8ZM6.5 11.5c1.5-1.2 3.4-1.8 5.5-1.8s4 .6 5.5 1.8c.8.6.7 1.5.2 2.5L12 22L6.3 14c-.5-1-.6-1.9.2-2.5Z"/>
+          </svg>`,
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
         })
 
         const userMarker = L.marker([latitude, longitude], { icon: userIcon })
@@ -281,8 +276,21 @@ function createPopupContent(restaurant) {
     ? 'background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3);'
     : 'background: rgba(59, 130, 246, 0.15); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.3);'
 
-  const bookingUrl = restaurant.website || ''
   const bookingPlatform = restaurant.program === 'amex' ? 'Resy' : 'OpenTable'
+
+  // Generate booking URL: use Resy search URL for amex restaurants, otherwise use stored website
+  let bookingUrl = ''
+  if (restaurant.program === 'amex') {
+    const resyName = restaurant.resy_name || restaurant.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+    const resyCity = restaurant.city ? restaurant.city.toLowerCase().replace(/[^a-z0-9]+/g, '-') : ''
+    const resyState = restaurant.state ? restaurant.state.toLowerCase() : ''
+    bookingUrl = `https://resy.com/cities/${resyCity}-${resyState}/${resyName}`
+  } else {
+    bookingUrl = restaurant.website || ''
+  }
+
+  const bookingBg = restaurant.program === 'amex' ? '#f59e0b' : '#3b82f6'
+  const bookingHoverBg = restaurant.program === 'amex' ? '#d97706' : '#2563eb'
 
   const addressLine = restaurant.address || `${restaurant.city}${restaurant.state ? ', ' + restaurant.state : ''}`
 
@@ -298,9 +306,9 @@ function createPopupContent(restaurant) {
           href="${bookingUrl}"
           target="_blank"
           rel="noopener noreferrer"
-          style="display: block; width: 100%; text-align: center; background: #f59e0b; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
-          onmouseover="this.style.background='#d97706'"
-          onmouseout="this.style.background='#f59e0b'"
+          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
+          onmouseover="this.style.background='${bookingHoverBg}'"
+          onmouseout="this.style.background='${bookingBg}'"
         >
           Book on ${bookingPlatform}
         </a>
