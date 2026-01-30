@@ -267,39 +267,41 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
 }
 
 function createPopupContent(restaurant) {
-  const programLabel = restaurant.program === 'amex'
-    ? 'Amex Resy'
-    : 'Chase OpenTable'
+  const isAmex = restaurant.program === 'amex'
 
-  const programBg = restaurant.program === 'amex'
-    ? 'background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3);'
-    : 'background: rgba(59, 130, 246, 0.15); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.3);'
-
-  const bookingUrl = restaurant.website || ''
-  const bookingBg = restaurant.program === 'amex' ? '#f59e0b' : '#3b82f6'
-  const bookingHoverBg = restaurant.program === 'amex' ? '#d97706' : '#2563eb'
+  const bookingUrl = restaurant.bookingUrl || ''
+  const websiteUrl = restaurant.website || ''
+  const buttonUrl = bookingUrl || websiteUrl
+  const bookingBg = isAmex ? '#fbbf24' : '#dc2626'
+  const bookingHoverBg = isAmex ? '#f59e0b' : '#b91c1c'
+  const bookingLabel = isAmex ? 'Book with Resy' : 'Book with OpenTable'
+  const hintText = isAmex
+    ? 'Use your AmEx global dining access credit here.'
+    : 'Use your Chase Sapphire Reserve dining benefit here.'
 
   const addressLine = restaurant.address || `${restaurant.city}${restaurant.state ? ', ' + restaurant.state : ''}`
 
   return `
     <div style="padding: 4px;">
       <h3 style="font-weight: 600; color: #1e293b; font-size: 15px; margin-bottom: 4px; line-height: 1.3;">${restaurant.name}</h3>
-      <p style="color: #64748b; font-size: 13px; margin-bottom: 8px;">${addressLine}</p>
-      <span style="display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; ${programBg} margin-bottom: 10px;">
-        ${programLabel}
-      </span>
-      ${bookingUrl ? `
+      <p style="color: #64748b; font-size: 13px; margin-bottom: 8px;">
+        ${addressLine}${websiteUrl ? ` <a href="${websiteUrl}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;" title="Visit website">&#128279;</a>` : ''}
+      </p>
+      ${buttonUrl ? `
         <a
-          href="${bookingUrl}"
+          href="${buttonUrl}"
           target="_blank"
           rel="noopener noreferrer"
-          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
+          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 14px; font-weight: 600; padding: 10px 16px; border-radius: 6px; text-decoration: none; margin-bottom: 8px;"
           onmouseover="this.style.background='${bookingHoverBg}'"
           onmouseout="this.style.background='${bookingBg}'"
         >
-          Spend your dining benefit here ⬇️
+          ${bookingLabel}
         </a>
       ` : ''}
+      <p style="color: #94a3b8; font-size: 11px; font-style: italic; text-align: center; margin: 0;">
+        ${hintText}
+      </p>
     </div>
   `
 }
