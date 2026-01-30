@@ -24,5 +24,8 @@ Thumbs.db
 npm-debug.log*
 
 # Scraped Files & Proprietary
-./chase*
-./scraper/chase*
+# Ignore everything in scraper/data/
+scraper/data/*
+
+# Except the .gitkeep file
+!scraper/data/.gitkeep
