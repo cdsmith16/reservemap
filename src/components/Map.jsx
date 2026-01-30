@@ -271,6 +271,7 @@ function createPopupContent(restaurant) {
 
   const bookingUrl = restaurant.bookingUrl || ''
   const websiteUrl = restaurant.website || ''
+  const buttonUrl = bookingUrl || websiteUrl
   const bookingBg = isAmex ? '#fbbf24' : '#dc2626'
   const bookingHoverBg = isAmex ? '#f59e0b' : '#b91c1c'
   const bookingLabel = isAmex ? 'Book with Resy' : 'Book with OpenTable'
@@ -286,9 +287,9 @@ function createPopupContent(restaurant) {
       <p style="color: #64748b; font-size: 13px; margin-bottom: 8px;">
         ${addressLine}${websiteUrl ? ` <a href="${websiteUrl}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;" title="Visit website">&#128279;</a>` : ''}
       </p>
-      ${bookingUrl ? `
+      ${buttonUrl ? `
         <a
-          href="${bookingUrl}"
+          href="${buttonUrl}"
           target="_blank"
           rel="noopener noreferrer"
           style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 14px; font-weight: 600; padding: 10px 16px; border-radius: 6px; text-decoration: none; margin-bottom: 8px;"
