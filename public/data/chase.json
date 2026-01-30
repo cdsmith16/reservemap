@@ -6,8 +6,9 @@
     "cuisine": "Southern African",
     "neighborhood": "Buckhead",
     "website": "https://yebobeachhaus.com/",
+    "bookingUrl": "https://www.opentable.com/r/yebo-beach-haus-atlanta",
     "lat": 33.8429998,
-    "lon": -84.38099919999999,
+    "lon": -84.3809992,
     "program": "chase"
   },
   {
@@ -17,6 +18,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Buckhead",
     "website": "https://thegardenroomatlanta.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-garden-room-atlanta",
     "lat": 33.8398483,
     "lon": -84.3826334,
     "program": "chase"
@@ -27,7 +29,8 @@
     "city": "Atlanta",
     "cuisine": "Contemporary American",
     "neighborhood": "Midtown",
-    "website": "http://lazybettyatl.com/",
+    "website": "https://lazybettyatl.com/",
+    "bookingUrl": "https://www.opentable.com/r/lazy-betty-atlanta",
     "lat": 33.7813991,
     "lon": -84.3836584,
     "program": "chase"
@@ -38,9 +41,10 @@
     "city": "Atlanta",
     "cuisine": "American",
     "neighborhood": "Chamblee",
-    "website": "http://www.thealdenrestaurant.com/",
+    "website": "https://www.thealdenrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-alden-chamblee",
     "lat": 33.8886215,
-    "lon": -84.31420949999999,
+    "lon": -84.3142095,
     "program": "chase"
   },
   {
@@ -49,7 +53,8 @@
     "city": "Atlanta",
     "cuisine": "American",
     "neighborhood": "West Midtown",
-    "website": "http://littlesparrowatl.com/",
+    "website": "https://littlesparrowatl.com/",
+    "bookingUrl": "https://www.opentable.com/r/little-sparrow-atlanta",
     "lat": 33.7865629,
     "lon": -84.4123343,
     "program": "chase"
@@ -61,7 +66,8 @@
     "cuisine": "Seafood",
     "neighborhood": "West Midtown",
     "website": "https://www.theoptimistrestaurant.com/",
-    "lat": 33.779813499999996,
+    "bookingUrl": "https://www.opentable.com/the-optimist",
+    "lat": 33.7798135,
     "lon": -84.4104515,
     "program": "chase"
   },
@@ -71,8 +77,9 @@
     "city": "Atlanta",
     "cuisine": "American",
     "neighborhood": "Vinings",
-    "website": "http://www.canoeatl.com/",
-    "lat": 33.859739999999995,
+    "website": "https://www.canoeatl.com/",
+    "bookingUrl": "https://www.opentable.com/r/canoe-atlanta",
+    "lat": 33.85974,
     "lon": -84.455173,
     "program": "chase"
   },
@@ -83,8 +90,9 @@
     "cuisine": "Steak",
     "neighborhood": "Sandy Springs",
     "website": "https://raysontheriver.com/",
+    "bookingUrl": "https://www.opentable.com/r/rays-on-the-river-sandy-springs",
     "lat": 33.900492,
-    "lon": -84.44080199999999,
+    "lon": -84.440802,
     "program": "chase"
   },
   {
@@ -94,8 +102,9 @@
     "cuisine": "Japanese",
     "neighborhood": "West Midtown",
     "website": "https://www.mujoatl.com/",
+    "bookingUrl": "https://www.opentable.com/r/mujo-atlanta",
     "lat": 33.7861591,
-    "lon": -84.41142239999999,
+    "lon": -84.4114224,
     "program": "chase"
   },
   {
@@ -104,9 +113,10 @@
     "city": "Austin",
     "cuisine": "Italian",
     "neighborhood": "Downtown",
-    "website": "http://redashgrill.com/",
+    "website": "https://redashgrill.com/",
+    "bookingUrl": "https://www.opentable.com/r/red-ash-italia-austin",
     "lat": 30.2657022,
-    "lon": -97.74494089999999,
+    "lon": -97.7449409,
     "program": "chase"
   },
   {
@@ -115,8 +125,9 @@
     "city": "Austin",
     "cuisine": "Contemporary Mexican",
     "neighborhood": "East Austin",
-    "website": "http://esteatx.com/",
-    "lat": 30.283932500000002,
+    "website": "https://esteatx.com/",
+    "bookingUrl": "https://www.opentable.com/r/este-austin",
+    "lat": 30.2839325,
     "lon": -97.7194787,
     "program": "chase"
   },
@@ -127,7 +138,8 @@
     "cuisine": "Mexican",
     "neighborhood": "Downtown",
     "website": "https://comedortx.com/",
-    "lat": 30.267599299999997,
+    "bookingUrl": "https://www.opentable.com/r/comedor",
+    "lat": 30.2675993,
     "lon": -97.744164,
     "program": "chase"
   },
@@ -138,6 +150,7 @@
     "cuisine": "Seafood",
     "neighborhood": "Clarksville",
     "website": "https://www.clarksoysterbar.com/locations/austin",
+    "bookingUrl": "https://www.opentable.com/r/clarks-oyster-bar-austin",
     "lat": 30.2729938,
     "lon": -97.7571715,
     "program": "chase"
@@ -148,7 +161,8 @@
     "city": "Austin",
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown",
-    "website": "http://hestiaaustin.com/",
+    "website": "https://hestiaaustin.com/",
+    "bookingUrl": "https://www.opentable.com/r/hestia-austin-2",
     "lat": 30.2667619,
     "lon": -97.7500735,
     "program": "chase"
@@ -160,6 +174,7 @@
     "cuisine": "Contemporary Mexican",
     "neighborhood": "East Austin",
     "website": "https://www.suerteatx.com/",
+    "bookingUrl": "https://www.opentable.com/r/suerte-austin",
     "lat": 30.2622778,
     "lon": -97.7232758,
     "program": "chase"
@@ -170,7 +185,8 @@
     "city": "Austin",
     "cuisine": "Barbecue",
     "neighborhood": "East Austin",
-    "website": "http://kemuri-tatsuya.com/",
+    "website": "https://kemuri-tatsuya.com/",
+    "bookingUrl": "https://www.opentable.com/r/kemuri-tatsu-ya-austin",
     "lat": 30.253838,
     "lon": -97.712949,
     "program": "chase"
@@ -182,7 +198,8 @@
     "cuisine": "Mexican",
     "neighborhood": "Downtown",
     "website": "https://lacondesa.com/",
-    "lat": 30.265639099999998,
+    "bookingUrl": "https://www.opentable.com/la-condesa",
+    "lat": 30.2656391,
     "lon": -97.7477811,
     "program": "chase"
   },
@@ -192,8 +209,9 @@
     "city": "Austin",
     "cuisine": "American",
     "neighborhood": "Downtown",
-    "website": "http://www.emmerandrye.com/",
-    "lat": 30.257419400000003,
+    "website": "https://www.emmerandrye.com/",
+    "bookingUrl": "https://www.opentable.com/emmer-and-rye-austin",
+    "lat": 30.2574194,
     "lon": -97.7390667,
     "program": "chase"
   },
@@ -203,8 +221,9 @@
     "city": "Austin",
     "cuisine": "Seafood",
     "neighborhood": "South Congress",
-    "website": "http://perlasaustin.com/",
-    "lat": 30.249958499999995,
+    "website": "https://perlasaustin.com/",
+    "bookingUrl": "https://www.opentable.com/r/perlas-seafood-and-oyster-bar-austin",
+    "lat": 30.2499585,
     "lon": -97.7500913,
     "program": "chase"
   },
@@ -215,7 +234,8 @@
     "cuisine": "Asian",
     "neighborhood": "East Austin",
     "website": "https://okoaustin.com/",
-    "lat": 30.264849800000004,
+    "bookingUrl": "https://www.opentable.com/r/oko-austin",
+    "lat": 30.2648498,
     "lon": -97.7312949,
     "program": "chase"
   },
@@ -226,7 +246,8 @@
     "cuisine": "Farm-to-table",
     "neighborhood": "East Austin",
     "website": "https://www.birdiesaustin.com/",
-    "lat": 30.276408199999995,
+    "bookingUrl": "https://www.opentable.com/r/birdies-austin",
+    "lat": 30.2764082,
     "lon": -97.7045648,
     "program": "chase"
   },
@@ -237,7 +258,8 @@
     "cuisine": "Mexican",
     "neighborhood": "East Austin",
     "website": "https://nixtataqueria.com/",
-    "lat": 30.275009100000002,
+    "bookingUrl": "https://www.opentable.com/r/nixta-taqueria-austin",
+    "lat": 30.2750091,
     "lon": -97.7132754,
     "program": "chase"
   },
@@ -247,8 +269,9 @@
     "city": "Baltimore",
     "cuisine": "Steakhouse",
     "neighborhood": "Harbor East",
-    "website": "http://theruxtonsteakhouse.com/",
-    "lat": 39.283377099999996,
+    "website": "https://theruxtonsteakhouse.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-ruxton-baltimore",
+    "lat": 39.2833771,
     "lon": -76.6023062,
     "program": "chase"
   },
@@ -258,7 +281,8 @@
     "city": "Baltimore",
     "cuisine": "Japanese",
     "neighborhood": "Harbor East",
-    "website": "http://www.azumirestaurant.com/",
+    "website": "https://www.azumirestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/ouzo-bay-baltimore",
     "lat": 39.2827766,
     "lon": -76.6029077,
     "program": "chase"
@@ -270,6 +294,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Hampden",
     "website": "https://cypriana.com/",
+    "bookingUrl": "https://www.opentable.com/r/cypriana-homewood-baltimore",
     "lat": 39.3361868,
     "lon": -76.6215818,
     "program": "chase"
@@ -281,6 +306,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Upper Fells Point",
     "website": "https://www.martabaltimore.com/",
+    "bookingUrl": "https://www.opentable.com/r/marta-baltimore",
     "lat": 39.2894173,
     "lon": -76.5862162,
     "program": "chase"
@@ -291,7 +317,8 @@
     "city": "Baltimore",
     "cuisine": "Peruvian",
     "neighborhood": "Mount Vernon Square",
-    "website": "http://amazoniadc.com/",
+    "website": "https://amazoniadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/amazonia-washington",
     "lat": 38.9065162,
     "lon": -77.0247586,
     "program": "chase"
@@ -302,7 +329,8 @@
     "city": "Baltimore",
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown",
-    "website": "http://www.dauphinesdc.com/",
+    "website": "https://www.dauphinesdc.com/",
+    "bookingUrl": "https://www.opentable.com/r/dauphines-washington",
     "lat": 38.9042719,
     "lon": -77.0349714,
     "program": "chase"
@@ -313,9 +341,10 @@
     "city": "Baltimore",
     "cuisine": "Contemporary French / American",
     "neighborhood": "U Street Corridor",
-    "website": "http://www.brescadc.com/",
+    "website": "https://www.brescadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/bresca-washington",
     "lat": 38.9158067,
-    "lon": -77.03219539999999,
+    "lon": -77.0321954,
     "program": "chase"
   },
   {
@@ -325,6 +354,7 @@
     "cuisine": "Spanish",
     "neighborhood": "Georgetown",
     "website": "https://www.xiquetdl.com/",
+    "bookingUrl": "https://www.opentable.com/r/xiquet-by-danny-lledo-washington",
     "lat": 38.9212801,
     "lon": -77.0724259,
     "program": "chase"
@@ -336,6 +366,7 @@
     "cuisine": "American",
     "neighborhood": "Capitol Hill",
     "website": "https://www.duckandpeachdc.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-duck-and-the-peach-washington",
     "lat": 38.885751,
     "lon": -76.995919,
     "program": "chase"
@@ -346,7 +377,8 @@
     "city": "Baltimore",
     "cuisine": "Laotian",
     "neighborhood": "Columbia Heights / Brightwood",
-    "website": "http://www.thipkhao.com/",
+    "website": "https://www.thipkhao.com/",
+    "bookingUrl": "https://www.opentable.com/r/thip-khao-washington",
     "lat": 38.9329915,
     "lon": -77.0329838,
     "program": "chase"
@@ -358,6 +390,7 @@
     "cuisine": "African",
     "neighborhood": "U Street Corridor",
     "website": "https://www.elminarestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/elmina-washington",
     "lat": 38.9195509,
     "lon": -77.0323219,
     "program": "chase"
@@ -369,6 +402,7 @@
     "cuisine": "Peruvian",
     "neighborhood": "Shaw",
     "website": "https://causadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/causa-washington",
     "lat": 38.9069113,
     "lon": -77.0247957,
     "program": "chase"
@@ -380,6 +414,7 @@
     "cuisine": "Spanish",
     "neighborhood": "Georgetown",
     "website": "https://www.eltallerdelxiquet.com/",
+    "bookingUrl": "https://www.opentable.com/r/el-estudio-xiquet-washington",
     "lat": 38.9212801,
     "lon": -77.0724259,
     "program": "chase"
@@ -391,8 +426,9 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Mount Vernon Square",
     "website": "https://unitybarrestaurant.com/",
-    "lat": 39.296079899999995,
-    "lon": -76.61791339999999,
+    "bookingUrl": "https://www.opentable.com/r/service-bar-washington",
+    "lat": 39.2960799,
+    "lon": -76.6179134,
     "program": "chase"
   },
   {
@@ -401,7 +437,8 @@
     "city": "Boston",
     "cuisine": "Steak",
     "neighborhood": "Back Bay",
-    "website": "http://www.grill23.com/",
+    "website": "https://www.grill23.com/",
+    "bookingUrl": "https://www.opentable.com/r/grill-23-and-bar-boston",
     "lat": 42.3494604,
     "lon": -71.071962,
     "program": "chase"
@@ -412,7 +449,8 @@
     "city": "Boston",
     "cuisine": "French",
     "neighborhood": "Back Bay",
-    "website": "http://www.bistrodumidi.com/",
+    "website": "https://www.bistrodumidi.com/",
+    "bookingUrl": "https://www.opentable.com/bistro-du-midi",
     "lat": 42.3519437,
     "lon": -71.0694912,
     "program": "chase"
@@ -423,8 +461,9 @@
     "city": "Boston",
     "cuisine": "Seafood",
     "neighborhood": "Back Bay",
-    "website": "http://thebanksboston.com/",
-    "lat": 42.348856399999995,
+    "website": "https://thebanksboston.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-banks-seafood-and-steak-boston",
+    "lat": 42.3488564,
     "lon": -71.0740315,
     "program": "chase"
   },
@@ -435,6 +474,7 @@
     "cuisine": "Tapas / Small Plates",
     "neighborhood": "South End",
     "website": "https://www.toro-restaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/toro-boston",
     "lat": 42.3369796,
     "lon": -71.0759234,
     "program": "chase"
@@ -445,7 +485,8 @@
     "city": "Boston",
     "cuisine": "Thai",
     "neighborhood": "Brookline",
-    "website": "http://www.mahaniyomboston.com/",
+    "website": "https://www.mahaniyomboston.com/",
+    "bookingUrl": "https://www.opentable.com/r/mahaniyom-brookline",
     "lat": 42.3326522,
     "lon": -71.1188664,
     "program": "chase"
@@ -457,7 +498,8 @@
     "cuisine": "Contemporary Asian",
     "neighborhood": "Back Bay",
     "website": "https://uni-boston.com/",
-    "lat": 42.348675799999995,
+    "bookingUrl": "https://www.opentable.com/r/uni-boston",
+    "lat": 42.3486758,
     "lon": -71.0887998,
     "program": "chase"
   },
@@ -467,7 +509,8 @@
     "city": "Boston",
     "cuisine": "Peruvian",
     "neighborhood": "Cambridge",
-    "website": "http://www.laroyalcambridge.com/",
+    "website": "https://www.laroyalcambridge.com/",
+    "bookingUrl": "https://www.opentable.com/r/la-royal-cambridge",
     "lat": 42.3828679,
     "lon": -71.1315211,
     "program": "chase"
@@ -479,8 +522,9 @@
     "cuisine": "Peruvian",
     "neighborhood": "Somerville",
     "website": "https://celesteunionsquare.com/",
+    "bookingUrl": "https://www.opentable.com/r/celeste-somerville",
     "lat": 42.381347,
-    "lon": -71.09728660000002,
+    "lon": -71.0972866,
     "program": "chase"
   },
   {
@@ -490,6 +534,7 @@
     "cuisine": "Seafood",
     "neighborhood": "Providence",
     "website": "https://www.hemenwaysrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/hemenways",
     "lat": 41.8242135,
     "lon": -71.4069133,
     "program": "chase"
@@ -501,6 +546,7 @@
     "cuisine": "American",
     "neighborhood": "Providence",
     "website": "https://www.watermangrille.com/",
+    "bookingUrl": "https://www.opentable.com/waterman-grille",
     "lat": 41.827296,
     "lon": -71.38099,
     "program": "chase"
@@ -512,6 +558,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Providence",
     "website": "https://graciesprov.com/",
+    "bookingUrl": "https://www.opentable.com/gracies-providence",
     "lat": 41.822057,
     "lon": -71.4158905,
     "program": "chase"
@@ -522,7 +569,8 @@
     "city": "Boston",
     "cuisine": "Peruvian",
     "neighborhood": "Providence",
-    "website": "http://www.losandesri.com/",
+    "website": "https://www.losandesri.com/",
+    "bookingUrl": "https://www.opentable.com/r/los-andes-restaurant-providence",
     "lat": 41.8332623,
     "lon": -71.4373663,
     "program": "chase"
@@ -534,6 +582,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Downtown Charleston",
     "website": "https://www.oaksteakhouserestaurant.com/location/oak-steakhouse-charleston/?y_source=1_ODE4NDQwNTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "bookingUrl": "https://www.opentable.com/oak-steakhouse",
     "lat": 32.7766196,
     "lon": -79.9278501,
     "program": "chase"
@@ -544,7 +593,8 @@
     "city": "Charleston",
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown Charleston",
-    "website": "http://www.tempestcharleston.com/",
+    "website": "https://www.tempestcharleston.com/",
+    "bookingUrl": "https://www.opentable.com/r/tempest-charleston",
     "lat": 32.7812976,
     "lon": -79.9276659,
     "program": "chase"
@@ -555,9 +605,10 @@
     "city": "Charleston",
     "cuisine": "American",
     "neighborhood": "Downtown Charleston",
-    "website": "http://southboundchs.com/",
-    "lat": 32.79018990000001,
-    "lon": -79.94508920000001,
+    "website": "https://southboundchs.com/",
+    "bookingUrl": "https://www.opentable.com/r/southbound-charleston",
+    "lat": 32.7901899,
+    "lon": -79.9450892,
     "program": "chase"
   },
   {
@@ -566,9 +617,10 @@
     "city": "Charleston",
     "cuisine": "Pakistani",
     "neighborhood": "Downtown Charleston",
-    "website": "http://maamsaabchs.com/",
-    "lat": 32.783343099999996,
-    "lon": -79.93216749999999,
+    "website": "https://maamsaabchs.com/",
+    "bookingUrl": "https://www.opentable.com/r/maam-saab-charleston",
+    "lat": 32.7833431,
+    "lon": -79.9321675,
     "program": "chase"
   },
   {
@@ -577,7 +629,8 @@
     "city": "Charlotte",
     "cuisine": "French",
     "neighborhood": "Uptown",
-    "website": "http://www.labellehelenerestaurant.com/",
+    "website": "https://www.labellehelenerestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/la-belle-helene-charlotte-2",
     "lat": 35.2256085,
     "lon": -80.8457662,
     "program": "chase"
@@ -588,9 +641,10 @@
     "city": "Charlotte",
     "cuisine": "Seafood",
     "neighborhood": "Uptown",
-    "website": "http://www.finandfino.com/",
-    "lat": 35.224554399999995,
-    "lon": -80.84828949999999,
+    "website": "https://www.finandfino.com/",
+    "bookingUrl": "https://www.opentable.com/r/fin-and-fino-uptown-charlotte",
+    "lat": 35.2245544,
+    "lon": -80.8482895,
     "program": "chase"
   },
   {
@@ -599,7 +653,8 @@
     "city": "Charlotte",
     "cuisine": "Contemporary American",
     "neighborhood": "Elizabeth",
-    "website": "http://www.customshopfood.com/",
+    "website": "https://www.customshopfood.com/",
+    "bookingUrl": "https://www.opentable.com/r/rally-pickleball-charlotte",
     "lat": 35.2138889,
     "lon": -80.8263889,
     "program": "chase"
@@ -611,8 +666,9 @@
     "cuisine": "Southern",
     "neighborhood": "NODA",
     "website": "https://thegoodyearhouse.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-goodyear-house-charlotte",
     "lat": 35.2460173,
-    "lon": -80.80715029999999,
+    "lon": -80.8071503,
     "program": "chase"
   },
   {
@@ -622,8 +678,9 @@
     "cuisine": "American",
     "neighborhood": "Ballantyne",
     "website": "https://www.roosterskitchen.com/ballantyne",
+    "bookingUrl": "https://www.opentable.com/r/roosters-wood-fired-kitchen-south-park-charlotte",
     "lat": 35.0573504,
-    "lon": -80.84518539999999,
+    "lon": -80.8451854,
     "program": "chase"
   },
   {
@@ -633,8 +690,9 @@
     "cuisine": "Contemporary Italian",
     "neighborhood": "West Loop",
     "website": "https://www.allavitachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/alla-vita-chicago",
     "lat": 41.884577,
-    "lon": -87.64252139999999,
+    "lon": -87.6425214,
     "program": "chase"
   },
   {
@@ -643,7 +701,8 @@
     "city": "Chicago",
     "cuisine": "Central Asian",
     "neighborhood": "Bucktown / Wicker Park",
-    "website": "http://mottstreetchicago.com/",
+    "website": "https://mottstreetchicago.com/",
+    "bookingUrl": "https://www.opentable.com/mott-street",
     "lat": 41.9071223,
     "lon": -87.6672277,
     "program": "chase"
@@ -655,6 +714,7 @@
     "cuisine": "Japanese",
     "neighborhood": "Logan Square",
     "website": "https://akahoshiramen.com/",
+    "bookingUrl": "https://www.opentable.com/r/akahoshi-ramen-chicago",
     "lat": 41.9240215,
     "lon": -87.6975223,
     "program": "chase"
@@ -666,8 +726,9 @@
     "cuisine": "Mexican",
     "neighborhood": "Bucktown / Wicker Park",
     "website": "https://www.mirrachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/mirra-chicago",
     "lat": 41.9179598,
-    "lon": -87.67737819999999,
+    "lon": -87.6773782,
     "program": "chase"
   },
   {
@@ -677,6 +738,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "West Loop",
     "website": "https://www.fiorettasteak.com/",
+    "bookingUrl": "https://www.opentable.com/r/fioretta-chicago",
     "lat": 41.8873453,
     "lon": -87.6511929,
     "program": "chase"
@@ -688,6 +750,7 @@
     "cuisine": "Japanese",
     "neighborhood": "West Loop",
     "website": "https://www.momotarochicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/momotaro-chicago",
     "lat": 41.885886,
     "lon": -87.64845,
     "program": "chase"
@@ -699,8 +762,9 @@
     "cuisine": "American",
     "neighborhood": "Logan Square",
     "website": "https://www.daisieschicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/daisies-chicago",
     "lat": 41.9244424,
-    "lon": -87.69961479999999,
+    "lon": -87.6996148,
     "program": "chase"
   },
   {
@@ -709,8 +773,9 @@
     "city": "Chicago",
     "cuisine": "Contemporary American",
     "neighborhood": "Lincoln Park",
-    "website": "http://www.bokachicago.com/",
-    "lat": 41.913555099999996,
+    "website": "https://www.bokachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/boka-chicago",
+    "lat": 41.9135551,
     "lon": -87.6480103,
     "program": "chase"
   },
@@ -720,7 +785,8 @@
     "city": "Chicago",
     "cuisine": "Mediterranean",
     "neighborhood": "West Loop",
-    "website": "http://www.avecrestaurant.com/",
+    "website": "https://www.avecrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/bar-avec",
     "lat": 41.8842861,
     "lon": -87.643401,
     "program": "chase"
@@ -732,8 +798,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "River North",
     "website": "https://thehawksmoor.com/us/chicago",
+    "bookingUrl": "https://www.opentable.com/r/hawksmoor-chicago",
     "lat": 41.8909552,
-    "lon": -87.63302039999999,
+    "lon": -87.6330204,
     "program": "chase"
   },
   {
@@ -743,6 +810,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "West Town",
     "website": "https://www.braserochicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/brasero-chicago",
     "lat": 41.895705,
     "lon": -87.6702143,
     "program": "chase"
@@ -753,7 +821,8 @@
     "city": "Chicago",
     "cuisine": "Mediterranean",
     "neighborhood": "River North",
-    "website": "http://www.avecrestaurant.com/",
+    "website": "https://www.avecrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/avec-river-north-chicago",
     "lat": 41.8938571,
     "lon": -87.6329428,
     "program": "chase"
@@ -764,7 +833,8 @@
     "city": "Chicago",
     "cuisine": "Steakhouse",
     "neighborhood": "River North",
-    "website": "http://www.chicagocutsteakhouse.com/",
+    "website": "https://www.chicagocutsteakhouse.com/",
+    "bookingUrl": "https://www.opentable.com/chicago-cut-steakhouse",
     "lat": 41.8880993,
     "lon": -87.6327417,
     "program": "chase"
@@ -775,9 +845,10 @@
     "city": "Chicago",
     "cuisine": "Dining Bar",
     "neighborhood": "West Loop",
-    "website": "http://barkumiko.com/",
+    "website": "https://barkumiko.com/",
+    "bookingUrl": "https://www.opentable.com/r/kumiko-chicago",
     "lat": 41.8858561,
-    "lon": -87.64409479999999,
+    "lon": -87.6440948,
     "program": "chase"
   },
   {
@@ -786,7 +857,8 @@
     "city": "Chicago",
     "cuisine": "Steakhouse",
     "neighborhood": "River North",
-    "website": "http://asadorbastian.com/",
+    "website": "https://asadorbastian.com/",
+    "bookingUrl": "https://www.opentable.com/r/asador-bastian-chicago",
     "lat": 41.8940917,
     "lon": -87.6348275,
     "program": "chase"
@@ -797,8 +869,9 @@
     "city": "Chicago",
     "cuisine": "Indian",
     "neighborhood": "Avondale",
-    "website": "http://thattu.com/",
-    "lat": 41.938395799999995,
+    "website": "https://thattu.com/",
+    "bookingUrl": "https://www.opentable.com/r/thattu-chicago",
+    "lat": 41.9383958,
     "lon": -87.6931098,
     "program": "chase"
   },
@@ -808,7 +881,8 @@
     "city": "Chicago",
     "cuisine": "American",
     "neighborhood": "West Loop",
-    "website": "http://thepublicanrestaurant.com/",
+    "website": "https://thepublicanrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-publican-chicago",
     "lat": 41.8866349,
     "lon": -87.6488498,
     "program": "chase"
@@ -820,6 +894,7 @@
     "cuisine": "Ukrainian",
     "neighborhood": "Avondale",
     "website": "https://www.anelyarestaurant.com/menu",
+    "bookingUrl": "https://www.opentable.com/r/anelya-chicago",
     "lat": 41.9442056,
     "lon": -87.7056575,
     "program": "chase"
@@ -831,6 +906,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Bronzeville",
     "website": "https://www.bronzevillewinery.com/",
+    "bookingUrl": "https://www.opentable.com/r/bronzeville-winery-chicago",
     "lat": 41.8142125,
     "lon": -87.6069522,
     "program": "chase"
@@ -841,8 +917,9 @@
     "city": "Chicago",
     "cuisine": "Contemporary American",
     "neighborhood": "Bucktown / Wicker Park",
-    "website": "http://www.valhallachicago.com/",
-    "lat": 41.903483900000005,
+    "website": "https://www.valhallachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/valhalla",
+    "lat": 41.9034839,
     "lon": -87.6782037,
     "program": "chase"
   },
@@ -852,9 +929,10 @@
     "city": "Chicago",
     "cuisine": "Cocktail Bar",
     "neighborhood": "West Loop",
-    "website": "http://www.abarestaurants.com/",
-    "lat": 41.887004999999995,
-    "lon": -87.64885009999999,
+    "website": "https://www.abarestaurants.com/",
+    "bookingUrl": "https://www.opentable.com/r/sushi-san-lincoln-park-chicago",
+    "lat": 41.887005,
+    "lon": -87.6488501,
     "program": "chase"
   },
   {
@@ -864,8 +942,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "West Loop",
     "website": "https://www.sepiachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/sepia-chicago",
     "lat": 41.8839596,
-    "lon": -87.64257889999999,
+    "lon": -87.6425789,
     "program": "chase"
   },
   {
@@ -875,6 +954,7 @@
     "cuisine": "Mexican",
     "neighborhood": "Pilsen",
     "website": "https://www.mariscossanpedro.com/",
+    "bookingUrl": "https://www.opentable.com/r/mariscos-san-pedro-chicago",
     "lat": 41.8578324,
     "lon": -87.6575108,
     "program": "chase"
@@ -885,18 +965,20 @@
     "city": "Chicago",
     "cuisine": "American",
     "neighborhood": "West Loop",
-    "website": "http://www.ever-restaurant.com/",
-    "lat": 41.886931399999995,
+    "website": "https://www.ever-restaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/ever-chicago",
+    "lat": 41.8869314,
     "lon": -87.6604084,
     "program": "chase"
   },
   {
-    "name": "PERILLA steakhouse - Riverwalk",
+    "name": "PERILLA Korean Steakhouse - Riverwalk",
     "address": "225 N Wabash Ave, Chicago, IL 60601, USA",
     "city": "Chicago",
     "cuisine": "Korean",
     "neighborhood": "Downtown / Loop",
     "website": "https://perillachicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/perilla-korean-steakhouse-chicago",
     "lat": 41.8866272,
     "lon": -87.6260811,
     "program": "chase"
@@ -907,7 +989,8 @@
     "city": "Chicago",
     "cuisine": "Brewery",
     "neighborhood": "South Loop",
-    "website": "http://www.moodytongue.com/",
+    "website": "https://www.moodytongue.com/",
+    "bookingUrl": "https://www.opentable.com/r/moody-tongue-brewing-company-chicago",
     "lat": 41.8469335,
     "lon": -87.6252206,
     "program": "chase"
@@ -918,7 +1001,8 @@
     "city": "Chicago",
     "cuisine": "Latin American",
     "neighborhood": "Uptown",
-    "website": "http://carinochicago.com/",
+    "website": "https://carinochicago.com/",
+    "bookingUrl": "https://www.opentable.com/r/carino-chicago-2",
     "lat": 41.966924,
     "lon": -87.6587572,
     "program": "chase"
@@ -930,6 +1014,7 @@
     "cuisine": "Cambodian",
     "neighborhood": "North of Foster / Rogers Park",
     "website": "https://khmai-fine-dining.com/",
+    "bookingUrl": "https://www.opentable.com/r/khmai-chicago",
     "lat": 42.0023998,
     "lon": -87.6609823,
     "program": "chase"
@@ -941,7 +1026,8 @@
     "cuisine": "Tapas / Small Plates",
     "neighborhood": "Cincinnati",
     "website": "https://www.mitas.co/",
-    "lat": 39.101118299999996,
+    "bookingUrl": "https://www.opentable.com/r/mitas-cincinnati",
+    "lat": 39.1011183,
     "lon": -84.5148646,
     "program": "chase"
   },
@@ -951,9 +1037,10 @@
     "city": "Cincinnati",
     "cuisine": "American",
     "neighborhood": "Over the Rhine",
-    "website": "http://www.fiveonvine.com/",
+    "website": "https://www.fiveonvine.com/",
+    "bookingUrl": "https://www.opentable.com/r/five-kitchen-and-bar-cincinnati",
     "lat": 39.1101289,
-    "lon": -84.51505039999999,
+    "lon": -84.5150504,
     "program": "chase"
   },
   {
@@ -962,8 +1049,9 @@
     "city": "Cleveland",
     "cuisine": "Italian",
     "neighborhood": "Moreland Hills",
-    "website": "http://www.flourrestaurant.com/",
-    "lat": 41.455110999999995,
+    "website": "https://www.flourrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/flour-moreland-hills",
+    "lat": 41.455111,
     "lon": -81.443116,
     "program": "chase"
   },
@@ -973,9 +1061,10 @@
     "city": "Cleveland",
     "cuisine": "Seafood",
     "neighborhood": "Downtown Cleveland",
-    "website": "http://www.bluepointgrille.com/",
+    "website": "https://www.bluepointgrille.com/",
+    "bookingUrl": "https://www.opentable.com/r/rosewood-grill-hudson",
     "lat": 41.4996492,
-    "lon": -81.69893600000002,
+    "lon": -81.698936,
     "program": "chase"
   },
   {
@@ -985,6 +1074,7 @@
     "cuisine": "French",
     "neighborhood": "University Circle",
     "website": "https://edwinsrestaurant.org/",
+    "bookingUrl": "https://www.opentable.com/r/friars-table-cleveland",
     "lat": 41.5013436,
     "lon": -81.5952513,
     "program": "chase"
@@ -996,6 +1086,7 @@
     "cuisine": "American",
     "neighborhood": "Tremont",
     "website": "https://danteboccuzzi.com/dante-tremont/",
+    "bookingUrl": "https://www.opentable.com/r/dante-cleveland",
     "lat": 41.4816194,
     "lon": -81.6863606,
     "program": "chase"
@@ -1007,8 +1098,9 @@
     "cuisine": "Sushi",
     "neighborhood": "Tremont",
     "website": "",
+    "bookingUrl": "https://www.opentable.com/r/ginko-cleveland",
     "lat": 41.4815894,
-    "lon": -81.68644119999999,
+    "lon": -81.6864412,
     "program": "chase"
   },
   {
@@ -1018,7 +1110,8 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Columbus",
     "website": "https://butcherandrose.com/",
-    "lat": 39.96234030000001,
+    "bookingUrl": "https://www.opentable.com/r/butcher-and-rose-columbus",
+    "lat": 39.9623403,
     "lon": -82.9966195,
     "program": "chase"
   },
@@ -1029,6 +1122,7 @@
     "cuisine": "Italian",
     "neighborhood": "German Village",
     "website": "https://centogermanvillage.com/",
+    "bookingUrl": "https://www.opentable.com/r/cento-german-village-columbus",
     "lat": 39.9502525,
     "lon": -82.9957828,
     "program": "chase"
@@ -1040,8 +1134,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Dublin",
     "website": "https://tuccisdublin.com/",
+    "bookingUrl": "https://www.opentable.com/r/tuccis-dublin",
     "lat": 40.1002547,
-    "lon": -83.11442760000001,
+    "lon": -83.1144276,
     "program": "chase"
   },
   {
@@ -1051,6 +1146,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Easton",
     "website": "https://delmarmediterranean.com/locations-menus/columbus/",
+    "bookingUrl": "https://www.opentable.com/r/del-mar-easton",
     "lat": 40.0526009,
     "lon": -82.9152778,
     "program": "chase"
@@ -1062,7 +1158,8 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Fairfield",
     "website": "http://eshrestaurant.com/",
-    "lat": 41.161454299999995,
+    "bookingUrl": "https://www.opentable.com/r/little-owl-west-village",
+    "lat": 41.1614543,
     "lon": -73.2359132,
     "program": "chase"
   },
@@ -1073,7 +1170,8 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Southold",
     "website": "https://www.northforktableandinn.com/",
-    "lat": 41.068110399999995,
+    "bookingUrl": "https://www.opentable.com/the-north-fork-table-and-inn",
+    "lat": 41.0681104,
     "lon": -72.4171602,
     "program": "chase"
   },
@@ -1084,8 +1182,9 @@
     "cuisine": "American",
     "neighborhood": "Knox / Henderson",
     "website": "https://themistercharles.com/?utm_source=gmb_site&utm_medium=organic",
+    "bookingUrl": "https://www.opentable.com/r/mister-charles-dallas",
     "lat": 32.8235287,
-    "lon": -96.79026359999999,
+    "lon": -96.7902636,
     "program": "chase"
   },
   {
@@ -1095,6 +1194,7 @@
     "cuisine": "Contemporary Mexican",
     "neighborhood": "Park Cities",
     "website": "http://www.jose.mx/",
+    "bookingUrl": "https://www.opentable.com/r/jose-dallas",
     "lat": 32.8515498,
     "lon": -96.8255996,
     "program": "chase"
@@ -1106,6 +1206,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Uptown",
     "website": "http://www.nick-sams.com/",
+    "bookingUrl": "https://www.opentable.com/nick-and-sams-steakhouse",
     "lat": 32.7984933,
     "lon": -96.8074407,
     "program": "chase"
@@ -1117,8 +1218,9 @@
     "cuisine": "Italian",
     "neighborhood": "Park Cities",
     "website": "http://www.sempresister.com/?utm_source=gmb_site&utm_medium=organic",
-    "lat": 32.823357800000004,
-    "lon": -96.77000509999999,
+    "bookingUrl": "https://www.opentable.com/r/sister-dallas",
+    "lat": 32.8233578,
+    "lon": -96.7700051,
     "program": "chase"
   },
   {
@@ -1128,8 +1230,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Design District",
     "website": "http://www.townhearth.com/",
+    "bookingUrl": "https://www.opentable.com/r/town-hearth-dallas",
     "lat": 32.7923379,
-    "lon": -96.82214259999999,
+    "lon": -96.8221426,
     "program": "chase"
   },
   {
@@ -1139,8 +1242,9 @@
     "cuisine": "Japanese",
     "neighborhood": "Arts District",
     "website": "http://www.tei-an.com/",
+    "bookingUrl": "https://www.opentable.com/r/tei-tei-robata-bar-dallas",
     "lat": 32.792057,
-    "lon": -96.79550470000001,
+    "lon": -96.7955047,
     "program": "chase"
   },
   {
@@ -1150,6 +1254,7 @@
     "cuisine": "Mexican",
     "neighborhood": "West Dallas",
     "website": "http://www.elcarloselegante.com/?utm_source=gmb_site&utm_medium=organic",
+    "bookingUrl": "https://www.opentable.com/r/el-carlos-elegante-dallas",
     "lat": 32.7901768,
     "lon": -96.8199921,
     "program": "chase"
@@ -1161,6 +1266,7 @@
     "cuisine": "Italian",
     "neighborhood": "Downtown / LoDo",
     "website": "https://www.tavernettadenver.com/",
+    "bookingUrl": "https://www.opentable.com/r/tavernetta-denver",
     "lat": 39.7530169,
     "lon": -105.0019674,
     "program": "chase"
@@ -1172,6 +1278,7 @@
     "cuisine": "Contemporary Mexican",
     "neighborhood": "LoHi",
     "website": "https://www.almalohidenver.com/",
+    "bookingUrl": "https://www.opentable.com/r/alma-fonda-fina-denver",
     "lat": 39.7580312,
     "lon": -105.0116729,
     "program": "chase"
@@ -1183,6 +1290,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Downtown / LoDo",
     "website": "http://www.riojadenver.com/",
+    "bookingUrl": "https://www.opentable.com/r/rioja-denver",
     "lat": 39.7479417,
     "lon": -104.9994667,
     "program": "chase"
@@ -1194,8 +1302,9 @@
     "cuisine": "Japanese",
     "neighborhood": "LoHi",
     "website": "https://www.kumoyadenver.com/",
+    "bookingUrl": "https://www.opentable.com/r/kumoya-denver",
     "lat": 39.7619216,
-    "lon": -105.01600990000001,
+    "lon": -105.0160099,
     "program": "chase"
   },
   {
@@ -1205,6 +1314,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "LoHi",
     "website": "https://www.a5denver.com/",
+    "bookingUrl": "https://www.opentable.com/r/a5-steakhouse-denver",
     "lat": 39.7502674,
     "lon": -105.001548,
     "program": "chase"
@@ -1216,6 +1326,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Highlands",
     "website": "https://www.ashkaradenver.com/",
+    "bookingUrl": "https://www.opentable.com/r/ashkara-denver",
     "lat": 39.7633856,
     "lon": -105.0115857,
     "program": "chase"
@@ -1227,19 +1338,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown / LoDo",
     "website": "http://brutodenver.com/",
-    "lat": 39.752778299999996,
+    "bookingUrl": "https://www.opentable.com/r/bruto-denver",
+    "lat": 39.7527783,
     "lon": -104.996991,
-    "program": "chase"
-  },
-  {
-    "name": "Sunday Vinyl",
-    "address": "1803 16th St Mall, Denver, CO 80202, USA",
-    "city": "Denver",
-    "cuisine": "Wine Bar",
-    "neighborhood": "Downtown / LoDo",
-    "website": "https://www.sundayvinyl.com/",
-    "lat": 39.75307,
-    "lon": -105.0015306,
     "program": "chase"
   },
   {
@@ -1249,8 +1350,9 @@
     "cuisine": "Mexican",
     "neighborhood": "Boulder",
     "website": "https://cozobifondafina.com/",
-    "lat": 40.016380399999996,
-    "lon": -105.28325679999999,
+    "bookingUrl": "https://www.opentable.com/r/cozobi-fonda-fina-boulder",
+    "lat": 40.0163804,
+    "lon": -105.2832568,
     "program": "chase"
   },
   {
@@ -1260,6 +1362,7 @@
     "cuisine": "Italian",
     "neighborhood": "Boulder",
     "website": "https://www.frascafoodandwine.com/",
+    "bookingUrl": "https://www.opentable.com/r/frasca-food-and-wine",
     "lat": 40.0192049,
     "lon": -105.2724745,
     "program": "chase"
@@ -1271,6 +1374,7 @@
     "cuisine": "Italian",
     "neighborhood": "Detroit",
     "website": "https://www.oakandreel.com/",
+    "bookingUrl": "https://www.opentable.com/r/oak-and-reel-detroit",
     "lat": 42.3721935,
     "lon": -83.066938,
     "program": "chase"
@@ -1282,7 +1386,8 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Detroit",
     "website": "http://bardadetroit.com/",
-    "lat": 42.348522599999995,
+    "bookingUrl": "https://www.opentable.com/r/barda-detroit",
+    "lat": 42.3485226,
     "lon": -83.0879866,
     "program": "chase"
   },
@@ -1293,8 +1398,9 @@
     "cuisine": "Contemporary French / American",
     "neighborhood": "Detroit",
     "website": "https://www.barpigalle.com/",
+    "bookingUrl": "https://www.opentable.com/r/bar-pigalle-detroit",
     "lat": 42.3449494,
-    "lon": -83.05399460000001,
+    "lon": -83.0539946,
     "program": "chase"
   },
   {
@@ -1304,8 +1410,9 @@
     "cuisine": "East African",
     "neighborhood": "Detroit",
     "website": "http://www.baobabfare.com/",
+    "bookingUrl": "https://www.opentable.com/r/baobab-fare-detroit",
     "lat": 42.3701364,
-    "lon": -83.07296889999999,
+    "lon": -83.0729689,
     "program": "chase"
   },
   {
@@ -1315,6 +1422,7 @@
     "cuisine": "Contemporary European",
     "neighborhood": "Detroit",
     "website": "https://www.ladder4winebar.com/",
+    "bookingUrl": "https://www.opentable.com/r/ladder-4-wine-bar-detroit",
     "lat": 42.3335705,
     "lon": -83.0980565,
     "program": "chase"
@@ -1326,6 +1434,7 @@
     "cuisine": "American",
     "neighborhood": "Greenville",
     "website": "http://campgvl.com/",
+    "bookingUrl": "https://www.opentable.com/r/camp-greenville",
     "lat": 34.8468004,
     "lon": -82.3999475,
     "program": "chase"
@@ -1337,7 +1446,8 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Greenville",
     "website": "https://sobys.com/",
-    "lat": 34.848177799999995,
+    "bookingUrl": "https://www.opentable.com/sobys",
+    "lat": 34.8481778,
     "lon": -82.3998694,
     "program": "chase"
   },
@@ -1348,7 +1458,8 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Greenville",
     "website": "http://www.thelazygoat.com/",
-    "lat": 34.846561099999995,
+    "bookingUrl": "https://www.opentable.com/the-lazy-goat",
+    "lat": 34.8465611,
     "lon": -82.402574,
     "program": "chase"
   },
@@ -1359,8 +1470,9 @@
     "cuisine": "Vietnamese",
     "neighborhood": "Kaimuki",
     "website": "http://thepigandthelady.com/",
-    "lat": 21.282478899999997,
-    "lon": -157.79793479999998,
+    "bookingUrl": "https://www.opentable.com/r/the-pig-and-the-lady",
+    "lat": 21.2824789,
+    "lon": -157.7979348,
     "program": "chase"
   },
   {
@@ -1370,7 +1482,8 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Waikiki",
     "website": "https://www.kaimana.com/dine/hau-tree/",
-    "lat": 21.263361099999997,
+    "bookingUrl": "https://www.opentable.com/r/hau-tree",
+    "lat": 21.2633611,
     "lon": -157.821257,
     "program": "chase"
   },
@@ -1381,7 +1494,8 @@
     "cuisine": "Seafood",
     "neighborhood": "Honolulu",
     "website": "http://mwrestaurant.com/",
-    "lat": 21.299630099999998,
+    "bookingUrl": "https://www.opentable.com/r/mw-restaurant-honolulu",
+    "lat": 21.2996301,
     "lon": -157.8526938,
     "program": "chase"
   },
@@ -1392,8 +1506,9 @@
     "cuisine": "Japanese",
     "neighborhood": "Kaimuki",
     "website": "http://www.kaimukishokudo.com/",
+    "bookingUrl": "https://www.opentable.com/r/kaimuki-shokudo-honolulu",
     "lat": 21.2822993,
-    "lon": -157.80032269999998,
+    "lon": -157.8003227,
     "program": "chase"
   },
   {
@@ -1403,8 +1518,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown / Chinatown",
     "website": "http://www.restaurantsenia.com/",
+    "bookingUrl": "https://www.opentable.com/r/senia-honolulu",
     "lat": 21.3113523,
-    "lon": -157.86362309999998,
+    "lon": -157.8636231,
     "program": "chase"
   },
   {
@@ -1414,6 +1530,7 @@
     "cuisine": "Asian",
     "neighborhood": "Wailea",
     "website": "https://www.lineagemaui.com/",
+    "bookingUrl": "https://www.opentable.com/r/lineage-maui-wailea",
     "lat": 20.6874085,
     "lon": -156.4398555,
     "program": "chase"
@@ -1425,6 +1542,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Montrose",
     "website": "https://www.rosiecannonball.com/",
+    "bookingUrl": "https://www.opentable.com/r/rosie-cannonball-houston",
     "lat": 29.7430583,
     "lon": -95.4003808,
     "program": "chase"
@@ -1436,8 +1554,9 @@
     "cuisine": "Spanish",
     "neighborhood": "Montrose",
     "website": "http://bcnhouston.com/",
+    "bookingUrl": "https://www.opentable.com/r/bcn-taste-and-tradition",
     "lat": 29.7349267,
-    "lon": -95.39015649999999,
+    "lon": -95.3901565,
     "program": "chase"
   },
   {
@@ -1447,8 +1566,9 @@
     "cuisine": "Indian",
     "neighborhood": "Upper Kirby / Shepherd Corridor",
     "website": "http://kiranshouston.com/",
+    "bookingUrl": "https://www.opentable.com/r/kirans-houston",
     "lat": 29.7337915,
-    "lon": -95.42240640000001,
+    "lon": -95.4224064,
     "program": "chase"
   },
   {
@@ -1458,8 +1578,9 @@
     "cuisine": "Asian",
     "neighborhood": "Heights / Washington",
     "website": "https://www.agnesandsherman.com/",
-    "lat": 29.802722199999998,
-    "lon": -95.40104439999999,
+    "bookingUrl": "https://www.opentable.com/r/agnes-and-sherman-houston",
+    "lat": 29.8027222,
+    "lon": -95.4010444,
     "program": "chase"
   },
   {
@@ -1469,6 +1590,7 @@
     "cuisine": "African",
     "neighborhood": "Montrose",
     "website": "https://chopnblok.co/",
+    "bookingUrl": "https://www.opentable.com/r/chopnblok-houston",
     "lat": 29.7442282,
     "lon": -95.387676,
     "program": "chase"
@@ -1480,7 +1602,8 @@
     "cuisine": "French",
     "neighborhood": "River Oaks",
     "website": "http://brasserie19.com/",
-    "lat": 29.753420999999996,
+    "bookingUrl": "https://www.opentable.com/brasserie-19",
+    "lat": 29.753421,
     "lon": -95.407249,
     "program": "chase"
   },
@@ -1491,8 +1614,9 @@
     "cuisine": "Mexican",
     "neighborhood": "W. University / Med Center",
     "website": "https://maximo-htx.com/",
-    "lat": 29.716123300000003,
-    "lon": -95.43359009999999,
+    "bookingUrl": "https://www.opentable.com/r/maximo-canteen-west-university-place",
+    "lat": 29.7161233,
+    "lon": -95.4335901,
     "program": "chase"
   },
   {
@@ -1502,7 +1626,8 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Montrose",
     "website": "https://www.turnerscut.com/",
-    "lat": 29.758062600000002,
+    "bookingUrl": "https://www.opentable.com/r/turners-cut-houston",
+    "lat": 29.7580626,
     "lon": -95.4051712,
     "program": "chase"
   },
@@ -1513,6 +1638,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Montrose",
     "website": "https://www.marchrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/march-houston",
     "lat": 29.7431485,
     "lon": -95.4003814,
     "program": "chase"
@@ -1524,6 +1650,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Montrose",
     "website": "https://www.oktorestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/okto-houston",
     "lat": 29.7450022,
     "lon": -95.3902626,
     "program": "chase"
@@ -1535,7 +1662,8 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Southeast Houston",
     "website": "https://miltonandlees.com/",
-    "lat": 29.719555500000002,
+    "bookingUrl": "https://www.opentable.com/r/lees-den-houston",
+    "lat": 29.7195555,
     "lon": -95.4163497,
     "program": "chase"
   },
@@ -1546,6 +1674,7 @@
     "cuisine": "Thai",
     "neighborhood": "East End",
     "website": "http://www.streettokitchen.vip/",
+    "bookingUrl": "https://www.opentable.com/r/street-to-kitchen-houston",
     "lat": 29.7487095,
     "lon": -95.3408187,
     "program": "chase"
@@ -1557,8 +1686,9 @@
     "cuisine": "Contemporary Italian",
     "neighborhood": "Baymeadows",
     "website": "http://midtowntable.com/",
-    "lat": 30.245593699999997,
-    "lon": -81.53621600000001,
+    "bookingUrl": "https://www.opentable.com/r/midtown-table-jacksonville",
+    "lat": 30.2455937,
+    "lon": -81.536216,
     "program": "chase"
   },
   {
@@ -1568,6 +1698,7 @@
     "cuisine": "Contemporary European",
     "neighborhood": "Jacksonville",
     "website": "http://www.matthewsrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/matthews-restaurant-jacksonville",
     "lat": 30.3039563,
     "lon": -81.6522607,
     "program": "chase"
@@ -1579,8 +1710,9 @@
     "cuisine": "Contemporary European",
     "neighborhood": "Jacksonville",
     "website": "http://ruesaintmarc.com/",
-    "lat": 30.303830499999997,
-    "lon": -81.65268789999999,
+    "bookingUrl": "https://www.opentable.com/r/rue-saint-marc-jacksonville",
+    "lat": 30.3038305,
+    "lon": -81.6526879,
     "program": "chase"
   },
   {
@@ -1590,6 +1722,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Crossroads / Freight District / Boulevard",
     "website": "https://www.pierponts.com/",
+    "bookingUrl": "https://www.opentable.com/r/pierponts-at-union-station-kansas-city",
     "lat": 39.0850273,
     "lon": -94.5849205,
     "program": "chase"
@@ -1601,6 +1734,7 @@
     "cuisine": "Modern European",
     "neighborhood": "Prairie Village",
     "website": "http://www.storykc.com/",
+    "bookingUrl": "https://www.opentable.com/r/story-prairie-village",
     "lat": 39.002052,
     "lon": -94.6312511,
     "program": "chase"
@@ -1612,6 +1746,7 @@
     "cuisine": "Farm-to-table",
     "neighborhood": "Kansas City",
     "website": "http://www.rm39.com/",
+    "bookingUrl": "https://www.opentable.com/r/room-39-midtown-kansas-city",
     "lat": 39.0571096,
     "lon": -94.6059101,
     "program": "chase"
@@ -1623,6 +1758,7 @@
     "cuisine": "American",
     "neighborhood": "Plaza / Brookside",
     "website": "https://jjsrestaurantkc.com/",
+    "bookingUrl": "https://www.opentable.com/r/jjs-restaurant-kansas-city",
     "lat": 39.0405106,
     "lon": -94.5976974,
     "program": "chase"
@@ -1634,8 +1770,9 @@
     "cuisine": "Japanese",
     "neighborhood": "Caesars Palace",
     "website": "https://www.caesars.com/caesars-palace/restaurants/nobu?utm_campaign=gmb&utm_source=goolge&utm_medium=local&utm_term=CLV18&utm_content=restaurant&y_source=1_NDM2Njg3NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-    "lat": 36.116848999999995,
-    "lon": -115.17530989999999,
+    "bookingUrl": "https://www.opentable.com/nobu-caesars-palace-las-vegas",
+    "lat": 36.116849,
+    "lon": -115.1753099,
     "program": "chase"
   },
   {
@@ -1645,8 +1782,9 @@
     "cuisine": "American",
     "neighborhood": "Caesars Palace",
     "website": "https://www.caesars.com/caesars-palace/restaurants/gordon-ramsay-hells-kitchen?utm_campaign=gmb&utm_source=goolge&utm_medium=local&utm_term=CLV101&utm_content=restaurant&y_source=1_ODkwODg0NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "bookingUrl": "https://www.opentable.com/r/hells-kitchen-caesars-palace-las-vegas",
     "lat": 36.1157296,
-    "lon": -115.17323209999999,
+    "lon": -115.1732321,
     "program": "chase"
   },
   {
@@ -1656,7 +1794,8 @@
     "cuisine": "French American",
     "neighborhood": "Paris Hotel and Casino",
     "website": "https://www.caesars.com/paris-las-vegas/restaurants/vanderpump-a-paris?utm_campaign=gmb&utm_source=goolge&utm_medium=local&utm_term=PLV64&utm_content=restaurant&y_source=1_MzQ5MjUzNDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-    "lat": 36.112292599999996,
+    "bookingUrl": "https://www.opentable.com/r/vanderpump-a-paris-las-vegas",
+    "lat": 36.1122926,
     "lon": -115.1707358,
     "program": "chase"
   },
@@ -1667,8 +1806,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "The STRAT Hotel & Casino",
     "website": "https://www.thestrat.com/restaurants/top-of-the-world?utm_source=gmb&utm_medium=yext",
+    "bookingUrl": "https://www.opentable.com/r/top-of-the-world-restaurant-the-strat-hotel-casino-and-tower-las-vegas",
     "lat": 36.1474451,
-    "lon": -115.15568859999999,
+    "lon": -115.1556886,
     "program": "chase"
   },
   {
@@ -1678,8 +1818,9 @@
     "cuisine": "Italian",
     "neighborhood": "Downtown",
     "website": "https://www.estherslv.com/",
+    "bookingUrl": "https://www.opentable.com/r/esthers-kitchen-las-vegas",
     "lat": 36.1576619,
-    "lon": -115.15338249999999,
+    "lon": -115.1533825,
     "program": "chase"
   },
   {
@@ -1689,19 +1830,9 @@
     "cuisine": "American",
     "neighborhood": "The Strip",
     "website": "https://cosmopolitanlasvegas.mgmresorts.com/en/restaurants/momofuku.html",
+    "bookingUrl": "https://www.opentable.com/r/momofuku-las-vegas",
     "lat": 36.1101282,
-    "lon": -115.17414029999999,
-    "program": "chase"
-  },
-  {
-    "name": "Delilah – NYE at Wynn Las Vegas",
-    "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
-    "city": "Las Vegas",
-    "cuisine": "American",
-    "neighborhood": "The Strip",
-    "website": "https://www.wynnlasvegas.com/dining/fine-dining/delilah",
-    "lat": 36.1271069,
-    "lon": -115.16483029999999,
+    "lon": -115.1741403,
     "program": "chase"
   },
   {
@@ -1711,8 +1842,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Summerlin",
     "website": "https://www.harlosteak.com/",
-    "lat": 36.152886099999996,
-    "lon": -115.33316939999997,
+    "bookingUrl": "https://www.opentable.com/r/harlo-las-vegas",
+    "lat": 36.1528861,
+    "lon": -115.3331694,
     "program": "chase"
   },
   {
@@ -1722,8 +1854,9 @@
     "cuisine": "Italian",
     "neighborhood": "Spring Valley",
     "website": "https://www.lastregalv.com/",
+    "bookingUrl": "https://www.opentable.com/r/la-strega-las-vegs",
     "lat": 36.1248532,
-    "lon": -115.32519669999999,
+    "lon": -115.3251967,
     "program": "chase"
   },
   {
@@ -1733,6 +1866,7 @@
     "cuisine": "American",
     "neighborhood": "Eagle Rock",
     "website": "https://www.dunsmoor.la/",
+    "bookingUrl": "https://www.opentable.com/r/dunsmoor-los-angeles",
     "lat": 34.1159968,
     "lon": -118.2359552,
     "program": "chase"
@@ -1744,8 +1878,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Hollywood",
     "website": "http://gwenla.com/",
+    "bookingUrl": "https://www.opentable.com/r/gwen-los-angeles",
     "lat": 34.097749,
-    "lon": -118.33342800000001,
+    "lon": -118.333428,
     "program": "chase"
   },
   {
@@ -1755,6 +1890,7 @@
     "cuisine": "French / Japanese",
     "neighborhood": "Arts District",
     "website": "https://cameliadtla.com/",
+    "bookingUrl": "https://www.opentable.com/r/camelia-los-angeles",
     "lat": 34.035574,
     "lon": -118.2325904,
     "program": "chase"
@@ -1766,6 +1902,7 @@
     "cuisine": "Mexican",
     "neighborhood": "Atwater Village",
     "website": "http://loreto.la/",
+    "bookingUrl": "https://www.opentable.com/r/loreto-los-angeles",
     "lat": 34.1011188,
     "lon": -118.2438706,
     "program": "chase"
@@ -1777,6 +1914,7 @@
     "cuisine": "American",
     "neighborhood": "Downtown",
     "website": "http://www.majordomo.la/",
+    "bookingUrl": "https://www.opentable.com/r/majordomo-los-angeles",
     "lat": 34.0690822,
     "lon": -118.2261672,
     "program": "chase"
@@ -1788,7 +1926,8 @@
     "cuisine": "Californian",
     "neighborhood": "Hollywood",
     "website": "http://meteora.la/",
-    "lat": 34.083708099999996,
+    "bookingUrl": "https://www.opentable.com/r/meteora-los-angeles-2",
+    "lat": 34.0837081,
     "lon": -118.3399396,
     "program": "chase"
   },
@@ -1799,6 +1938,7 @@
     "cuisine": "Italian",
     "neighborhood": "Hollywood",
     "website": "http://www.chispacca.com/",
+    "bookingUrl": "https://www.opentable.com/r/chi-spacca-los-angeles",
     "lat": 34.0832749,
     "lon": -118.3390866,
     "program": "chase"
@@ -1810,6 +1950,7 @@
     "cuisine": "Pizzeria",
     "neighborhood": "West Hollywood",
     "website": "http://ronanla.com/",
+    "bookingUrl": "https://www.opentable.com/r/ronan-los-angeles",
     "lat": 34.0837054,
     "lon": -118.3492464,
     "program": "chase"
@@ -1821,6 +1962,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Beverly Hills",
     "website": "https://www.steak48.com/steakhouses/beverly-hills/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+    "bookingUrl": "https://www.opentable.com/r/steak-48-beverly-hills",
     "lat": 34.0667408,
     "lon": -118.4055074,
     "program": "chase"
@@ -1832,8 +1974,9 @@
     "cuisine": "American",
     "neighborhood": "West Hollywood",
     "website": "https://www.delilahrestaurants.com/location/los-angeles",
+    "bookingUrl": "https://www.opentable.com/r/delilah-los-angeles-west-hollywood",
     "lat": 34.0910654,
-    "lon": -118.36358169999998,
+    "lon": -118.3635817,
     "program": "chase"
   },
   {
@@ -1843,8 +1986,9 @@
     "cuisine": "Asian",
     "neighborhood": "Century City",
     "website": "https://www.momofuku.com/restaurants/super-peach",
-    "lat": 34.059054599999996,
-    "lon": -118.42014959999997,
+    "bookingUrl": "https://www.opentable.com/r/super-peach-huntington-beach",
+    "lat": 34.0590546,
+    "lon": -118.4201496,
     "program": "chase"
   },
   {
@@ -1854,7 +1998,8 @@
     "cuisine": "Italian",
     "neighborhood": "West Hollywood",
     "website": "http://www.theniceguyla.com/",
-    "lat": 34.078721200000004,
+    "bookingUrl": "https://www.opentable.com/r/delilah-los-angeles-west-hollywood",
+    "lat": 34.0787212,
     "lon": -118.3768326,
     "program": "chase"
   },
@@ -1865,6 +2010,7 @@
     "cuisine": "Spanish",
     "neighborhood": "West Hollywood",
     "website": "http://www.somnirestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/somni-los-angeles",
     "lat": 34.0825405,
     "lon": -118.3884,
     "program": "chase"
@@ -1876,7 +2022,8 @@
     "cuisine": "Italian",
     "neighborhood": "Beverly Hills",
     "website": "http://ladolcevitabeverlyhills.com/",
-    "lat": 34.067482999999996,
+    "bookingUrl": "https://www.opentable.com/r/la-dolce-vita-beverly-hills",
+    "lat": 34.067483,
     "lon": -118.4091267,
     "program": "chase"
   },
@@ -1887,6 +2034,7 @@
     "cuisine": "Californian",
     "neighborhood": "Culver City",
     "website": "https://vespertine.la/",
+    "bookingUrl": "https://www.opentable.com/r/vespertine-culver-city",
     "lat": 34.0241968,
     "lon": -118.3818786,
     "program": "chase"
@@ -1898,6 +2046,7 @@
     "cuisine": "American",
     "neighborhood": "Venice",
     "website": "http://www.gjelina.com/",
+    "bookingUrl": "https://www.opentable.com/r/gjelina-new-york",
     "lat": 33.990497,
     "lon": -118.4649651,
     "program": "chase"
@@ -1909,6 +2058,7 @@
     "cuisine": "Thai",
     "neighborhood": "Sherman Oaks",
     "website": "http://www.anajakthai.com/",
+    "bookingUrl": "https://www.opentable.com/r/anajak-thai-cuisine-sherman-oaks",
     "lat": 34.1515121,
     "lon": -118.4533788,
     "program": "chase"
@@ -1920,8 +2070,9 @@
     "cuisine": "French",
     "neighborhood": "Sherman Oaks",
     "website": "http://valley.petittrois.com/",
+    "bookingUrl": "https://www.opentable.com/r/petite-trois-le-valley-sherman-oaks",
     "lat": 34.1483,
-    "lon": -118.43149999999999,
+    "lon": -118.4315,
     "program": "chase"
   },
   {
@@ -1931,8 +2082,9 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "West Hollywood",
     "website": "https://www.1hotels.com/west-hollywood/taste/harriets-rooftop?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp",
+    "bookingUrl": "https://www.opentable.com/r/harriets-west-hollywood",
     "lat": 34.0941714,
-    "lon": -118.37561339999999,
+    "lon": -118.3756134,
     "program": "chase"
   },
   {
@@ -1942,8 +2094,9 @@
     "cuisine": "Mexican",
     "neighborhood": "Highland Park",
     "website": "http://amigaamorela.com/",
+    "bookingUrl": "https://www.opentable.com/r/amiga-amore-los-angeles",
     "lat": 34.1187981,
-    "lon": -118.19462519999999,
+    "lon": -118.1946252,
     "program": "chase"
   },
   {
@@ -1953,6 +2106,7 @@
     "cuisine": "Tapas / Small Plates",
     "neighborhood": "Santa Monica",
     "website": "http://www.barxuntos.com/",
+    "bookingUrl": "https://www.opentable.com/r/xuntos-santa-monica",
     "lat": 34.0174391,
     "lon": -118.4937028,
     "program": "chase"
@@ -1964,6 +2118,7 @@
     "cuisine": "French",
     "neighborhood": "Santa Monica",
     "website": "http://www.pasjoli.com/",
+    "bookingUrl": "https://www.opentable.com/r/pasjoli-santa-monica",
     "lat": 34.0001931,
     "lon": -118.4820912,
     "program": "chase"
@@ -1975,8 +2130,9 @@
     "cuisine": "Californian",
     "neighborhood": "Santa Monica",
     "website": "http://citrinandmelisse.com/",
+    "bookingUrl": "https://www.opentable.com/r/dear-johns-culver-city-2",
     "lat": 34.0245221,
-    "lon": -118.49135629999999,
+    "lon": -118.4913563,
     "program": "chase"
   },
   {
@@ -1986,8 +2142,9 @@
     "cuisine": "Seafood",
     "neighborhood": "Portland",
     "website": "http://www.regardsmaine.com/",
-    "lat": 43.655633099999996,
-    "lon": -70.26176439999999,
+    "bookingUrl": "https://www.opentable.com/r/regards-portland",
+    "lat": 43.6556331,
+    "lon": -70.2617644,
     "program": "chase"
   },
   {
@@ -1997,6 +2154,7 @@
     "cuisine": "Italian",
     "neighborhood": "Portland",
     "website": "https://www.bennysmaine.com/",
+    "bookingUrl": "https://www.opentable.com/r/bennys-portland-2",
     "lat": 43.6556287,
     "lon": -70.2617011,
     "program": "chase"
@@ -2008,8 +2166,9 @@
     "cuisine": "Sushi",
     "neighborhood": "Portland",
     "website": "http://www.mrtunamaine.com/",
+    "bookingUrl": "https://www.opentable.com/r/mr-tuna-portland",
     "lat": 43.6595831,
-    "lon": -70.25152369999999,
+    "lon": -70.2515237,
     "program": "chase"
   },
   {
@@ -2019,7 +2178,8 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Wynwood",
     "website": "https://www.doyarestaurant.com/",
-    "lat": 25.800235999999998,
+    "bookingUrl": "https://www.opentable.com/r/doya-miami",
+    "lat": 25.800236,
     "lon": -80.201449,
     "program": "chase"
   },
@@ -2030,6 +2190,7 @@
     "cuisine": "Japanese",
     "neighborhood": "Design District",
     "website": "http://naminori.us/",
+    "bookingUrl": "https://www.opentable.com/r/nami-nori-design-district",
     "lat": 25.8139927,
     "lon": -80.1921594,
     "program": "chase"
@@ -2041,8 +2202,9 @@
     "cuisine": "French",
     "neighborhood": "Design District",
     "website": "https://latelier-miami.com/",
+    "bookingUrl": "https://www.opentable.com/r/latelier-de-joel-robuchon-miami",
     "lat": 25.8146854,
-    "lon": -80.19193539999999,
+    "lon": -80.1919354,
     "program": "chase"
   },
   {
@@ -2052,7 +2214,8 @@
     "cuisine": "American",
     "neighborhood": "Brickell",
     "website": "https://www.delilahrestaurants.com/",
-    "lat": 25.765367599999998,
+    "bookingUrl": "https://www.opentable.com/r/delilah-miami",
+    "lat": 25.7653676,
     "lon": -80.1886586,
     "program": "chase"
   },
@@ -2063,6 +2226,7 @@
     "cuisine": "Italian",
     "neighborhood": "Coral Gables",
     "website": "http://www.lucamiami.com/",
+    "bookingUrl": "https://www.opentable.com/r/luca-osteria-coral-gables",
     "lat": 25.7512048,
     "lon": -80.2572007,
     "program": "chase"
@@ -2074,6 +2238,7 @@
     "cuisine": "American",
     "neighborhood": "Coral Gables",
     "website": "http://www.eatinghousemiami.com/",
+    "bookingUrl": "https://www.opentable.com/r/eating-house",
     "lat": 25.7512111,
     "lon": -80.2574181,
     "program": "chase"
@@ -2085,7 +2250,8 @@
     "cuisine": "Mexican",
     "neighborhood": "Coconut Grove",
     "website": "http://losfelixmiami.com/",
-    "lat": 25.727588299999997,
+    "bookingUrl": "https://www.opentable.com/r/los-felix-miami",
+    "lat": 25.7275883,
     "lon": -80.2425035,
     "program": "chase"
   },
@@ -2096,8 +2262,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "MiMo / Upper East Side",
     "website": "http://bluecollarmiami.com/",
-    "lat": 25.837646799999998,
-    "lon": -80.18406279999999,
+    "bookingUrl": "https://www.opentable.com/r/mignonette-miami",
+    "lat": 25.8376468,
+    "lon": -80.1840628,
     "program": "chase"
   },
   {
@@ -2107,7 +2274,8 @@
     "cuisine": "Japanese Speciality",
     "neighborhood": "Coral Gables",
     "website": "http://www.zitzsum.com/",
-    "lat": 25.751446299999998,
+    "bookingUrl": "https://www.opentable.com/r/zitz-sum-coral-gables-1",
+    "lat": 25.7514463,
     "lon": -80.262316,
     "program": "chase"
   },
@@ -2118,6 +2286,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Coconut Grove",
     "website": "https://arietecoconutgrove.com/",
+    "bookingUrl": "https://www.opentable.com/r/brasserie-laurel-miami",
     "lat": 25.7252433,
     "lon": -80.2450485,
     "program": "chase"
@@ -2129,6 +2298,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Coconut Grove",
     "website": "http://www.kruskitchen.com/",
+    "bookingUrl": "https://www.opentable.com/r/krus-kitchen-miami",
     "lat": 25.7276055,
     "lon": -80.2425669,
     "program": "chase"
@@ -2140,6 +2310,7 @@
     "cuisine": "Asian",
     "neighborhood": "MiMo / Upper East Side",
     "website": "https://www.phucyea.com/",
+    "bookingUrl": "https://www.opentable.com/r/phuc-yea-miami",
     "lat": 25.8404512,
     "lon": -80.1846044,
     "program": "chase"
@@ -2151,6 +2322,7 @@
     "cuisine": "American",
     "neighborhood": "South Beach",
     "website": "https://www.stubbornseed.com/menu",
+    "bookingUrl": "https://www.opentable.com/r/stubborn-seed-miami-beach",
     "lat": 25.7701757,
     "lon": -80.1348768,
     "program": "chase"
@@ -2162,6 +2334,7 @@
     "cuisine": "Indian",
     "neighborhood": "Kendall",
     "website": "https://gheemiami.com/",
+    "bookingUrl": "https://www.opentable.com/r/ghee-indian-kitchen-kendall",
     "lat": 25.6871755,
     "lon": -80.3127732,
     "program": "chase"
@@ -2173,8 +2346,9 @@
     "cuisine": "Sushi",
     "neighborhood": "South Beach",
     "website": "http://theden.miami.azabuglobal.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-den-miami-beach",
     "lat": 25.7704335,
-    "lon": -80.13228149999999,
+    "lon": -80.1322815,
     "program": "chase"
   },
   {
@@ -2184,8 +2358,9 @@
     "cuisine": "Sushi",
     "neighborhood": "Delray Beach",
     "website": "https://takiomakase.com/delray/?utm_source=GBP&utm_medium=organic-traffic",
+    "bookingUrl": "https://www.opentable.com/r/taki-omakase-delray-delray-beach",
     "lat": 26.461474,
-    "lon": -80.06643799999999,
+    "lon": -80.066438,
     "program": "chase"
   },
   {
@@ -2195,7 +2370,8 @@
     "cuisine": "American",
     "neighborhood": "Boca Raton",
     "website": "https://www.stagekitchenandbar.com/",
-    "lat": 26.364174199999997,
+    "bookingUrl": "https://www.opentable.com/r/stage-kitchen-and-bar-boca-raton",
+    "lat": 26.3641742,
     "lon": -80.1285243,
     "program": "chase"
   },
@@ -2206,7 +2382,8 @@
     "cuisine": "Chinese",
     "neighborhood": "Milwaukee",
     "website": "http://dandanmke.com/",
-    "lat": 43.030034199999996,
+    "bookingUrl": "https://www.opentable.com/r/dandan-milwaukee",
+    "lat": 43.0300342,
     "lon": -87.9053339,
     "program": "chase"
   },
@@ -2217,19 +2394,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Milwaukee",
     "website": "http://www.esterev.com/",
+    "bookingUrl": "https://www.opentable.com/r/esterev-milwaukee",
     "lat": 43.0050978,
-    "lon": -87.90629779999999,
-    "program": "chase"
-  },
-  {
-    "name": "Bavette La Boucherie",
-    "address": "217 N Broadway, Milwaukee, WI 53202, USA",
-    "city": "Milwaukee",
-    "cuisine": "Farm-to-table",
-    "neighborhood": "Milwaukee",
-    "website": "http://www.bavettelaboucherie.com/",
-    "lat": 43.0331463,
-    "lon": -87.90738789999999,
+    "lon": -87.9062978,
     "program": "chase"
   },
   {
@@ -2239,6 +2406,7 @@
     "cuisine": "Steak",
     "neighborhood": "Downtown / North Loop",
     "website": "https://mannyssteakhouse.com/",
+    "bookingUrl": "https://www.opentable.com/r/mannys-steakhouse-minneapolis-3",
     "lat": 44.9743953,
     "lon": -93.2720011,
     "program": "chase"
@@ -2250,6 +2418,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Downtown / Mill District",
     "website": "https://www.psmpls.com/?utm_source=2060digital&utm_medium=localseo&utm_campaign=gbp",
+    "bookingUrl": "https://www.opentable.com/r/ps-steak-minneapolis",
     "lat": 44.9672061,
     "lon": -93.2873041,
     "program": "chase"
@@ -2261,6 +2430,7 @@
     "cuisine": "Steak",
     "neighborhood": "Roseville",
     "website": "https://www.baldamar.com/",
+    "bookingUrl": "https://www.opentable.com/r/baldamar-roseville",
     "lat": 45.0141515,
     "lon": -93.1692147,
     "program": "chase"
@@ -2272,8 +2442,9 @@
     "cuisine": "Asian",
     "neighborhood": "Naples",
     "website": "https://blackbirdmodernasian.com/",
-    "lat": 26.138794599999997,
-    "lon": -81.78545729999999,
+    "bookingUrl": "https://www.opentable.com/r/blackbird-modern-asian-naples",
+    "lat": 26.1387946,
+    "lon": -81.7854573,
     "program": "chase"
   },
   {
@@ -2283,8 +2454,9 @@
     "cuisine": "Cantonese",
     "neighborhood": "Naples Park",
     "website": "https://www.perryhotelnaples.com/naples-fl-hotel-dining",
-    "lat": 26.280635999999998,
-    "lon": -81.80315750000001,
+    "bookingUrl": "https://www.opentable.com/r/tigress-rooftop-restaurant-and-bar-naples",
+    "lat": 26.280636,
+    "lon": -81.8031575,
     "program": "chase"
   },
   {
@@ -2294,6 +2466,7 @@
     "cuisine": "Seafood",
     "neighborhood": "Naples",
     "website": "https://www.ocean-prime.com/locations-menus/naples",
+    "bookingUrl": "https://www.opentable.com/r/ocean-prime-naples",
     "lat": 26.1416953,
     "lon": -81.7978688,
     "program": "chase"
@@ -2305,6 +2478,7 @@
     "cuisine": "Italian",
     "neighborhood": "Fort Myers",
     "website": "https://oiseristorante.com/",
+    "bookingUrl": "https://www.opentable.com/r/oise-ristorante-fort-myers",
     "lat": 26.6445811,
     "lon": -81.8691596,
     "program": "chase"
@@ -2316,6 +2490,7 @@
     "cuisine": "Italian",
     "neighborhood": "Germantown",
     "website": "http://pelatorestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/pelato-nashville",
     "lat": 36.1780271,
     "lon": -86.786299,
     "program": "chase"
@@ -2327,6 +2502,7 @@
     "cuisine": "Seafood",
     "neighborhood": "Belmont / Hillsboro",
     "website": "http://locustnashville.com/",
+    "bookingUrl": "https://www.opentable.com/r/locust-nashville",
     "lat": 36.1273778,
     "lon": -86.7893698,
     "program": "chase"
@@ -2338,6 +2514,7 @@
     "cuisine": "Italian",
     "neighborhood": "Downtown / Sobro",
     "website": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/dining/?scid=feed67b0-9a2f-4de1-8df6-114544116108",
+    "bookingUrl": "https://www.opentable.com/r/yolan-nashville",
     "lat": 36.1567612,
     "lon": -86.7745959,
     "program": "chase"
@@ -2349,8 +2526,9 @@
     "cuisine": "Wine Bar",
     "neighborhood": "East Nashville",
     "website": "https://www.badideanashville.com/?utm_source=organic&utm_medium=gmb",
+    "bookingUrl": "https://www.opentable.com/r/bad-idea-wine-bar-nashville",
     "lat": 36.1758733,
-    "lon": -86.75038579999999,
+    "lon": -86.7503858,
     "program": "chase"
   },
   {
@@ -2360,7 +2538,8 @@
     "cuisine": "Contemporary American",
     "neighborhood": "South Nashville",
     "website": "http://www.bastionnashville.com/",
-    "lat": 36.142924199999996,
+    "bookingUrl": "https://www.opentable.com/r/bastion-nashville",
+    "lat": 36.1429242,
     "lon": -86.7665652,
     "program": "chase"
   },
@@ -2371,6 +2550,7 @@
     "cuisine": "American",
     "neighborhood": "Germantown",
     "website": "http://www.henriettared.com/",
+    "bookingUrl": "https://www.opentable.com/r/henrietta-red-nashville-3",
     "lat": 36.1759616,
     "lon": -86.7867371,
     "program": "chase"
@@ -2382,338 +2562,9 @@
     "cuisine": "Thai",
     "neighborhood": "Belmont / Hillsboro",
     "website": "http://www.im2nashville.com/",
-    "lat": 36.131760799999995,
+    "bookingUrl": "https://www.opentable.com/r/international-market-nashville",
+    "lat": 36.1317608,
     "lon": -86.7956859,
-    "program": "chase"
-  },
-  {
-    "name": "Hawksmoor NYC",
-    "address": "109 E 22nd St, New York, NY 10010, USA",
-    "city": "New Jersey",
-    "cuisine": "American",
-    "neighborhood": "Gramercy Park",
-    "website": "https://hawksmoornyc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-    "lat": 40.739535599999996,
-    "lon": -73.9863884,
-    "program": "chase"
-  },
-  {
-    "name": "Felina Steak- Jersey City",
-    "address": "2 Chapel Ave Unit 2, Jersey City, NJ 07305, USA",
-    "city": "New Jersey",
-    "cuisine": "Italian",
-    "neighborhood": "Jersey City",
-    "website": "http://bylandmark.com/felina-steak-jersey-city/",
-    "lat": 40.685427499999996,
-    "lon": -74.0706311,
-    "program": "chase"
-  },
-  {
-    "name": "SAPPE",
-    "address": "240 W 14th St, New York, NY 10011, USA",
-    "city": "New Jersey",
-    "cuisine": "Thai",
-    "neighborhood": "Greenwich Village",
-    "website": "http://sappeisan.com/",
-    "lat": 40.739140299999995,
-    "lon": -74.0018035,
-    "program": "chase"
-  },
-  {
-    "name": "Gjelina - New York",
-    "address": "45 Bond St, New York, NY 10012, USA",
-    "city": "New Jersey",
-    "cuisine": "Mediterranean",
-    "neighborhood": "East Village",
-    "website": "https://gjelina.com/ny/",
-    "lat": 40.7258569,
-    "lon": -73.99308060000001,
-    "program": "chase"
-  },
-  {
-    "name": "Sailor",
-    "address": "228 DeKalb Ave, Brooklyn, NY 11205, USA",
-    "city": "New Jersey",
-    "cuisine": "Bistro",
-    "neighborhood": "Fort Greene",
-    "website": "https://www.sailor.nyc/",
-    "lat": 40.6893831,
-    "lon": -73.9703111,
-    "program": "chase"
-  },
-  {
-    "name": "Strange Delight",
-    "address": "63 Lafayette Ave, Brooklyn, NY 11217, USA",
-    "city": "New Jersey",
-    "cuisine": "Oyster Bar",
-    "neighborhood": "Fort Greene",
-    "website": "https://www.strangedelight.nyc/",
-    "lat": 40.6873624,
-    "lon": -73.9760048,
-    "program": "chase"
-  },
-  {
-    "name": "Estela",
-    "address": "47 E Houston St 1st floor, New York, NY 10012, USA",
-    "city": "New Jersey",
-    "cuisine": "Contemporary American",
-    "neighborhood": "NoHo",
-    "website": "http://estelanyc.com/",
-    "lat": 40.724641299999995,
-    "lon": -73.994739,
-    "program": "chase"
-  },
-  {
-    "name": "Momofuku Noodle Bar - East Village",
-    "address": "171 1st Ave, New York, NY 10003, USA",
-    "city": "New Jersey",
-    "cuisine": "Asian",
-    "neighborhood": "East Village",
-    "website": "https://momofukunoodlebar.com/",
-    "lat": 40.729208299999996,
-    "lon": -73.98441500000001,
-    "program": "chase"
-  },
-  {
-    "name": "Altro Paradiso",
-    "address": "234 Spring St, New York, NY 10013, USA",
-    "city": "New Jersey",
-    "cuisine": "Italian",
-    "neighborhood": "SoHo",
-    "website": "http://www.altroparadiso.com/",
-    "lat": 40.7254266,
-    "lon": -74.0046926,
-    "program": "chase"
-  },
-  {
-    "name": "Meximodo - Jersey City",
-    "address": "25 Christopher Columbus Dr, Jersey City, NJ 07302, USA",
-    "city": "New Jersey",
-    "cuisine": "Mexican",
-    "neighborhood": "Jersey City",
-    "website": "https://meximodo.com/",
-    "lat": 40.717745099999995,
-    "lon": -74.0383153,
-    "program": "chase"
-  },
-  {
-    "name": "Casa Mono",
-    "address": "52 Irving Pl, New York, NY 10003, USA",
-    "city": "New Jersey",
-    "cuisine": "Spanish",
-    "neighborhood": "Union Square",
-    "website": "http://www.casamononyc.com/",
-    "lat": 40.7358936,
-    "lon": -73.9871361,
-    "program": "chase"
-  },
-  {
-    "name": "Scarr's Pizza",
-    "address": "35 Orchard St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Pizzeria",
-    "neighborhood": "Chinatown",
-    "website": "http://www.scarrspizza.com/",
-    "lat": 40.7157238,
-    "lon": -73.99161149999999,
-    "program": "chase"
-  },
-  {
-    "name": "Phoenix Palace",
-    "address": "85 Bowery, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Chinese",
-    "neighborhood": "Chinatown",
-    "website": "http://phoenixpalaceny.com/",
-    "lat": 40.71682,
-    "lon": -73.99527909999999,
-    "program": "chase"
-  },
-  {
-    "name": "Momofuku Noodle Bar - Uptown",
-    "address": "10 Columbus Cir, New York, NY 10019, USA",
-    "city": "New Jersey",
-    "cuisine": "Asian",
-    "neighborhood": "Midtown",
-    "website": "https://momofukunoodlebar.com/",
-    "lat": 40.7680157,
-    "lon": -73.9829136,
-    "program": "chase"
-  },
-  {
-    "name": "Sunn's",
-    "address": "139 Division St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Korean",
-    "neighborhood": "Chinatown",
-    "website": "https://sunnsnyc.com/",
-    "lat": 40.714377,
-    "lon": -73.9909737,
-    "program": "chase"
-  },
-  {
-    "name": "Una Pizza Napoletana",
-    "address": "175 Orchard St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Italian",
-    "neighborhood": "Lower East Side",
-    "website": "https://unapizza.com/",
-    "lat": 40.7217573,
-    "lon": -73.9886214,
-    "program": "chase"
-  },
-  {
-    "name": "Kabawa",
-    "address": "8 Extra Pl, New York, NY 10003, USA",
-    "city": "New Jersey",
-    "cuisine": "Caribbean",
-    "neighborhood": "East Village",
-    "website": "https://www.momofuku.com/restaurants/kabawa",
-    "lat": 40.7248683,
-    "lon": -73.9914685,
-    "program": "chase"
-  },
-  {
-    "name": "Potluck Club",
-    "address": "133 Chrystie St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Chinese",
-    "neighborhood": "Chinatown",
-    "website": "https://thepotluckclubny.com/",
-    "lat": 40.719601999999995,
-    "lon": -73.9935919,
-    "program": "chase"
-  },
-  {
-    "name": "l'abeille",
-    "address": "412 Greenwich St, New York, NY 10013, USA",
-    "city": "New Jersey",
-    "cuisine": "French",
-    "neighborhood": "TriBeCa",
-    "website": "http://www.labeille.nyc/",
-    "lat": 40.7220453,
-    "lon": -74.0099342,
-    "program": "chase"
-  },
-  {
-    "name": "Roscioli - The Roman Feast",
-    "address": "43 MacDougal St, New York, NY 10012, USA",
-    "city": "New Jersey",
-    "cuisine": "Italian",
-    "neighborhood": "Greenwich Village",
-    "website": "https://rosciolinyc.com/",
-    "lat": 40.7277451,
-    "lon": -74.00258389999999,
-    "program": "chase"
-  },
-  {
-    "name": "Muku",
-    "address": "412 Greenwich St Penthouse B, New York, NY 10013, USA",
-    "city": "New Jersey",
-    "cuisine": "Japanese",
-    "neighborhood": "TriBeCa",
-    "website": "https://www.restaurantmuku.nyc/",
-    "lat": 40.7218848,
-    "lon": -74.0099346,
-    "program": "chase"
-  },
-  {
-    "name": "Maddy Rose at Liberty House",
-    "address": "76 Audrey Zapp Dr Floor 1, Jersey City, NJ 07305, USA",
-    "city": "New Jersey",
-    "cuisine": "Contemporary American",
-    "neighborhood": "Jersey City",
-    "website": "https://libertyhousejc.com/",
-    "lat": 40.7092052,
-    "lon": -74.0399829,
-    "program": "chase"
-  },
-  {
-    "name": "Razza - Jersey City",
-    "address": "275 Grove St, Jersey City, NJ 07302, USA",
-    "city": "New Jersey",
-    "cuisine": "Pizzeria",
-    "neighborhood": "Jersey City",
-    "website": "http://razzanj.com/",
-    "lat": 40.7177776,
-    "lon": -74.0442612,
-    "program": "chase"
-  },
-  {
-    "name": "Parcelle Chinatown",
-    "address": "135 Division St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Bar / Lounge / Bottle Service",
-    "neighborhood": "Chinatown",
-    "website": "http://www.parcellewine.com/",
-    "lat": 40.714380999999996,
-    "lon": -73.9911544,
-    "program": "chase"
-  },
-  {
-    "name": "Fairfax",
-    "address": "234 W 4th St, New York, NY 10014, USA",
-    "city": "New Jersey",
-    "cuisine": "American",
-    "neighborhood": "Greenwich Village",
-    "website": "http://www.fairfax.nyc/",
-    "lat": 40.734351,
-    "lon": -74.0031358,
-    "program": "chase"
-  },
-  {
-    "name": "Red Hook Tavern",
-    "address": "329 Van Brunt St, Brooklyn, NY 11231, USA",
-    "city": "New Jersey",
-    "cuisine": "American",
-    "neighborhood": "Red Hook",
-    "website": "http://www.redhooktavern.com/",
-    "lat": 40.677860599999995,
-    "lon": -74.0120649,
-    "program": "chase"
-  },
-  {
-    "name": "Tolo",
-    "address": "28 Canal St, New York, NY 10002, USA",
-    "city": "New Jersey",
-    "cuisine": "Chinese",
-    "neighborhood": "Lower East Side",
-    "website": "https://tolonyc.com/",
-    "lat": 40.7143377,
-    "lon": -73.99050989999999,
-    "program": "chase"
-  },
-  {
-    "name": "Manhatta",
-    "address": "28 Liberty St 60th floor, New York, NY 10005, USA",
-    "city": "New Jersey",
-    "cuisine": "American",
-    "neighborhood": "Financial District",
-    "website": "https://www.manhattarestaurant.com/",
-    "lat": 40.707997399999996,
-    "lon": -74.00888259999999,
-    "program": "chase"
-  },
-  {
-    "name": "Demo",
-    "address": "34 Carmine St, New York, NY 10014, USA",
-    "city": "New Jersey",
-    "cuisine": "European",
-    "neighborhood": "West Village",
-    "website": "http://demowestvillage.com/",
-    "lat": 40.7299274,
-    "lon": -74.0029971,
-    "program": "chase"
-  },
-  {
-    "name": "ASKA",
-    "address": "47 S 5th St, Brooklyn, NY 11249, USA",
-    "city": "New Jersey",
-    "cuisine": "Nordic",
-    "neighborhood": "Williamsburg",
-    "website": "http://askanyc.com/",
-    "lat": 40.7124154,
-    "lon": -73.96652449999999,
     "program": "chase"
   },
   {
@@ -2723,6 +2574,7 @@
     "cuisine": "Farm-to-table",
     "neighborhood": "Albuquerque",
     "website": "http://www.farmandtablenm.com/",
+    "bookingUrl": "https://www.opentable.com/r/farm-and-table",
     "lat": 35.1834227,
     "lon": -106.6237587,
     "program": "chase"
@@ -2734,8 +2586,9 @@
     "cuisine": "Creole",
     "neighborhood": "French Quarter",
     "website": "https://www.brennansneworleans.com/",
+    "bookingUrl": "https://www.opentable.com/r/red-fish-grill-new-orleans",
     "lat": 29.9561453,
-    "lon": -90.06664599999999,
+    "lon": -90.066646,
     "program": "chase"
   },
   {
@@ -2745,8 +2598,9 @@
     "cuisine": "Seafood",
     "neighborhood": "French Quarter",
     "website": "http://gwfins.com/",
-    "lat": 29.955546299999998,
-    "lon": -90.06883859999999,
+    "bookingUrl": "https://www.opentable.com/r/rosies-on-the-roof-new-orleans",
+    "lat": 29.9555463,
+    "lon": -90.0688386,
     "program": "chase"
   },
   {
@@ -2756,8 +2610,9 @@
     "cuisine": "French",
     "neighborhood": "Garden District",
     "website": "http://www.lapetitegrocery.com/",
-    "lat": 29.920789100000004,
-    "lon": -90.10012189999999,
+    "bookingUrl": "https://www.opentable.com/r/la-petite-grocery-new-orleans",
+    "lat": 29.9207891,
+    "lon": -90.1001219,
     "program": "chase"
   },
   {
@@ -2767,7 +2622,8 @@
     "cuisine": "Contemporary British",
     "neighborhood": "French Quarter",
     "website": "https://www.jewelnola.com/",
-    "lat": 29.958564600000003,
+    "bookingUrl": "https://www.opentable.com/r/jewel-of-the-south-new-orleans",
+    "lat": 29.9585646,
     "lon": -90.0695125,
     "program": "chase"
   },
@@ -2778,6 +2634,7 @@
     "cuisine": "Creole / Cajun / Southern",
     "neighborhood": "French Quarter",
     "website": "http://www.muriels.com/",
+    "bookingUrl": "https://www.opentable.com/r/muriels-jackson-square-new-orleans-2",
     "lat": 29.9584603,
     "lon": -90.0631932,
     "program": "chase"
@@ -2789,6 +2646,7 @@
     "cuisine": "Contemporary French / American",
     "neighborhood": "Central Business District",
     "website": "http://www.restaurantaugust.com/",
+    "bookingUrl": "https://www.opentable.com/r/restaurant-august-new-orleans",
     "lat": 29.9499784,
     "lon": -90.0667922,
     "program": "chase"
@@ -2800,7 +2658,8 @@
     "cuisine": "Creole / Cajun / Southern",
     "neighborhood": "French Quarter",
     "website": "http://www.tableaufrenchquarter.com/",
-    "lat": 29.957494299999997,
+    "bookingUrl": "https://www.opentable.com/r/tableau-new-orleans",
+    "lat": 29.9574943,
     "lon": -90.0641142,
     "program": "chase"
   },
@@ -2811,6 +2670,7 @@
     "cuisine": "Middle Eastern",
     "neighborhood": "Uptown",
     "website": "http://www.shayarestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/shaya-new-orleans",
     "lat": 29.9210569,
     "lon": -90.0995463,
     "program": "chase"
@@ -2822,7 +2682,8 @@
     "cuisine": "Contemporary Italian",
     "neighborhood": "Garden District",
     "website": "https://saintvincentnola.com/dining/",
-    "lat": 29.934151900000003,
+    "bookingUrl": "https://www.opentable.com/r/hotel-saint-vincent-new-orleans",
+    "lat": 29.9341519,
     "lon": -90.0728985,
     "program": "chase"
   },
@@ -2833,8 +2694,441 @@
     "cuisine": "American",
     "neighborhood": "Lower Garden District",
     "website": "http://www.thebowernola.com/",
-    "lat": 29.937896599999995,
+    "bookingUrl": "https://www.opentable.com/r/the-bower-new-orleans",
+    "lat": 29.9378966,
     "lon": -90.0712854,
+    "program": "chase"
+  },
+  {
+    "name": "Altro Paradiso",
+    "address": "234 Spring St, New York, NY 10013, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Italian",
+    "neighborhood": "SoHo",
+    "website": "http://www.altroparadiso.com/",
+    "bookingUrl": "https://www.opentable.com/r/altro-paradiso",
+    "lat": 40.7254266,
+    "lon": -74.0046926,
+    "program": "chase"
+  },
+  {
+    "name": "ASKA",
+    "address": "47 S 5th St, Brooklyn, NY 11249, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Nordic",
+    "neighborhood": "Williamsburg",
+    "website": "http://askanyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/aska-brooklyn",
+    "lat": 40.7124154,
+    "lon": -73.9665245,
+    "program": "chase"
+  },
+  {
+    "name": "Casa Mono",
+    "address": "52 Irving Pl, New York, NY 10003, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Spanish",
+    "neighborhood": "Union Square",
+    "website": "http://www.casamononyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/casa-mono-new-york",
+    "lat": 40.7358936,
+    "lon": -73.9871361,
+    "program": "chase"
+  },
+  {
+    "name": "Demo",
+    "address": "34 Carmine St, New York, NY 10014, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "European",
+    "neighborhood": "West Village",
+    "website": "http://demowestvillage.com/",
+    "bookingUrl": "https://www.opentable.com/r/demo-new-york",
+    "lat": 40.7299274,
+    "lon": -74.0029971,
+    "program": "chase"
+  },
+  {
+    "name": "Estela",
+    "address": "47 E Houston St 1st floor, New York, NY 10012, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Contemporary American",
+    "neighborhood": "NoHo",
+    "website": "http://estelanyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/estela",
+    "lat": 40.7246413,
+    "lon": -73.994739,
+    "program": "chase"
+  },
+  {
+    "name": "Fairfax",
+    "address": "234 W 4th St, New York, NY 10014, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "Greenwich Village",
+    "website": "http://www.fairfax.nyc/",
+    "bookingUrl": "https://www.opentable.com/r/fairfax-new-york",
+    "lat": 40.734351,
+    "lon": -74.0031358,
+    "program": "chase"
+  },
+  {
+    "name": "Felina Steak- Jersey City",
+    "address": "2 Chapel Ave Unit 2, Jersey City, NJ 07305, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Italian",
+    "neighborhood": "Jersey City",
+    "website": "http://bylandmark.com/felina-steak-jersey-city/",
+    "bookingUrl": "https://www.opentable.com/r/little-owl-west-village",
+    "lat": 40.6854275,
+    "lon": -74.0706311,
+    "program": "chase"
+  },
+  {
+    "name": "Gjelina - New York",
+    "address": "45 Bond St, New York, NY 10012, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Mediterranean",
+    "neighborhood": "East Village",
+    "website": "https://gjelina.com/ny/",
+    "bookingUrl": "https://www.opentable.com/r/gjelina-new-york",
+    "lat": 40.7258569,
+    "lon": -73.9930806,
+    "program": "chase"
+  },
+  {
+    "name": "Hawksmoor NYC",
+    "address": "109 E 22nd St, New York, NY 10010, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "Gramercy Park",
+    "website": "https://hawksmoornyc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "bookingUrl": "https://www.opentable.com/r/hawksmoor-new-york",
+    "lat": 40.7395356,
+    "lon": -73.9863884,
+    "program": "chase"
+  },
+  {
+    "name": "Kabawa",
+    "address": "8 Extra Pl, New York, NY 10003, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Caribbean",
+    "neighborhood": "East Village",
+    "website": "https://www.momofuku.com/restaurants/kabawa",
+    "bookingUrl": "https://www.opentable.com/r/kabawa-new-york",
+    "lat": 40.7248683,
+    "lon": -73.9914685,
+    "program": "chase"
+  },
+  {
+    "name": "l'abeille",
+    "address": "412 Greenwich St, New York, NY 10013, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "French",
+    "neighborhood": "TriBeCa",
+    "website": "http://www.labeille.nyc/",
+    "bookingUrl": "https://www.opentable.com/r/labeille-new-york",
+    "lat": 40.7220453,
+    "lon": -74.0099342,
+    "program": "chase"
+  },
+  {
+    "name": "Maddy Rose at Liberty House",
+    "address": "76 Audrey Zapp Dr Floor 1, Jersey City, NJ 07305, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Contemporary American",
+    "neighborhood": "Jersey City",
+    "website": "https://libertyhousejc.com/",
+    "bookingUrl": "https://www.opentable.com/r/maddy-rose-at-liberty-house-jersey-city",
+    "lat": 40.7092052,
+    "lon": -74.0399829,
+    "program": "chase"
+  },
+  {
+    "name": "Manhatta",
+    "address": "28 Liberty St 60th floor, New York, NY 10005, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "Financial District",
+    "website": "https://www.manhattarestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/manhatta-new-york",
+    "lat": 40.7079974,
+    "lon": -74.0088826,
+    "program": "chase"
+  },
+  {
+    "name": "Meximodo - Jersey City",
+    "address": "25 Christopher Columbus Dr, Jersey City, NJ 07302, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Mexican",
+    "neighborhood": "Jersey City",
+    "website": "https://meximodo.com/",
+    "bookingUrl": "https://www.opentable.com/r/little-owl-west-village",
+    "lat": 40.7177451,
+    "lon": -74.0383153,
+    "program": "chase"
+  },
+  {
+    "name": "Momofuku Noodle Bar - East Village",
+    "address": "171 1st Ave, New York, NY 10003, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Asian",
+    "neighborhood": "East Village",
+    "website": "https://momofukunoodlebar.com/",
+    "bookingUrl": "https://www.opentable.com/r/momofuku-noodle-bar-east-village-new-york-2",
+    "lat": 40.7292083,
+    "lon": -73.984415,
+    "program": "chase"
+  },
+  {
+    "name": "Momofuku Noodle Bar - Uptown",
+    "address": "10 Columbus Cir, New York, NY 10019, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Asian",
+    "neighborhood": "Midtown",
+    "website": "https://momofukunoodlebar.com/",
+    "bookingUrl": "https://www.opentable.com/r/momofuku-noodle-bar-new-york",
+    "lat": 40.7680157,
+    "lon": -73.9829136,
+    "program": "chase"
+  },
+  {
+    "name": "Muku",
+    "address": "412 Greenwich St Penthouse B, New York, NY 10013, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Japanese",
+    "neighborhood": "TriBeCa",
+    "website": "https://www.restaurantmuku.nyc/",
+    "bookingUrl": "https://www.opentable.com/r/muku-new-york",
+    "lat": 40.7218848,
+    "lon": -74.0099346,
+    "program": "chase"
+  },
+  {
+    "name": "Parcelle Chinatown",
+    "address": "135 Division St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Bar / Lounge / Bottle Service",
+    "neighborhood": "Chinatown",
+    "website": "http://www.parcellewine.com/",
+    "bookingUrl": "https://www.opentable.com/r/parcelle-chinatown",
+    "lat": 40.714381,
+    "lon": -73.9911544,
+    "program": "chase"
+  },
+  {
+    "name": "Phoenix Palace",
+    "address": "85 Bowery, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Chinese",
+    "neighborhood": "Chinatown",
+    "website": "http://phoenixpalaceny.com/",
+    "bookingUrl": "https://www.opentable.com/r/phoenix-palace-new-york",
+    "lat": 40.71682,
+    "lon": -73.9952791,
+    "program": "chase"
+  },
+  {
+    "name": "Potluck Club",
+    "address": "133 Chrystie St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Chinese",
+    "neighborhood": "Chinatown",
+    "website": "https://thepotluckclubny.com/",
+    "bookingUrl": "https://www.opentable.com/r/potluck-club-new-york",
+    "lat": 40.719602,
+    "lon": -73.9935919,
+    "program": "chase"
+  },
+  {
+    "name": "Razza - Jersey City",
+    "address": "275 Grove St, Jersey City, NJ 07302, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Pizzeria",
+    "neighborhood": "Jersey City",
+    "website": "http://razzanj.com/",
+    "bookingUrl": "https://www.opentable.com/r/little-owl-west-village",
+    "lat": 40.7177776,
+    "lon": -74.0442612,
+    "program": "chase"
+  },
+  {
+    "name": "Red Hook Tavern",
+    "address": "329 Van Brunt St, Brooklyn, NY 11231, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "Red Hook",
+    "website": "http://www.redhooktavern.com/",
+    "bookingUrl": "https://www.opentable.com/r/red-hook-tavern-brooklyn",
+    "lat": 40.6778606,
+    "lon": -74.0120649,
+    "program": "chase"
+  },
+  {
+    "name": "Roscioli - The Roman Feast",
+    "address": "43 MacDougal St, New York, NY 10012, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Italian",
+    "neighborhood": "Greenwich Village",
+    "website": "https://rosciolinyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/roscioli-a-la-carte-new-york",
+    "lat": 40.7277451,
+    "lon": -74.0025839,
+    "program": "chase"
+  },
+  {
+    "name": "Sailor",
+    "address": "228 DeKalb Ave, Brooklyn, NY 11205, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Bistro",
+    "neighborhood": "Fort Greene",
+    "website": "https://www.sailor.nyc/",
+    "bookingUrl": "https://www.opentable.com/r/sailor-brooklyn",
+    "lat": 40.6893831,
+    "lon": -73.9703111,
+    "program": "chase"
+  },
+  {
+    "name": "SAPPE",
+    "address": "240 W 14th St, New York, NY 10011, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Thai",
+    "neighborhood": "Greenwich Village",
+    "website": "http://sappeisan.com/",
+    "bookingUrl": "https://www.opentable.com/r/sappeisan-new-york",
+    "lat": 40.7391403,
+    "lon": -74.0018035,
+    "program": "chase"
+  },
+  {
+    "name": "Scarr's Pizza",
+    "address": "35 Orchard St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Pizzeria",
+    "neighborhood": "Chinatown",
+    "website": "http://www.scarrspizza.com/",
+    "bookingUrl": "https://www.opentable.com/r/scarrs-pizza-new-york",
+    "lat": 40.7157238,
+    "lon": -73.9916115,
+    "program": "chase"
+  },
+  {
+    "name": "Strange Delight",
+    "address": "63 Lafayette Ave, Brooklyn, NY 11217, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Oyster Bar",
+    "neighborhood": "Fort Greene",
+    "website": "https://www.strangedelight.nyc/",
+    "bookingUrl": "https://www.opentable.com/r/strange-delight-brooklyn",
+    "lat": 40.6873624,
+    "lon": -73.9760048,
+    "program": "chase"
+  },
+  {
+    "name": "Sunn's",
+    "address": "139 Division St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Korean",
+    "neighborhood": "Chinatown",
+    "website": "https://sunnsnyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/sunns-new-york",
+    "lat": 40.714377,
+    "lon": -73.9909737,
+    "program": "chase"
+  },
+  {
+    "name": "Tolo",
+    "address": "28 Canal St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Chinese",
+    "neighborhood": "Lower East Side",
+    "website": "https://tolonyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/tolo-new-york",
+    "lat": 40.7143377,
+    "lon": -73.9905099,
+    "program": "chase"
+  },
+  {
+    "name": "Una Pizza Napoletana",
+    "address": "175 Orchard St, New York, NY 10002, USA",
+    "city": "New York/New Jersey",
+    "cuisine": "Italian",
+    "neighborhood": "Lower East Side",
+    "website": "https://unapizza.com/",
+    "bookingUrl": "https://www.opentable.com/r/una-pizza-napoletana-new-york",
+    "lat": 40.7217573,
+    "lon": -73.9886214,
+    "program": "chase"
+  },
+  {
+    "name": "Jeffrey's Grocery",
+    "address": "172 Waverly Pl New York NY 10014",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "Greenwich Village",
+    "website": "https://www.jeffreysgrocery.com/",
+    "bookingUrl": "https://www.opentable.com/r/jeffreys-grocery-new-york",
+    "lat": 40.7353,
+    "lon": -74.0008,
+    "program": "chase"
+  },
+  {
+    "name": "Joseph Leonard",
+    "address": "170 Waverly Pl New York NY 10014",
+    "city": "New York/New Jersey",
+    "cuisine": "American",
+    "neighborhood": "West Village",
+    "website": "https://www.josephleonard.com/",
+    "bookingUrl": "https://www.opentable.com/r/joseph-leonard-new-york",
+    "lat": 40.7353,
+    "lon": -74.0009,
+    "program": "chase"
+  },
+  {
+    "name": "Le B.",
+    "address": "285 W 12th St New York NY 10014",
+    "city": "New York/New Jersey",
+    "cuisine": "European",
+    "neighborhood": "West Village",
+    "website": "https://www.restaurantleb.com/",
+    "bookingUrl": "https://www.opentable.com/r/le-b-new-york",
+    "lat": 40.7383,
+    "lon": -74.0039,
+    "program": "chase"
+  },
+  {
+    "name": "Mitsuru",
+    "address": "37 Downing St New York NY 10014",
+    "city": "New York/New Jersey",
+    "cuisine": "Japanese",
+    "neighborhood": "Greenwich Village",
+    "website": "https://www.mitsurunyc.com/",
+    "bookingUrl": "https://www.opentable.com/r/mitsuru-new-york",
+    "lat": 40.7287,
+    "lon": -74.0042,
+    "program": "chase"
+  },
+  {
+    "name": "Moody Tongue Sushi",
+    "address": "9 Jones St New York NY 10014",
+    "city": "New York/New Jersey",
+    "cuisine": "Sushi",
+    "neighborhood": "West Village",
+    "website": "https://moodytongue.com/new-york/",
+    "bookingUrl": "https://www.opentable.com/r/moody-tongue-sushi-new-york",
+    "lat": 40.7322,
+    "lon": -74.0016,
+    "program": "chase"
+  },
+  {
+    "name": "Parcelle Greenwich Village",
+    "address": "72 MacDougal St New York NY 10012",
+    "city": "New York/New Jersey",
+    "cuisine": "Wine Bar",
+    "neighborhood": "Greenwich Village",
+    "website": "https://www.parcelle.com/",
+    "bookingUrl": "https://www.opentable.com/r/parcelle-greenwich-village-new-york",
+    "lat": 40.7284,
+    "lon": -73.9997,
     "program": "chase"
   },
   {
@@ -2844,8 +3138,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Oklahoma City",
     "website": "http://www.mahtokc.com/",
-    "lat": 35.493439699999996,
-    "lon": -97.52117489999999,
+    "bookingUrl": "https://www.opentable.com/r/maht-oklahoma-city",
+    "lat": 35.4934397,
+    "lon": -97.5211749,
     "program": "chase"
   },
   {
@@ -2855,6 +3150,7 @@
     "cuisine": "American",
     "neighborhood": "Oklahoma City",
     "website": "https://www.perlemesta.com/",
+    "bookingUrl": "https://www.opentable.com/r/perle-mesta-oklahoma-city",
     "lat": 35.4688375,
     "lon": -97.5135602,
     "program": "chase"
@@ -2866,6 +3162,7 @@
     "cuisine": "Italian",
     "neighborhood": "Oklahoma City",
     "website": "http://www.osteriaokc.com/",
+    "bookingUrl": "https://www.opentable.com/r/osteria-oklahoma-city",
     "lat": 35.4857921,
     "lon": -97.539191,
     "program": "chase"
@@ -2877,7 +3174,8 @@
     "cuisine": "Global International",
     "neighborhood": "Bricktown",
     "website": "http://greysweaterokc.com/",
-    "lat": 35.471521599999996,
+    "bookingUrl": "https://www.opentable.com/r/grey-sweater-oklahoma-city",
+    "lat": 35.4715216,
     "lon": -97.5097464,
     "program": "chase"
   },
@@ -2888,7 +3186,8 @@
     "cuisine": "American",
     "neighborhood": "Midtown",
     "website": "http://www.nonesuchokc.com/",
-    "lat": 35.475308999999996,
+    "bookingUrl": "https://www.opentable.com/r/nonesuch-oklahoma-city-2",
+    "lat": 35.475309,
     "lon": -97.5194138,
     "program": "chase"
   },
@@ -2899,8 +3198,9 @@
     "cuisine": "Contemporary Korean",
     "neighborhood": "Memorial Square",
     "website": "https://www.birdiesokc.com/",
+    "bookingUrl": "https://www.opentable.com/r/birdies-by-chef-kevin-lee-edmond",
     "lat": 35.6240489,
-    "lon": -97.55142790000001,
+    "lon": -97.5514279,
     "program": "chase"
   },
   {
@@ -2910,6 +3210,7 @@
     "cuisine": "Southern",
     "neighborhood": "Downtown Orlando",
     "website": "http://thepineryorlando.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-pinery-orlando",
     "lat": 28.5657212,
     "lon": -81.3735066,
     "program": "chase"
@@ -2921,8 +3222,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "I Drive / Sand Lake",
     "website": "http://www.normans.com/",
+    "bookingUrl": "https://www.opentable.com/r/normans-orlando-4",
     "lat": 28.450375,
-    "lon": -81.49180199999999,
+    "lon": -81.491802,
     "program": "chase"
   },
   {
@@ -2932,7 +3234,8 @@
     "cuisine": "Italian",
     "neighborhood": "I Drive / Sand Lake",
     "website": "https://www.marriott.com/hotels/hotel-information/restaurant/details/mcojw-jw-marriott-orlando-grande-lakes/123963/?scid=feed67b0-9a2f-4de1-8df6-114544116108",
-    "lat": 28.401494999999997,
+    "bookingUrl": "https://www.opentable.com/r/whisper-creek-farm-the-kitchen-jw-marriot-grande-lakes-orlando",
+    "lat": 28.401495,
     "lon": -81.428293,
     "program": "chase"
   },
@@ -2943,7 +3246,8 @@
     "cuisine": "Steak",
     "neighborhood": "I Drive / Sand Lake",
     "website": "https://www.knifeandspoonrc.com/",
-    "lat": 28.405700399999997,
+    "bookingUrl": "https://www.opentable.com/r/knife-and-spoon-orlando",
+    "lat": 28.4057004,
     "lon": -81.4294527,
     "program": "chase"
   },
@@ -2954,6 +3258,7 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Celebration",
     "website": "http://www.charleyssteakhouse.com/",
+    "bookingUrl": "https://www.opentable.com/r/little-owl-west-village",
     "lat": 28.3340656,
     "lon": -81.5339691,
     "program": "chase"
@@ -2965,8 +3270,9 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Center City",
     "website": "https://www.skyhighphiladelphia.com/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-phi-fab-mid-seo-na&utm_content=na-na&utm_term=na",
-    "lat": 39.956398199999995,
-    "lon": -75.17043890000001,
+    "bookingUrl": "https://www.opentable.com/r/skyhigh-philadelphia",
+    "lat": 39.9563982,
+    "lon": -75.1704389,
     "program": "chase"
   },
   {
@@ -2976,7 +3282,8 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Center City",
     "website": "https://www.vernickfish.com/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-phi-fab-mid-seo-na&utm_content=na-na&utm_term=na",
-    "lat": 39.955287899999995,
+    "bookingUrl": "https://www.opentable.com/r/vernick-fish-philadelphia",
+    "lat": 39.9552879,
     "lon": -75.1707661,
     "program": "chase"
   },
@@ -2987,6 +3294,7 @@
     "cuisine": "American",
     "neighborhood": "Center City",
     "website": "http://fridaysaturdaysunday.com/",
+    "bookingUrl": "https://www.opentable.com/r/friday-saturday-sunday-philadelphia",
     "lat": 39.9489446,
     "lon": -75.1759667,
     "program": "chase"
@@ -2998,6 +3306,7 @@
     "cuisine": "French",
     "neighborhood": "Center City",
     "website": "http://myloupphl.com/",
+    "bookingUrl": "https://www.opentable.com/r/my-loup-philadelphia",
     "lat": 39.9508012,
     "lon": -75.1739867,
     "program": "chase"
@@ -3009,8 +3318,9 @@
     "cuisine": "American",
     "neighborhood": "Center City",
     "website": "https://www.pinestreetgrill.com/",
+    "bookingUrl": "https://www.opentable.com/r/pine-street-grill-philadelphia",
     "lat": 39.9474534,
-    "lon": -75.17918259999999,
+    "lon": -75.1791826,
     "program": "chase"
   },
   {
@@ -3020,7 +3330,8 @@
     "cuisine": "French American",
     "neighborhood": "Center City",
     "website": "http://www.akitchenandbar.com/",
-    "lat": 39.950391599999996,
+    "bookingUrl": "https://www.opentable.com/r/akitchen-philadelphia",
+    "lat": 39.9503916,
     "lon": -75.1704008,
     "program": "chase"
   },
@@ -3031,6 +3342,7 @@
     "cuisine": "American",
     "neighborhood": "Center City",
     "website": "http://www.herplacephilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/her-place-supper-club-philadelphia",
     "lat": 39.9507452,
     "lon": -75.1701679,
     "program": "chase"
@@ -3042,8 +3354,9 @@
     "cuisine": "Cambodian",
     "neighborhood": "Bella Vista",
     "website": "https://mawnphilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/mawn-philadelphia",
     "lat": 39.9399678,
-    "lon": -75.15789749999999,
+    "lon": -75.1578975,
     "program": "chase"
   },
   {
@@ -3053,6 +3366,7 @@
     "cuisine": "American",
     "neighborhood": "North Broad",
     "website": "http://www.honeysucklephl.com/",
+    "bookingUrl": "https://www.opentable.com/r/honeysuckle-philadelphia",
     "lat": 39.9645357,
     "lon": -75.1606417,
     "program": "chase"
@@ -3064,8 +3378,9 @@
     "cuisine": "Italian",
     "neighborhood": "Center City",
     "website": "http://www.vetricucina.com/",
+    "bookingUrl": "https://www.opentable.com/r/vetri",
     "lat": 39.9467259,
-    "lon": -75.16317719999999,
+    "lon": -75.1631772,
     "program": "chase"
   },
   {
@@ -3075,8 +3390,9 @@
     "cuisine": "American",
     "neighborhood": "Center City",
     "website": "http://www.highstreetphilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/high-street-restaurant-and-bar-philadelphia",
     "lat": 39.9494611,
-    "lon": -75.15546839999999,
+    "lon": -75.1554684,
     "program": "chase"
   },
   {
@@ -3086,6 +3402,7 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Old City",
     "website": "http://almanacphilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/almanac-philadelphia",
     "lat": 39.9500962,
     "lon": -75.1462398,
     "program": "chase"
@@ -3097,6 +3414,7 @@
     "cuisine": "Filipino",
     "neighborhood": "South Philly",
     "website": "https://www.tabachoyphilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/tabachoy-philadelphia",
     "lat": 39.9383395,
     "lon": -75.1597938,
     "program": "chase"
@@ -3108,6 +3426,7 @@
     "cuisine": "Sushi",
     "neighborhood": "Old City",
     "website": "https://www.ogawaphilly.com/",
+    "bookingUrl": "https://www.opentable.com/r/ogawa-sushi-and-kappo-omakase-philadelphia",
     "lat": 39.9500962,
     "lon": -75.1462398,
     "program": "chase"
@@ -3119,6 +3438,7 @@
     "cuisine": "Italian",
     "neighborhood": "Central Scottsdale",
     "website": "https://www.ilovefatox.com/",
+    "bookingUrl": "https://www.opentable.com/r/fat-ox-scottsdale",
     "lat": 33.5306626,
     "lon": -111.9263469,
     "program": "chase"
@@ -3130,8 +3450,9 @@
     "cuisine": "American",
     "neighborhood": "Biltmore",
     "website": "http://www.wrigleymansion.com/",
+    "bookingUrl": "https://www.opentable.com/r/wrigley-mansion-geordies-phoenix",
     "lat": 33.5234362,
-    "lon": -112.02692959999999,
+    "lon": -112.0269296,
     "program": "chase"
   },
   {
@@ -3141,8 +3462,9 @@
     "cuisine": "Latin American",
     "neighborhood": "Old Town Scottsdale",
     "website": "https://www.themissionaz.com/",
-    "lat": 33.491839999999996,
-    "lon": -111.92429539999999,
+    "bookingUrl": "https://www.opentable.com/r/the-mission-old-town-scottsdale",
+    "lat": 33.49184,
+    "lon": -111.9242954,
     "program": "chase"
   },
   {
@@ -3152,8 +3474,9 @@
     "cuisine": "Contemporary French",
     "neighborhood": "Biltmore",
     "website": "http://wrigleymansion.com/christophers/",
+    "bookingUrl": "https://www.opentable.com/r/christophers-at-wrigley-mansion-phoenix",
     "lat": 33.5228514,
-    "lon": -112.02679769999999,
+    "lon": -112.0267977,
     "program": "chase"
   },
   {
@@ -3163,6 +3486,7 @@
     "cuisine": "Thai",
     "neighborhood": "West Phoenix",
     "website": "http://www.lomwongaz.com/",
+    "bookingUrl": "https://www.opentable.com/r/lom-wong-phoenix",
     "lat": 33.4601904,
     "lon": -112.0704312,
     "program": "chase"
@@ -3174,7 +3498,8 @@
     "cuisine": "Contemporary Mexican",
     "neighborhood": "West Phoenix",
     "website": "https://www.chiltephx.com/",
-    "lat": 33.45281200000001,
+    "bookingUrl": "https://www.opentable.com/r/chilte-phoenix",
+    "lat": 33.452812,
     "lon": -112.0845473,
     "program": "chase"
   },
@@ -3185,6 +3510,7 @@
     "cuisine": "American",
     "neighborhood": "Central Scottsdale",
     "website": "https://courserestaurantaz.com/",
+    "bookingUrl": "https://www.opentable.com/r/course-scottsdale",
     "lat": 33.5841115,
     "lon": -111.9223001,
     "program": "chase"
@@ -3196,7 +3522,8 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown Phoenix",
     "website": "https://www.lathaphx.com/",
-    "lat": 33.449588299999995,
+    "bookingUrl": "https://www.opentable.com/r/latha-restaurant-phoenix",
+    "lat": 33.4495883,
     "lon": -112.065452,
     "program": "chase"
   },
@@ -3207,6 +3534,7 @@
     "cuisine": "American",
     "neighborhood": "Downtown",
     "website": "http://www.elevenck.com/",
+    "bookingUrl": "https://www.opentable.com/eleven",
     "lat": 40.4460652,
     "lon": -79.993172,
     "program": "chase"
@@ -3218,8 +3546,9 @@
     "cuisine": "Italian",
     "neighborhood": "Downtown",
     "website": "http://dollyolivepdx.com/?utm_source=google-gmb-maps&utm_medium=gmb-website-button&utm_campaign=locl.io&utm_content=607740b1-c177-4d9d-8348-0cfbeba45699",
+    "bookingUrl": "https://www.opentable.com/r/dolly-olive-portland",
     "lat": 45.5213826,
-    "lon": -122.68391380000001,
+    "lon": -122.6839138,
     "program": "chase"
   },
   {
@@ -3229,6 +3558,7 @@
     "cuisine": "Indonesian / Malaysian",
     "neighborhood": "Southeast Portland",
     "website": "http://omashideaway.com/",
+    "bookingUrl": "https://www.opentable.com/r/omas-hideaway-portland",
     "lat": 45.5049916,
     "lon": -122.6328854,
     "program": "chase"
@@ -3240,7 +3570,8 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Southeast Portland",
     "website": "http://www.shalomyallpdx.com/?utm_source=google-gmb-maps&utm_medium=gmb-website-button&utm_campaign=locl.io&utm_content=1e7967f7-164b-40c4-8d50-5ed83ed84e64",
-    "lat": 45.515206299999996,
+    "bookingUrl": "https://www.opentable.com/r/shalom-yall-portland",
+    "lat": 45.5152063,
     "lon": -122.6643926,
     "program": "chase"
   },
@@ -3251,6 +3582,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Northwest Portland",
     "website": "https://www.ardenpdx.com/",
+    "bookingUrl": "https://www.opentable.com/r/arden-portland",
     "lat": 45.5260526,
     "lon": -122.681367,
     "program": "chase"
@@ -3262,8 +3594,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Northeast Portland",
     "website": "https://www.canardrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/canard-burnside-portland",
     "lat": 45.522799,
-    "lon": -122.65799969999999,
+    "lon": -122.6579997,
     "program": "chase"
   },
   {
@@ -3273,8 +3606,9 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Southeast Portland",
     "website": "http://www.lorangepdx.com/",
-    "lat": 45.508519899999996,
-    "lon": -122.65492760000001,
+    "bookingUrl": "https://www.opentable.com/r/lorange-portland",
+    "lat": 45.5085199,
+    "lon": -122.6549276,
     "program": "chase"
   },
   {
@@ -3284,8 +3618,9 @@
     "cuisine": "Korean",
     "neighborhood": "Southeast Portland",
     "website": "https://jejupdx.com/",
+    "bookingUrl": "https://www.opentable.com/r/jeju-portland",
     "lat": 45.513565,
-    "lon": -122.65924539999999,
+    "lon": -122.6592454,
     "program": "chase"
   },
   {
@@ -3295,8 +3630,9 @@
     "cuisine": "Japanese Speciality",
     "neighborhood": "Downtown",
     "website": "http://www.nodoguropdx.com/",
+    "bookingUrl": "https://www.opentable.com/r/nodoguro-portland",
     "lat": 45.520561,
-    "lon": -122.67919699999999,
+    "lon": -122.679197,
     "program": "chase"
   },
   {
@@ -3306,8 +3642,9 @@
     "cuisine": "American",
     "neighborhood": "Northeast Portland",
     "website": "https://www.xiaoyepdx.com/",
-    "lat": 45.53450600000001,
-    "lon": -122.62344300000001,
+    "bookingUrl": "https://www.opentable.com/r/xiao-ye-portland",
+    "lat": 45.534506,
+    "lon": -122.623443,
     "program": "chase"
   },
   {
@@ -3317,8 +3654,9 @@
     "cuisine": "Korean",
     "neighborhood": "Northeast Portland",
     "website": "http://www.hanoakpdx.com/",
+    "bookingUrl": "https://www.opentable.com/r/han-oak-portland",
     "lat": 45.5268066,
-    "lon": -122.64183500000001,
+    "lon": -122.641835,
     "program": "chase"
   },
   {
@@ -3328,8 +3666,9 @@
     "cuisine": "Farm-to-table",
     "neighborhood": "McMinnville",
     "website": "http://haywardrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/hayward-carlton",
     "lat": 45.294625,
-    "lon": -123.17884040000001,
+    "lon": -123.1788404,
     "program": "chase"
   },
   {
@@ -3339,6 +3678,7 @@
     "cuisine": "American",
     "neighborhood": "Raleigh",
     "website": "http://ac-restaurants.com/pooles/",
+    "bookingUrl": "https://www.opentable.com/r/pooles-diner-raleigh",
     "lat": 35.7746792,
     "lon": -78.6423138,
     "program": "chase"
@@ -3350,6 +3690,7 @@
     "cuisine": "Indian",
     "neighborhood": "Raleigh",
     "website": "http://tamashanc.com/",
+    "bookingUrl": "https://www.opentable.com/r/tamasha-modern-indian-raleigh-1",
     "lat": 35.8358919,
     "lon": -78.638385,
     "program": "chase"
@@ -3361,6 +3702,7 @@
     "cuisine": "American",
     "neighborhood": "Raleigh",
     "website": "http://www.ac-restaurants.com/death-taxes/",
+    "bookingUrl": "https://www.opentable.com/r/death-and-taxes-raleigh",
     "lat": 35.7781944,
     "lon": -78.6404271,
     "program": "chase"
@@ -3372,6 +3714,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Raleigh",
     "website": "https://www.laterrazzaraleigh.com/",
+    "bookingUrl": "https://www.opentable.com/r/la-terrazza-raleigh",
     "lat": 35.7774156,
     "lon": -78.645538,
     "program": "chase"
@@ -3383,6 +3726,7 @@
     "cuisine": "American",
     "neighborhood": "Cary",
     "website": "http://www.theumstead.com/",
+    "bookingUrl": "https://www.opentable.com/r/herons-cary",
     "lat": 35.8294788,
     "lon": -78.7645805,
     "program": "chase"
@@ -3394,6 +3738,7 @@
     "cuisine": "Seafood",
     "neighborhood": "Providence",
     "website": "https://www.hemenwaysrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/hemenways",
     "lat": 41.8242135,
     "lon": -71.4069133,
     "program": "chase"
@@ -3405,6 +3750,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Providence",
     "website": "https://graciesprov.com/",
+    "bookingUrl": "https://www.opentable.com/gracies-providence",
     "lat": 41.822057,
     "lon": -71.4158905,
     "program": "chase"
@@ -3416,6 +3762,7 @@
     "cuisine": "American",
     "neighborhood": "Providence",
     "website": "https://www.watermangrille.com/",
+    "bookingUrl": "https://www.opentable.com/waterman-grille",
     "lat": 41.827296,
     "lon": -71.38099,
     "program": "chase"
@@ -3427,6 +3774,7 @@
     "cuisine": "Peruvian",
     "neighborhood": "Providence",
     "website": "http://www.losandesri.com/",
+    "bookingUrl": "https://www.opentable.com/r/los-andes-restaurant-providence",
     "lat": 41.8332623,
     "lon": -71.4373663,
     "program": "chase"
@@ -3438,8 +3786,9 @@
     "cuisine": "Greek",
     "neighborhood": "Richmond",
     "website": "http://www.stellasrichmond.com/",
-    "lat": 37.567553100000005,
-    "lon": -77.48641909999999,
+    "bookingUrl": "https://www.opentable.com/stellas-restaurant-richmond",
+    "lat": 37.5675531,
+    "lon": -77.4864191,
     "program": "chase"
   },
   {
@@ -3449,7 +3798,8 @@
     "cuisine": "American",
     "neighborhood": "Murray",
     "website": "https://www.prohibitionutah.com/",
-    "lat": 40.638713599999996,
+    "bookingUrl": "https://www.opentable.com/r/prohibition-salt-lake-city",
+    "lat": 40.6387136,
     "lon": -111.8868081,
     "program": "chase"
   },
@@ -3460,8 +3810,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "South Salt Lake",
     "website": "https://monteslc.com/",
+    "bookingUrl": "https://www.opentable.com/r/monte-south-salt-lake",
     "lat": 40.7221246,
-    "lon": -111.89339030000001,
+    "lon": -111.8933903,
     "program": "chase"
   },
   {
@@ -3471,8 +3822,9 @@
     "cuisine": "Breakfast",
     "neighborhood": "Downtown",
     "website": "https://www.brunchmehard.com/",
+    "bookingUrl": "https://www.opentable.com/r/sundays-best-at-the-post-district-salt-lake-city",
     "lat": 40.75822,
-    "lon": -111.90100439999999,
+    "lon": -111.9010044,
     "program": "chase"
   },
   {
@@ -3482,7 +3834,8 @@
     "cuisine": "Italian",
     "neighborhood": "Salt Lake City",
     "website": "https://www.matteoslc.com/",
-    "lat": 40.764692499999995,
+    "bookingUrl": "https://www.opentable.com/r/matteo-ristorante-italiano-salt-lake-city",
+    "lat": 40.7646925,
     "lon": -111.8935288,
     "program": "chase"
   },
@@ -3493,6 +3846,7 @@
     "cuisine": "Italian",
     "neighborhood": "People's Freeway",
     "website": "http://cosmicasaltlake.com/",
+    "bookingUrl": "https://www.opentable.com/r/cosmica-salt-lake-city",
     "lat": 40.7484143,
     "lon": -111.8994623,
     "program": "chase"
@@ -3504,6 +3858,7 @@
     "cuisine": "Italian",
     "neighborhood": "Park City",
     "website": "",
+    "bookingUrl": "https://www.opentable.com/r/chase-sapphire-reserve-presents-frasca-food-and-wine-park-city",
     "lat": 40.6466431,
     "lon": -111.4968083,
     "program": "chase"
@@ -3515,8 +3870,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "North Central",
     "website": "http://www.clementine-sa.com/",
+    "bookingUrl": "https://www.opentable.com/r/clementine-san-antonio-castle-hills",
     "lat": 29.5329986,
-    "lon": -98.52187699999999,
+    "lon": -98.521877,
     "program": "chase"
   },
   {
@@ -3526,6 +3882,7 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Downtown",
     "website": "https://www.clevelsd.com/",
+    "bookingUrl": "https://www.opentable.com/r/c-level-san-diego",
     "lat": 32.7241309,
     "lon": -117.188588,
     "program": "chase"
@@ -3537,8 +3894,9 @@
     "cuisine": "Seafood",
     "neighborhood": "Little Italy",
     "website": "https://ironsidefishandoyster.com/",
+    "bookingUrl": "https://www.opentable.com/r/fortunate-son-san-diego",
     "lat": 32.7226753,
-    "lon": -117.16857929999999,
+    "lon": -117.1685793,
     "program": "chase"
   },
   {
@@ -3548,7 +3906,8 @@
     "cuisine": "Mexican",
     "neighborhood": "Harbor Island",
     "website": "https://www.coasterra.com/",
-    "lat": 32.724323999999996,
+    "bookingUrl": "https://www.opentable.com/r/coasterra-san-diego-3",
+    "lat": 32.724324,
     "lon": -117.1881433,
     "program": "chase"
   },
@@ -3559,8 +3918,9 @@
     "cuisine": "Italian",
     "neighborhood": "La Jolla",
     "website": "https://www.marisilajolla.com/",
+    "bookingUrl": "https://www.opentable.com/r/marisi-la-jolla",
     "lat": 32.8471174,
-    "lon": -117.27353609999999,
+    "lon": -117.2735361,
     "program": "chase"
   },
   {
@@ -3570,7 +3930,8 @@
     "cuisine": "Californian",
     "neighborhood": "Little Italy",
     "website": "https://www.herbandwood.com/",
-    "lat": 32.727334299999995,
+    "bookingUrl": "https://www.opentable.com/r/le-coq-san-diego",
+    "lat": 32.7273343,
     "lon": -117.1710044,
     "program": "chase"
   },
@@ -3581,8 +3942,9 @@
     "cuisine": "Contemporary Asian",
     "neighborhood": "Downtown",
     "website": "https://www.animaesd.com/",
+    "bookingUrl": "https://www.opentable.com/r/animae-san-diego",
     "lat": 32.715116,
-    "lon": -117.17052199999999,
+    "lon": -117.170522,
     "program": "chase"
   },
   {
@@ -3592,6 +3954,7 @@
     "cuisine": "Farm-to-table",
     "neighborhood": "Little Italy",
     "website": "https://www.juniperandivy.com/",
+    "bookingUrl": "https://www.opentable.com/r/juniper-and-ivy-san-diego",
     "lat": 32.7274546,
     "lon": -117.1711882,
     "program": "chase"
@@ -3603,6 +3966,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Little Italy",
     "website": "http://www.kettnerexchange.com/",
+    "bookingUrl": "https://www.opentable.com/r/kettner-exchange-san-diego",
     "lat": 32.7253645,
     "lon": -117.1697595,
     "program": "chase"
@@ -3614,8 +3978,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Downtown",
     "website": "https://www.islandprime.com/",
+    "bookingUrl": "https://www.opentable.com/r/island-prime-san-diego-4",
     "lat": 32.7241177,
-    "lon": -117.18866799999999,
+    "lon": -117.188668,
     "program": "chase"
   },
   {
@@ -3625,7 +3990,8 @@
     "cuisine": "Seafood",
     "neighborhood": "La Jolla",
     "website": "https://www.marineroom.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing",
-    "lat": 32.852836599999996,
+    "bookingUrl": "https://www.opentable.com/r/the-marine-room-la-jolla",
+    "lat": 32.8528366,
     "lon": -117.2601311,
     "program": "chase"
   },
@@ -3636,8 +4002,9 @@
     "cuisine": "Californian",
     "neighborhood": "La Jolla",
     "website": "https://www.paradisaea.com/",
-    "lat": 32.815357999999996,
-    "lon": -117.27076380000001,
+    "bookingUrl": "https://www.opentable.com/r/paradisaea-la-jolla",
+    "lat": 32.815358,
+    "lon": -117.2707638,
     "program": "chase"
   },
   {
@@ -3647,8 +4014,9 @@
     "cuisine": "Italian",
     "neighborhood": "Point Loma",
     "website": "https://solarelounge.com/",
+    "bookingUrl": "https://www.opentable.com/r/solare-ristorante-lounge-san-diego",
     "lat": 32.7373632,
-    "lon": -117.21400790000001,
+    "lon": -117.2140079,
     "program": "chase"
   },
   {
@@ -3658,8 +4026,9 @@
     "cuisine": "Californian",
     "neighborhood": "La Jolla",
     "website": "https://www.lavalencia.com/dining/the-whaling-bar",
+    "bookingUrl": "https://www.opentable.com/r/the-whaling-bar-san-diego",
     "lat": 32.8485632,
-    "lon": -117.27349650000001,
+    "lon": -117.2734965,
     "program": "chase"
   },
   {
@@ -3669,8 +4038,9 @@
     "cuisine": "Mexican",
     "neighborhood": "La Mesa",
     "website": "https://www.casagabrielalamesa.com/",
+    "bookingUrl": "https://www.opentable.com/r/casa-gabriela-la-mesa",
     "lat": 32.7658491,
-    "lon": -117.01753099999998,
+    "lon": -117.017531,
     "program": "chase"
   },
   {
@@ -3680,6 +4050,7 @@
     "cuisine": "Californian",
     "neighborhood": "Encinitas",
     "website": "https://www.herbandsea.com/",
+    "bookingUrl": "https://www.opentable.com/r/herb-and-sea-encinitas",
     "lat": 33.0457487,
     "lon": -117.2943943,
     "program": "chase"
@@ -3691,8 +4062,9 @@
     "cuisine": "Vegetarian / Vegan",
     "neighborhood": "South Park",
     "website": "http://www.barkindred.com/",
+    "bookingUrl": "https://www.opentable.com/r/kindred-san-diego",
     "lat": 32.7214597,
-    "lon": -117.13006279999999,
+    "lon": -117.1300628,
     "program": "chase"
   },
   {
@@ -3702,6 +4074,7 @@
     "cuisine": "American",
     "neighborhood": "Escondido",
     "website": "https://www.dinevintana.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-prado-at-balboa-park-san-diego",
     "lat": 33.1067716,
     "lon": -117.0967838,
     "program": "chase"
@@ -3713,8 +4086,9 @@
     "cuisine": "Californian",
     "neighborhood": "Carlsbad",
     "website": "http://restaurantlilo.com/",
+    "bookingUrl": "https://www.opentable.com/r/lilo-carlsbad",
     "lat": 33.1643711,
-    "lon": -117.35146909999999,
+    "lon": -117.3514691,
     "program": "chase"
   },
   {
@@ -3724,8 +4098,9 @@
     "cuisine": "Contemporary French",
     "neighborhood": "Carlsbad",
     "website": "http://jeune-jolie.com/",
+    "bookingUrl": "https://www.opentable.com/r/jeune-et-jolie-san-diego",
     "lat": 33.1629346,
-    "lon": -117.35172579999998,
+    "lon": -117.3517258,
     "program": "chase"
   },
   {
@@ -3735,8 +4110,9 @@
     "cuisine": "Soul food",
     "neighborhood": "Oakland",
     "website": "https://www.burdelloakland.com/",
+    "bookingUrl": "https://www.opentable.com/r/burdell-oakland",
     "lat": 37.8341322,
-    "lon": -122.26287419999998,
+    "lon": -122.2628742,
     "program": "chase"
   },
   {
@@ -3746,8 +4122,9 @@
     "cuisine": "Latin American",
     "neighborhood": "Oakland",
     "website": "http://www.popocaoakland.com/",
-    "lat": 37.80150270000001,
-    "lon": -122.27419889999999,
+    "bookingUrl": "https://www.opentable.com/r/popoca-oakland",
+    "lat": 37.8015027,
+    "lon": -122.2741989,
     "program": "chase"
   },
   {
@@ -3757,8 +4134,9 @@
     "cuisine": "Italian",
     "neighborhood": "North Panhandle / USF",
     "website": "https://www.chefico.com/",
+    "bookingUrl": "https://www.opentable.com/r/che-fico-pizzeria-chase-center-san-francisco",
     "lat": 37.7773909,
-    "lon": -122.43814599999999,
+    "lon": -122.438146,
     "program": "chase"
   },
   {
@@ -3768,8 +4146,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Western Addition",
     "website": "http://www.theprogress-sf.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-progress-san-francisco-1",
     "lat": 37.7836666,
-    "lon": -122.43297069999998,
+    "lon": -122.4329707,
     "program": "chase"
   },
   {
@@ -3779,6 +4158,7 @@
     "cuisine": "American",
     "neighborhood": "Financial District / Embarcadero",
     "website": "https://www.anglerrestaurants.com/",
+    "bookingUrl": "https://www.opentable.com/r/angler-san-francisco",
     "lat": 37.7930864,
     "lon": -122.392181,
     "program": "chase"
@@ -3790,8 +4170,9 @@
     "cuisine": "Steakhouse",
     "neighborhood": "SOMA",
     "website": "https://www.nikusteakhouse.com/",
+    "bookingUrl": "https://www.opentable.com/r/niku-steakhouse-san-francisco",
     "lat": 37.7696906,
-    "lon": -122.40351749999999,
+    "lon": -122.4035175,
     "program": "chase"
   },
   {
@@ -3801,6 +4182,7 @@
     "cuisine": "Vietnamese",
     "neighborhood": "Financial District / Embarcadero",
     "website": "http://bodegarestaurants.com/",
+    "bookingUrl": "https://www.opentable.com/r/bodega-sf-san-francisco",
     "lat": 37.7848262,
     "lon": -122.4093022,
     "program": "chase"
@@ -3812,6 +4194,7 @@
     "cuisine": "Californian",
     "neighborhood": "Western Addition",
     "website": "http://richtablesf.com/",
+    "bookingUrl": "https://www.opentable.com/r/rich-table-san-francisco",
     "lat": 37.7748657,
     "lon": -122.4228497,
     "program": "chase"
@@ -3823,8 +4206,9 @@
     "cuisine": "Contemporary French / American",
     "neighborhood": "Fisherman's Wharf",
     "website": "http://www.garydanko.com/",
+    "bookingUrl": "https://www.opentable.com/gary-danko",
     "lat": 37.8058651,
-    "lon": -122.42060430000001,
+    "lon": -122.4206043,
     "program": "chase"
   },
   {
@@ -3834,8 +4218,9 @@
     "cuisine": "Seafood",
     "neighborhood": "Pacific Heights",
     "website": "http://littleshucker.com/",
+    "bookingUrl": "https://www.opentable.com/r/little-shucker-san-francisco",
     "lat": 37.7882506,
-    "lon": -122.43353239999998,
+    "lon": -122.4335324,
     "program": "chase"
   },
   {
@@ -3845,7 +4230,8 @@
     "cuisine": "Wine Bar",
     "neighborhood": "SOMA",
     "website": "https://saisonwinebar.com/",
-    "lat": 37.778207099999996,
+    "bookingUrl": "https://www.opentable.com/r/saison-cellar-and-wine-bar-san-francisco",
+    "lat": 37.7782071,
     "lon": -122.3938085,
     "program": "chase"
   },
@@ -3856,8 +4242,9 @@
     "cuisine": "Californian",
     "neighborhood": "Richmond District",
     "website": "http://www.azizasf.com/",
+    "bookingUrl": "https://www.opentable.com/r/aziza-san-francisco",
     "lat": 37.7804334,
-    "lon": -122.48170599999999,
+    "lon": -122.481706,
     "program": "chase"
   },
   {
@@ -3867,8 +4254,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "North Beach",
     "website": "http://www.hildaandjessesf.com/",
+    "bookingUrl": "https://www.opentable.com/r/hilda-and-jesse-san-francisco",
     "lat": 37.8000413,
-    "lon": -122.41104370000001,
+    "lon": -122.4110437,
     "program": "chase"
   },
   {
@@ -3878,8 +4266,9 @@
     "cuisine": "American",
     "neighborhood": "SOMA",
     "website": "https://www.saisonsf.com/",
-    "lat": 37.779522799999995,
-    "lon": -122.39226909999998,
+    "bookingUrl": "https://www.opentable.com/r/saison-san-francisco-2",
+    "lat": 37.7795228,
+    "lon": -122.3922691,
     "program": "chase"
   },
   {
@@ -3889,8 +4278,9 @@
     "cuisine": "Mexican",
     "neighborhood": "SOMA",
     "website": "https://www.californiossf.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-link",
+    "bookingUrl": "https://www.opentable.com/r/californios-san-francisco",
     "lat": 37.7714672,
-    "lon": -122.41287229999999,
+    "lon": -122.4128723,
     "program": "chase"
   },
   {
@@ -3900,8 +4290,9 @@
     "cuisine": "American",
     "neighborhood": "Menlo Park",
     "website": "http://www.selbysrestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/selbys-redwood-city",
     "lat": 37.4685773,
-    "lon": -122.21037299999998,
+    "lon": -122.210373,
     "program": "chase"
   },
   {
@@ -3911,8 +4302,9 @@
     "cuisine": "Contemporary French",
     "neighborhood": "Downtown / Union Square",
     "website": "https://one65sf.com/concept/o/",
+    "bookingUrl": "https://www.opentable.com/r/o-by-claude-le-tohic-san-francisco",
     "lat": 37.7862462,
-    "lon": -122.40737100000001,
+    "lon": -122.407371,
     "program": "chase"
   },
   {
@@ -3922,8 +4314,9 @@
     "cuisine": "Japanese",
     "neighborhood": "Russian Hill",
     "website": "https://www.restaurantnisei.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-link",
+    "bookingUrl": "https://www.opentable.com/r/nisei-san-francisco",
     "lat": 37.7981765,
-    "lon": -122.42208529999999,
+    "lon": -122.4220853,
     "program": "chase"
   },
   {
@@ -3933,6 +4326,7 @@
     "cuisine": "American",
     "neighborhood": "St. Helena",
     "website": "http://www.pressnapavalley.com/",
+    "bookingUrl": "https://www.opentable.com/r/press-restaurant-st-helena",
     "lat": 38.488889,
     "lon": -122.4506605,
     "program": "chase"
@@ -3944,8 +4338,9 @@
     "cuisine": "Californian",
     "neighborhood": "Healdsburg",
     "website": "http://singlethreadfarms.com/",
+    "bookingUrl": "https://www.opentable.com/r/singlethreadfarms",
     "lat": 38.6123026,
-    "lon": -122.86970319999999,
+    "lon": -122.8697032,
     "program": "chase"
   },
   {
@@ -3955,8 +4350,9 @@
     "cuisine": "French",
     "neighborhood": "Carmel",
     "website": "http://cheznoircarmel.com/?utm_source=gmb&utm_medium=referral",
+    "bookingUrl": "https://www.opentable.com/r/chez-noir-carmel-by-the-sea",
     "lat": 36.5569346,
-    "lon": -121.92233080000001,
+    "lon": -121.9223308,
     "program": "chase"
   },
   {
@@ -3966,8 +4362,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Sacramento",
     "website": "http://www.elladiningroomandbar.com/",
-    "lat": 38.578649399999996,
-    "lon": -121.49135890000001,
+    "bookingUrl": "https://www.opentable.com/ella-dining-room-and-bar",
+    "lat": 38.5786494,
+    "lon": -121.4913589,
     "program": "chase"
   },
   {
@@ -3977,8 +4374,9 @@
     "cuisine": "American",
     "neighborhood": "Sacramento",
     "website": "https://www.camdenspitandlarder.com/",
+    "bookingUrl": "https://www.opentable.com/r/camden-spit-and-larder-sacramento",
     "lat": 38.5787917,
-    "lon": -121.50026240000001,
+    "lon": -121.5002624,
     "program": "chase"
   },
   {
@@ -3988,8 +4386,9 @@
     "cuisine": "American",
     "neighborhood": "Sacramento",
     "website": "http://canoneastsac.com/",
+    "bookingUrl": "https://www.opentable.com/r/foreign-cinema-san-francisco",
     "lat": 38.564372,
-    "lon": -121.46477569999999,
+    "lon": -121.4647757,
     "program": "chase"
   },
   {
@@ -3999,7 +4398,8 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Capitol Hill / First Hill",
     "website": "http://www.larkseattle.com/",
-    "lat": 47.612312599999996,
+    "bookingUrl": "https://www.opentable.com/r/the-lark-santa-barbara",
+    "lat": 47.6123126,
     "lon": -122.3196472,
     "program": "chase"
   },
@@ -4010,8 +4410,9 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Wallingford",
     "website": "http://atomaseattle.com/",
+    "bookingUrl": "https://www.opentable.com/r/atoma-seattle",
     "lat": 47.6611903,
-    "lon": -122.34009149999999,
+    "lon": -122.3400915,
     "program": "chase"
   },
   {
@@ -4021,7 +4422,8 @@
     "cuisine": "Northwest",
     "neighborhood": "Wallingford",
     "website": "https://www.westwardseattle.com/",
-    "lat": 47.65171960000001,
+    "bookingUrl": "https://www.opentable.com/r/deep-dive-seattle",
+    "lat": 47.6517196,
     "lon": -122.3287866,
     "program": "chase"
   },
@@ -4032,8 +4434,9 @@
     "cuisine": "Sushi",
     "neighborhood": "Bellevue",
     "website": "https://takaibykashiba.com/",
-    "lat": 47.611568299999995,
-    "lon": -122.20128789999998,
+    "bookingUrl": "https://www.opentable.com/r/takai-by-kashiba-bellevue",
+    "lat": 47.6115683,
+    "lon": -122.2012879,
     "program": "chase"
   },
   {
@@ -4043,8 +4446,9 @@
     "cuisine": "Italian",
     "neighborhood": "Kirkland",
     "website": "http://www.cafejuanita.com/",
+    "bookingUrl": "https://www.opentable.com/r/cafe-juanita-kirkland",
     "lat": 47.7076424,
-    "lon": -122.21241049999998,
+    "lon": -122.2124105,
     "program": "chase"
   },
   {
@@ -4054,7 +4458,8 @@
     "cuisine": "American",
     "neighborhood": "White Center",
     "website": "http://www.tomoseattle.com/",
-    "lat": 47.515201999999995,
+    "bookingUrl": "https://www.opentable.com/r/tomo-seattle",
+    "lat": 47.515202,
     "lon": -122.355379,
     "program": "chase"
   },
@@ -4065,6 +4470,7 @@
     "cuisine": "American",
     "neighborhood": "St. Louis",
     "website": "https://oliveandoak.oohosp.com/",
+    "bookingUrl": "https://www.opentable.com/r/olive-and-oak-saint-louis",
     "lat": 38.5931132,
     "lon": -90.3615256,
     "program": "chase"
@@ -4076,19 +4482,9 @@
     "cuisine": "Italian",
     "neighborhood": "Webster Groves",
     "website": "https://madrinastl.com/",
-    "lat": 38.593159199999995,
-    "lon": -90.35963129999999,
-    "program": "chase"
-  },
-  {
-    "name": "Idol Wolf - 21c Museum Hotel St. Louis",
-    "address": "1528 Locust St, St. Louis, MO 63103, USA",
-    "city": "St. Louis",
-    "cuisine": "Spanish",
-    "neighborhood": "St. Louis",
-    "website": "https://idolwolfstl.com/",
-    "lat": 38.6315465,
-    "lon": -90.20237569999999,
+    "bookingUrl": "https://www.opentable.com/r/madrina-saint-louis",
+    "lat": 38.5931592,
+    "lon": -90.3596313,
     "program": "chase"
   },
   {
@@ -4098,6 +4494,7 @@
     "cuisine": "Greek",
     "neighborhood": "Tampa",
     "website": "http://www.eatpsomi.com/",
+    "bookingUrl": "https://www.opentable.com/r/psomi-tampa",
     "lat": 27.9501545,
     "lon": -82.4827529,
     "program": "chase"
@@ -4109,8 +4506,9 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Tampa",
     "website": "https://predalina.com/",
+    "bookingUrl": "https://www.opentable.com/r/predalina-tampa",
     "lat": 27.944868,
-    "lon": -82.45000449999999,
+    "lon": -82.4500045,
     "program": "chase"
   },
   {
@@ -4120,6 +4518,7 @@
     "cuisine": "Contemporary Asian",
     "neighborhood": "St. Petersburg",
     "website": "http://forturestaurants.com/",
+    "bookingUrl": "https://www.opentable.com/r/fortu-st-petersburg",
     "lat": 27.7713914,
     "lon": -82.633608,
     "program": "chase"
@@ -4131,8 +4530,9 @@
     "cuisine": "Italian",
     "neighborhood": "St. Petersburg",
     "website": "http://www.ilritornodowntown.com/",
-    "lat": 27.771354000000002,
-    "lon": -82.63963199999999,
+    "bookingUrl": "https://www.opentable.com/r/il-ritorno-st-petersburg",
+    "lat": 27.771354,
+    "lon": -82.639632,
     "program": "chase"
   },
   {
@@ -4142,6 +4542,7 @@
     "cuisine": "French",
     "neighborhood": "East Village",
     "website": "https://avajunetulsa.com/",
+    "bookingUrl": "https://www.opentable.com/r/ava-june-tulsa",
     "lat": 36.140757,
     "lon": -95.97549,
     "program": "chase"
@@ -4153,8 +4554,9 @@
     "cuisine": "American",
     "neighborhood": "Tulsa",
     "website": "http://amelias.us/",
-    "lat": 36.158345499999996,
-    "lon": -95.99259959999999,
+    "bookingUrl": "https://www.opentable.com/r/amelias-woodfired-cuisine-tulsa",
+    "lat": 36.1583455,
+    "lon": -95.9925996,
     "program": "chase"
   },
   {
@@ -4164,7 +4566,8 @@
     "cuisine": "Pizzeria",
     "neighborhood": "Tulsa",
     "website": "https://www.lofitulsa.com/",
-    "lat": 36.140804599999996,
+    "bookingUrl": "https://www.opentable.com/r/lofi-tulsa",
+    "lat": 36.1408046,
     "lon": -95.9754136,
     "program": "chase"
   },
@@ -4175,6 +4578,7 @@
     "cuisine": "Peruvian",
     "neighborhood": "Mount Vernon Square",
     "website": "http://amazoniadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/amazonia-washington",
     "lat": 38.9065162,
     "lon": -77.0247586,
     "program": "chase"
@@ -4186,6 +4590,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Downtown",
     "website": "http://www.dauphinesdc.com/",
+    "bookingUrl": "https://www.opentable.com/r/dauphines-washington",
     "lat": 38.9042719,
     "lon": -77.0349714,
     "program": "chase"
@@ -4197,6 +4602,7 @@
     "cuisine": "Laotian",
     "neighborhood": "Columbia Heights / Brightwood",
     "website": "http://www.thipkhao.com/",
+    "bookingUrl": "https://www.opentable.com/r/thip-khao-washington",
     "lat": 38.9329915,
     "lon": -77.0329838,
     "program": "chase"
@@ -4208,8 +4614,9 @@
     "cuisine": "Contemporary French / American",
     "neighborhood": "U Street Corridor",
     "website": "http://www.brescadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/bresca-washington",
     "lat": 38.9158067,
-    "lon": -77.03219539999999,
+    "lon": -77.0321954,
     "program": "chase"
   },
   {
@@ -4219,6 +4626,7 @@
     "cuisine": "African",
     "neighborhood": "U Street Corridor",
     "website": "https://www.elminarestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/elmina-washington",
     "lat": 38.9195509,
     "lon": -77.0323219,
     "program": "chase"
@@ -4230,6 +4638,7 @@
     "cuisine": "Peruvian",
     "neighborhood": "Shaw",
     "website": "https://causadc.com/",
+    "bookingUrl": "https://www.opentable.com/r/causa-washington",
     "lat": 38.9069113,
     "lon": -77.0247957,
     "program": "chase"
@@ -4241,8 +4650,9 @@
     "cuisine": "Cocktail Bar",
     "neighborhood": "Mount Vernon Square",
     "website": "http://www.servicebardc.com/",
-    "lat": 38.916869299999995,
-    "lon": -77.02502559999999,
+    "bookingUrl": "https://www.opentable.com/r/service-bar-washington",
+    "lat": 38.9168693,
+    "lon": -77.0250256,
     "program": "chase"
   },
   {
@@ -4252,6 +4662,7 @@
     "cuisine": "Spanish",
     "neighborhood": "Georgetown",
     "website": "https://www.xiquetdl.com/",
+    "bookingUrl": "https://www.opentable.com/r/xiquet-by-danny-lledo-washington",
     "lat": 38.9212801,
     "lon": -77.0724259,
     "program": "chase"
@@ -4263,6 +4674,7 @@
     "cuisine": "Spanish",
     "neighborhood": "Georgetown",
     "website": "https://www.eltallerdelxiquet.com/",
+    "bookingUrl": "https://www.opentable.com/r/el-estudio-xiquet-washington",
     "lat": 38.9212801,
     "lon": -77.0724259,
     "program": "chase"
@@ -4274,6 +4686,7 @@
     "cuisine": "American",
     "neighborhood": "Capitol Hill",
     "website": "https://www.duckandpeachdc.com/",
+    "bookingUrl": "https://www.opentable.com/r/the-duck-and-the-peach-washington",
     "lat": 38.885751,
     "lon": -76.995919,
     "program": "chase"
@@ -4285,7 +4698,8 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Harbor East",
     "website": "http://theruxtonsteakhouse.com/",
-    "lat": 39.283377099999996,
+    "bookingUrl": "https://www.opentable.com/r/the-ruxton-baltimore",
+    "lat": 39.2833771,
     "lon": -76.6023062,
     "program": "chase"
   },
@@ -4296,6 +4710,7 @@
     "cuisine": "Japanese",
     "neighborhood": "Harbor East",
     "website": "http://www.azumirestaurant.com/",
+    "bookingUrl": "https://www.opentable.com/r/ouzo-bay-baltimore",
     "lat": 39.2827766,
     "lon": -76.6029077,
     "program": "chase"
@@ -4307,6 +4722,7 @@
     "cuisine": "Contemporary American",
     "neighborhood": "Upper Fells Point",
     "website": "https://www.martabaltimore.com/",
+    "bookingUrl": "https://www.opentable.com/r/marta-baltimore",
     "lat": 39.2894173,
     "lon": -76.5862162,
     "program": "chase"
@@ -4318,6 +4734,7 @@
     "cuisine": "Mediterranean",
     "neighborhood": "Hampden",
     "website": "https://cypriana.com/",
+    "bookingUrl": "https://www.opentable.com/r/cypriana-homewood-baltimore",
     "lat": 39.3361868,
     "lon": -76.6215818,
     "program": "chase"
@@ -4329,7 +4746,8 @@
     "cuisine": "American",
     "neighborhood": "Boca Raton",
     "website": "https://www.stagekitchenandbar.com/",
-    "lat": 26.364174199999997,
+    "bookingUrl": "https://www.opentable.com/r/stage-kitchen-and-bar-boca-raton",
+    "lat": 26.3641742,
     "lon": -80.1285243,
     "program": "chase"
   },
@@ -4340,8 +4758,9 @@
     "cuisine": "Steak",
     "neighborhood": "Palm Beach Gardens",
     "website": "https://www.pgaresort.com/dining/the-butchers-club/?utm_source=google&utm_medium=listing&utm_campaign=google_business",
+    "bookingUrl": "https://www.opentable.com/r/the-butchers-club-at-pga-national-resort-palm-beach-gardens",
     "lat": 26.8291069,
-    "lon": -80.14112279999999,
+    "lon": -80.1411228,
     "program": "chase"
   },
   {
@@ -4351,7 +4770,8 @@
     "cuisine": "Steakhouse",
     "neighborhood": "Boynton Beach",
     "website": "http://nicholsonmuir.com/",
-    "lat": 26.526980299999998,
+    "bookingUrl": "https://www.opentable.com/r/nicholson-muir-meats-boynton-beach",
+    "lat": 26.5269803,
     "lon": -80.0596169,
     "program": "chase"
   },
@@ -4362,8 +4782,9 @@
     "cuisine": "Sushi",
     "neighborhood": "Delray Beach",
     "website": "https://takiomakase.com/delray/?utm_source=GBP&utm_medium=organic-traffic",
+    "bookingUrl": "https://www.opentable.com/r/taki-omakase-delray-delray-beach",
     "lat": 26.461474,
-    "lon": -80.06643799999999,
+    "lon": -80.066438,
     "program": "chase"
   }
 ]

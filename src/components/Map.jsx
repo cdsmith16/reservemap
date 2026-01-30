@@ -267,17 +267,21 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
 }
 
 function createPopupContent(restaurant) {
-  const programLabel = restaurant.program === 'amex'
-    ? 'Amex Resy'
-    : 'Chase OpenTable'
+  const isAmex = restaurant.program === 'amex'
+  const programLabel = isAmex ? 'Amex Resy' : 'Chase OpenTable'
 
-  const programBg = restaurant.program === 'amex'
+  const programBg = isAmex
     ? 'background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3);'
     : 'background: rgba(59, 130, 246, 0.15); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.3);'
 
-  const bookingUrl = restaurant.website || ''
-  const bookingBg = restaurant.program === 'amex' ? '#f59e0b' : '#3b82f6'
-  const bookingHoverBg = restaurant.program === 'amex' ? '#d97706' : '#2563eb'
+  const bookingUrl = restaurant.bookingUrl || ''
+  const websiteUrl = restaurant.website || ''
+  const bookingBg = isAmex ? '#f59e0b' : '#3b82f6'
+  const bookingHoverBg = isAmex ? '#d97706' : '#2563eb'
+  const bookingLabel = isAmex ? 'Book with Resy' : 'Book with OpenTable'
+  const hintText = isAmex
+    ? 'Use your AmEx global dining access credit here.'
+    : 'Use your Chase Sapphire Reserve dining benefit here.'
 
   const addressLine = restaurant.address || `${restaurant.city}${restaurant.state ? ', ' + restaurant.state : ''}`
 
@@ -293,13 +297,26 @@ function createPopupContent(restaurant) {
           href="${bookingUrl}"
           target="_blank"
           rel="noopener noreferrer"
-          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none;"
+          style="display: block; width: 100%; text-align: center; background: ${bookingBg}; color: white; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 6px; text-decoration: none; margin-bottom: 6px;"
           onmouseover="this.style.background='${bookingHoverBg}'"
           onmouseout="this.style.background='${bookingBg}'"
         >
-          Spend your dining benefit here ⬇️
+          ${bookingLabel}
         </a>
       ` : ''}
+      ${websiteUrl ? `
+        <a
+          href="${websiteUrl}"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="display: block; text-align: center; color: #64748b; font-size: 12px; text-decoration: underline; margin-bottom: 6px;"
+        >
+          Visit website
+        </a>
+      ` : ''}
+      <p style="color: #94a3b8; font-size: 11px; font-style: italic; text-align: center; margin: 0;">
+        ${hintText}
+      </p>
     </div>
   `
 }

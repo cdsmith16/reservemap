@@ -47,9 +47,9 @@ function parseCSVLine(line) {
   return result;
 }
 
-// Process Chase Sapphire data
+// Process Chase OpenTable data
 const chaseContent = fs.readFileSync(
-  path.join(__dirname, '../scraper/chase_sapphire_restaurants_enriched.csv'),
+  path.join(__dirname, '../scraper/chase_opentable_database.csv'),
   'utf-8'
 );
 const chaseData = parseCSV(chaseContent).map(row => ({
@@ -59,29 +59,31 @@ const chaseData = parseCSV(chaseContent).map(row => ({
   cuisine: row.cuisine || null,
   neighborhood: row.neighborhood || null,
   website: row.website,
+  bookingUrl: row.opentableurl || '',
   lat: parseFloat(row.lat),
   lon: parseFloat(row.lon),
   program: 'chase'
 })).filter(r => r.lat && r.lon && !isNaN(r.lat) && !isNaN(r.lon) && r.name);
 
-// Process Amex GDA data
-const gdaContent = fs.readFileSync(
-  path.join(__dirname, '../scraper/ResyAmexDining - AmEx_Resy_USA_Enriched.csv'),
+// Process Amex Resy data
+const amexContent = fs.readFileSync(
+  path.join(__dirname, '../scraper/amex_resy_database.csv'),
   'utf-8'
 );
-const gdaData = parseCSV(gdaContent).map(row => ({
+const amexData = parseCSV(amexContent).map(row => ({
   name: row.name || row.google_name,
   address: row.address,
   city: row.city,
   state: row.state || null,
   website: row.website,
+  bookingUrl: row.resy_link || '',
   lat: parseFloat(row.lat),
   lon: parseFloat(row.lon),
   program: 'amex'
 })).filter(r => r.lat && r.lon && !isNaN(r.lat) && !isNaN(r.lon));
 
 // Combine all data
-const allData = [...chaseData, ...gdaData];
+const allData = [...chaseData, ...amexData];
 
 // Write individual files
 fs.writeFileSync(
@@ -91,7 +93,7 @@ fs.writeFileSync(
 
 fs.writeFileSync(
   path.join(__dirname, '../public/data/amex.json'),
-  JSON.stringify(gdaData, null, 2)
+  JSON.stringify(amexData, null, 2)
 );
 
 fs.writeFileSync(
@@ -99,7 +101,7 @@ fs.writeFileSync(
   JSON.stringify(allData, null, 2)
 );
 
-console.log(`✓ Chase Sapphire Reserve: ${chaseData.length} restaurants`);
-console.log(`✓ Amex Global Dining Access: ${gdaData.length} restaurants`);
+console.log(`✓ Chase OpenTable: ${chaseData.length} restaurants`);
+console.log(`✓ Amex Resy: ${amexData.length} restaurants`);
 console.log(`✓ Total: ${allData.length} restaurants`);
 console.log('\nFiles written to public/data/');
