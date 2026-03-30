@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import personPinUrl from './icons/person_pin_blue_cyan.svg'
+import { buildReservationUrl } from '../utils/reservationUrl'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
@@ -269,7 +270,7 @@ export default function Map({ restaurants, filters, flyToLocation, onFlyComplete
 function createPopupContent(restaurant) {
   const isAmex = restaurant.program === 'amex'
 
-  const bookingUrl = restaurant.bookingUrl || ''
+  const bookingUrl = buildReservationUrl(restaurant.bookingUrl) || ''
   const websiteUrl = restaurant.website || ''
   const buttonUrl = bookingUrl || websiteUrl
   const bookingBg = isAmex ? '#fbbf24' : '#dc2626'

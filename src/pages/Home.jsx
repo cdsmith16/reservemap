@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import Map from '../components/Map'
 import DiningBenefits from '../components/DiningBenefits'
+import { useReserveMapWebMCP } from '../hooks/useReserveMapWebMCP'
 
 export default function Home() {
   const [restaurants, setRestaurants] = useState([])
@@ -14,6 +15,10 @@ export default function Home() {
   const [flyToLocation, setFlyToLocation] = useState(null)
   const searchRef = useRef(null)
   const mapSectionRef = useRef(null)
+  const mapRef = useRef(null)
+
+  // Register WebMCP tools for browser-based AI agents
+  useReserveMapWebMCP({ restaurants, mapRef, filters, setFilters, setFlyToLocation })
 
   // Load restaurant data
   useEffect(() => {

@@ -2,9 +2,35 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
+    { "source": "/.well-known/webmcp.json", "destination": "/.well-known/webmcp.json" },
+    { "source": "/llms.txt", "destination": "/llms.txt" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/api/mcp", "destination": "/api/mcp" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/.well-known/webmcp.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/api/mcp",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, DELETE, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, mcp-session-id" },
+        { "key": "Access-Control-Expose-Headers", "value": "mcp-session-id" }
+      ]
     }
   ]
 }

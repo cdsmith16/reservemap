@@ -1,0 +1,25 @@
+# ReserveMap
+> All your dining benefits. One map.
+
+ReserveMap consolidates premium credit card dining benefits into a single searchable map.
+
+## Supported Programs
+- Chase Sapphire Reserve (via OpenTable) — ~2,400 restaurants across 50+ US cities
+- Amex Global Dining Access (via Resy) — ~7,000+ restaurants across the US
+- Visa Dining Collection (via OpenTable)
+- Dorsia
+
+## How It Works
+Many premium credit cards offer dining credits ($50-100+) at participating restaurants.
+These credits often work even as walk-ins — no advance reservation required.
+ReserveMap shows you where to use them on a map so you can plan around proximity.
+
+## MCP Server
+Connect to ReserveMap's data via MCP (Model Context Protocol) at the /mcp endpoint.
+
+## API
+Use the MCP server for programmatic access to restaurant data.
+
+## Links
+- Website: https://reservemap.vercel.app
+- Source: https://github.com/cdsmith16/reservemap
