@@ -26,7 +26,7 @@ export default function Header() {
             <span className="text-xl font-bold text-white tracking-tight">ReserveMap</span>
           </Link>
 
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-5">
             <Link
               to="/"
               className={`text-sm font-medium transition-colors ${
@@ -38,8 +38,28 @@ export default function Header() {
               Map
             </Link>
             <Link
-              to="/about"
+              to="/compare"
               className={`text-sm font-medium transition-colors ${
+                location.pathname === '/compare'
+                  ? 'text-amber-400'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              Compare
+            </Link>
+            <Link
+              to="/how-it-works"
+              className={`text-sm font-medium transition-colors hidden sm:block ${
+                location.pathname === '/how-it-works'
+                  ? 'text-amber-400'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              How it works
+            </Link>
+            <Link
+              to="/about"
+              className={`text-sm font-medium transition-colors hidden sm:block ${
                 location.pathname === '/about'
                   ? 'text-amber-400'
                   : 'text-slate-400 hover:text-white'
