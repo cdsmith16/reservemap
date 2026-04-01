@@ -1,0 +1,39 @@
+{
+  "name": "ReserveMap",
+  "description": "Find restaurants where you can use premium credit card dining benefits. Covers Chase Sapphire Reserve, Amex Global Dining Access, Visa Dining Collection, and Dorsia.",
+  "tools": [
+    {
+      "name": "search_restaurants",
+      "description": "Search restaurants by name, city, program, or cuisine"
+    },
+    {
+      "name": "get_restaurant_details",
+      "description": "Get full details for a specific restaurant including dining programs and reservation links"
+    },
+    {
+      "name": "get_restaurants_near_location",
+      "description": "Find participating restaurants near a geographic location"
+    },
+    {
+      "name": "list_programs",
+      "description": "List all supported credit card dining programs"
+    },
+    {
+      "name": "get_program_cities",
+      "description": "List all cities that have restaurants for a given program"
+    },
+    {
+      "name": "navigate_to_restaurant",
+      "description": "Pan the map to a specific restaurant and open its detail view"
+    },
+    {
+      "name": "filter_map_by_program",
+      "description": "Filter the map to show only restaurants from a specific program"
+    },
+    {
+      "name": "open_reservation",
+      "description": "Get a reservation link for a restaurant on OpenTable or Resy"
+    }
+  ],
+  "mcp_endpoint": "/mcp"
+}
